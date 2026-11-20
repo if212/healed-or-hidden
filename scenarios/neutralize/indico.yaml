@@ -1,0 +1,19 @@
+# Literal rewrite rules for Indico bug scripts (design doc section 5.3).
+#
+# Format: task -> list of {find, replace, count, why}. `find` must occur exactly `count`
+# times (default 1) in the script once its comments and console calls are gone;
+# otherwise the build stops. `why` is for the reader and for the report.
+#
+# A rule changes how a value looks, never what the bug does.
+#
+# view_conference_timetable has no rule on purpose. The block it puts back carries the
+# inline colours rgb(31, 17, 0) on rgb(236, 196, 149). Those are Session 2's own colours
+# in the seed (1f1100 on ecc495), so they make the block look like the real one.
+
+favourite_lecture:
+  - find: 'eventTitleLink.style.color = "red";'
+    replace: ""
+    why: Red title text only marks the changed row. The bug is the extra star, which stays.
+  - find: 'eventTitleLink.style.fontWeight = "bold";'
+    replace: ""
+    why: Bold title text only marks the changed row. The bug is the extra star, which stays.

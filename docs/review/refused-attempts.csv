@@ -1,0 +1,11 @@
+job_id,note
+2-mixed/mixed/bookstack/comment/H/1,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+1b/b_remove/bookstack/create_book/N/2,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+1a/b_oracle/bookstack/create_book/N/1,"a Glob outside the workspace, refused by the CLI (--restricted); it never ran"
+1a/b_oracle/bookstack/create_page/N/1,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+1a/b_oracle/bookstack/create_sort_rule/N/1,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+1a/b_oracle/bookstack/create_sort_rule/N/2,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+1a/b_oracle/invoiceninja/create_product/N/1,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/N/2,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+2-mixed/mixed/bookstack/create_sort_rule/N/2,"a Grep outside the workspace, refused by the CLI (--restricted); it never ran"
+2-mixed/mixed/bookstack/recent_activity_all/N/1,"a Glob outside the workspace, refused by the CLI (--restricted); it never ran"

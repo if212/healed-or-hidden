@@ -1,0 +1,475 @@
+{
+  "bookstack": {
+    "n_tests": 27,
+    "n_distinct": 20,
+    "clusters": [
+      {
+        "payload": "9838e645194f",
+        "tasks": [
+          "comment"
+        ],
+        "chosen": "comment",
+        "dev": true
+      },
+      {
+        "payload": "12c4a77061fb",
+        "tasks": [
+          "count_recently_created_books"
+        ],
+        "chosen": "count_recently_created_books",
+        "dev": false
+      },
+      {
+        "payload": "0e0507659771",
+        "tasks": [
+          "count_recently_created_chapters"
+        ],
+        "chosen": "count_recently_created_chapters",
+        "dev": false
+      },
+      {
+        "payload": "f2ce0c743951",
+        "tasks": [
+          "count_recently_created_pages"
+        ],
+        "chosen": "count_recently_created_pages",
+        "dev": false
+      },
+      {
+        "payload": "c14a1a7afe4a",
+        "tasks": [
+          "count_recently_created_shelves"
+        ],
+        "chosen": "count_recently_created_shelves",
+        "dev": false
+      },
+      {
+        "payload": "a6f6dfe3d23c",
+        "tasks": [
+          "create_book"
+        ],
+        "chosen": "create_book",
+        "dev": false
+      },
+      {
+        "payload": "5b3d5e92abef",
+        "tasks": [
+          "create_page"
+        ],
+        "chosen": "create_page",
+        "dev": false
+      },
+      {
+        "payload": "372d8d98edac",
+        "tasks": [
+          "create_sort_rule"
+        ],
+        "chosen": "create_sort_rule",
+        "dev": false
+      },
+      {
+        "payload": "3b53394431f1",
+        "tasks": [
+          "delete_book"
+        ],
+        "chosen": "delete_book",
+        "dev": false
+      },
+      {
+        "payload": "9ccf6d7b5c3a",
+        "tasks": [
+          "favourite_book",
+          "favourite_chapter",
+          "favourite_page",
+          "favourite_page_template"
+        ],
+        "chosen": "favourite_book",
+        "dev": false
+      },
+      {
+        "payload": "ca0058ca8232",
+        "tasks": [
+          "recent_activity_all"
+        ],
+        "chosen": "recent_activity_all",
+        "dev": false
+      },
+      {
+        "payload": "66825d14e6a3",
+        "tasks": [
+          "recent_activity_chapter"
+        ],
+        "chosen": "recent_activity_chapter",
+        "dev": false
+      },
+      {
+        "payload": "bd7aaed3b467",
+        "tasks": [
+          "recent_activity_page",
+          "recent_activity_page_template"
+        ],
+        "chosen": "recent_activity_page",
+        "dev": false
+      },
+      {
+        "payload": "b624f553993d",
+        "tasks": [
+          "recent_activity_shelf"
+        ],
+        "chosen": "recent_activity_shelf",
+        "dev": false
+      },
+      {
+        "payload": "180f512ecc51",
+        "tasks": [
+          "recently_viewed_book",
+          "recently_viewed_page",
+          "recently_viewed_page_template",
+          "recently_viewed_shelf"
+        ],
+        "chosen": "recently_viewed_book",
+        "dev": true
+      },
+      {
+        "payload": "d795644167dc",
+        "tasks": [
+          "recently_viewed_chapter"
+        ],
+        "chosen": "recently_viewed_chapter",
+        "dev": false
+      },
+      {
+        "payload": "b3be2675d7eb",
+        "tasks": [
+          "search"
+        ],
+        "chosen": "search",
+        "dev": false
+      },
+      {
+        "payload": "f9db395a56b4",
+        "tasks": [
+          "settings"
+        ],
+        "chosen": "settings",
+        "dev": false
+      },
+      {
+        "payload": "b74e8f4cfc62",
+        "tasks": [
+          "unfavourite_shelf"
+        ],
+        "chosen": "unfavourite_shelf",
+        "dev": false
+      },
+      {
+        "payload": "f2a50b2b23ca",
+        "tasks": [
+          "update_book"
+        ],
+        "chosen": "update_book",
+        "dev": true
+      }
+    ]
+  },
+  "invoiceninja": {
+    "n_tests": 25,
+    "n_distinct": 24,
+    "clusters": [
+      {
+        "payload": "8d1c0c193bfb",
+        "tasks": [
+          "approve_quote"
+        ],
+        "chosen": "approve_quote",
+        "dev": false
+      },
+      {
+        "payload": "426af37bc3fe",
+        "tasks": [
+          "convert_quote_to_invoice"
+        ],
+        "chosen": "convert_quote_to_invoice",
+        "dev": false
+      },
+      {
+        "payload": "c04ca6597f19",
+        "tasks": [
+          "create_invoice"
+        ],
+        "chosen": "create_invoice",
+        "dev": false
+      },
+      {
+        "payload": "b5ea480c864e",
+        "tasks": [
+          "create_product"
+        ],
+        "chosen": "create_product",
+        "dev": false
+      },
+      {
+        "payload": "aacb19385517",
+        "tasks": [
+          "delete_expired_quote"
+        ],
+        "chosen": "delete_expired_quote",
+        "dev": false
+      },
+      {
+        "payload": "9a5695ef9374",
+        "tasks": [
+          "delete_payment"
+        ],
+        "chosen": "delete_payment",
+        "dev": false
+      },
+      {
+        "payload": "610c5530286c",
+        "tasks": [
+          "disable_invoices_module"
+        ],
+        "chosen": "disable_invoices_module",
+        "dev": false
+      },
+      {
+        "payload": "9844b7e0e685",
+        "tasks": [
+          "disable_quotes_module"
+        ],
+        "chosen": "disable_quotes_module",
+        "dev": false
+      },
+      {
+        "payload": "3377b8a6b756",
+        "tasks": [
+          "enter_payment"
+        ],
+        "chosen": "enter_payment",
+        "dev": false
+      },
+      {
+        "payload": "d10f4b814719",
+        "tasks": [
+          "expired_quotes"
+        ],
+        "chosen": "expired_quotes",
+        "dev": false
+      },
+      {
+        "payload": "556d072fc0fd",
+        "tasks": [
+          "localization"
+        ],
+        "chosen": "localization",
+        "dev": false
+      },
+      {
+        "payload": "17a3b4aa4e68",
+        "tasks": [
+          "mark_invoice_as_paid"
+        ],
+        "chosen": "mark_invoice_as_paid",
+        "dev": true
+      },
+      {
+        "payload": "eba03305ee9e",
+        "tasks": [
+          "mark_past_due_invoice_as_paid"
+        ],
+        "chosen": "mark_past_due_invoice_as_paid",
+        "dev": false
+      },
+      {
+        "payload": "4c9e3a67ecfb",
+        "tasks": [
+          "past_due_invoices"
+        ],
+        "chosen": "past_due_invoices",
+        "dev": true
+      },
+      {
+        "payload": "dbced03ac0da",
+        "tasks": [
+          "recent_payments"
+        ],
+        "chosen": "recent_payments",
+        "dev": false
+      },
+      {
+        "payload": "5f5d85f92a87",
+        "tasks": [
+          "recent_transactions_expenses",
+          "recent_transactions_payments"
+        ],
+        "chosen": "recent_transactions_expenses",
+        "dev": false
+      },
+      {
+        "payload": "4adc0d46f426",
+        "tasks": [
+          "settings"
+        ],
+        "chosen": "settings",
+        "dev": false
+      },
+      {
+        "payload": "8d7dae21d6f8",
+        "tasks": [
+          "stop_recurring_invoice"
+        ],
+        "chosen": "stop_recurring_invoice",
+        "dev": false
+      },
+      {
+        "payload": "abbe0ecae68d",
+        "tasks": [
+          "upcoming_invoices"
+        ],
+        "chosen": "upcoming_invoices",
+        "dev": true
+      },
+      {
+        "payload": "108ebd65a2c2",
+        "tasks": [
+          "upcoming_quotes"
+        ],
+        "chosen": "upcoming_quotes",
+        "dev": false
+      },
+      {
+        "payload": "65c98cf6377b",
+        "tasks": [
+          "upcoming_recurring_invoices"
+        ],
+        "chosen": "upcoming_recurring_invoices",
+        "dev": false
+      },
+      {
+        "payload": "f09bd818a767",
+        "tasks": [
+          "view_invoice_details"
+        ],
+        "chosen": "view_invoice_details",
+        "dev": false
+      },
+      {
+        "payload": "3bbc9b2338f4",
+        "tasks": [
+          "view_products"
+        ],
+        "chosen": "view_products",
+        "dev": false
+      },
+      {
+        "payload": "0cbc541012c6",
+        "tasks": [
+          "view_quote_details"
+        ],
+        "chosen": "view_quote_details",
+        "dev": false
+      }
+    ]
+  },
+  "indico": {
+    "n_tests": 25,
+    "n_distinct": 10,
+    "clusters": [
+      {
+        "payload": "7040c545328c",
+        "tasks": [
+          "administration"
+        ],
+        "chosen": "administration",
+        "dev": false
+      },
+      {
+        "payload": "713289ba5a80",
+        "tasks": [
+          "clone_event",
+          "create_announcement",
+          "create_conference",
+          "create_lecture",
+          "create_meeting",
+          "create_news",
+          "edit_conference",
+          "edit_lecture",
+          "edit_meeting",
+          "view_conference_details",
+          "view_lecture_details",
+          "view_meeting_details"
+        ],
+        "chosen": "clone_event",
+        "dev": false
+      },
+      {
+        "payload": "3a219ac5893d",
+        "tasks": [
+          "delete_conference",
+          "delete_lecture",
+          "delete_meeting"
+        ],
+        "chosen": "delete_conference",
+        "dev": false
+      },
+      {
+        "payload": "0755730c90da",
+        "tasks": [
+          "favourite_conference",
+          "favourite_lecture",
+          "favourite_meeting"
+        ],
+        "chosen": "favourite_lecture",
+        "dev": false
+      },
+      {
+        "payload": "7abe80487945",
+        "tasks": [
+          "fill_out_survey"
+        ],
+        "chosen": "fill_out_survey",
+        "dev": true
+      },
+      {
+        "payload": "60d9e983d951",
+        "tasks": [
+          "profile_settings"
+        ],
+        "chosen": "profile_settings",
+        "dev": true
+      },
+      {
+        "payload": "79b1f9aea02b",
+        "tasks": [
+          "register_conference"
+        ],
+        "chosen": "register_conference",
+        "dev": false
+      },
+      {
+        "payload": "1670c8079405",
+        "tasks": [
+          "room_booking"
+        ],
+        "chosen": "room_booking",
+        "dev": true
+      },
+      {
+        "payload": "dc2e75b10d0b",
+        "tasks": [
+          "search_events"
+        ],
+        "chosen": "search_events",
+        "dev": false
+      },
+      {
+        "payload": "921f05bbac68",
+        "tasks": [
+          "view_conference_timetable"
+        ],
+        "chosen": "view_conference_timetable",
+        "dev": false
+      }
+    ]
+  }
+}

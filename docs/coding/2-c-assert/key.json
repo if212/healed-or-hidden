@@ -1,0 +1,560 @@
+{
+  "schema": 1,
+  "seed": 3010563031603782982,
+  "tool": {
+    "version": 2,
+    "commit": "af24dff582c520302b8df30438e64b7b07d67b26"
+  },
+  "out": "~/hoh-coding/defects-2-c-assert/export/blind",
+  "results": [
+    "~/research-healed-or-hidden/results/2-c-assert/2-c-assert"
+  ],
+  "sessions": {
+    "s-004e7f2391": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "stop_recurring_invoice",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-0bfedf6a91": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_payment/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_payment",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-0f7234d95a": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "stop_recurring_invoice",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-1e242b5133": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_expired_quote/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_expired_quote",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-2872e99692": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "stop_recurring_invoice",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-2e7093bdce": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/approve_quote/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "approve_quote",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-381161273c": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_past_due_invoice_as_paid",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-3894577ae1": {
+      "job_id": "2-c-assert/c_assert/bookstack/create_page/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "bookstack",
+      "task": "create_page",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-39dd2ee9ba": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_invoice_as_paid",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-40385bb81e": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_past_due_invoice_as_paid",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-4c92f6438a": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/approve_quote/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "approve_quote",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-4d65328465": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/approve_quote/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "approve_quote",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-4f492c022a": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_payment/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_payment",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-549dafb913": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_past_due_invoice_as_paid",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-57216af6de": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_invoice_as_paid",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-5b27880422": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_invoice_as_paid",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-5be66727a4": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/approve_quote/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "approve_quote",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-5e739eed70": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_payment/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_payment",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-6295b9b484": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_expired_quote/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_expired_quote",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-67fff23938": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_invoice_as_paid",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-708132b365": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_payment/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_payment",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-734f6761bd": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_payment/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_payment",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-7961997c70": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_expired_quote/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_expired_quote",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-7dde20260a": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_invoice_as_paid",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-82ec3139c7": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "stop_recurring_invoice",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-862630622b": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/approve_quote/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "approve_quote",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-8c6d8513f0": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_past_due_invoice_as_paid",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-9d5a5d05d7": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "stop_recurring_invoice",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-ab489339ea": {
+      "job_id": "2-c-assert/c_assert/bookstack/create_page/H/2",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "bookstack",
+      "task": "create_page",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-b15dc55e7d": {
+      "job_id": "2-c-assert/c_assert/bookstack/create_page/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "bookstack",
+      "task": "create_page",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-b8989d7c5b": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_expired_quote/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_expired_quote",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-b8eb0929b5": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/G/1",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_past_due_invoice_as_paid",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-bca34f96ab": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/approve_quote/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "approve_quote",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-c720738a73": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_expired_quote/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_expired_quote",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-c81208b2d1": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/G/2",
+      "arm": "G",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_past_due_invoice_as_paid",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-d2c1e1844a": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "mark_invoice_as_paid",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-d7e196cf30": {
+      "job_id": "2-c-assert/c_assert/bookstack/create_page/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "bookstack",
+      "task": "create_page",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-e551f6c6ef": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_expired_quote/N/2",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_expired_quote",
+      "rep": 2,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-eb208538a5": {
+      "job_id": "2-c-assert/c_assert/bookstack/create_page/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "bookstack",
+      "task": "create_page",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-f2f134e539": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/N/1",
+      "arm": "N",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "stop_recurring_invoice",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-f6eeeafe27": {
+      "job_id": "2-c-assert/c_assert/invoiceninja/delete_payment/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "invoiceninja",
+      "task": "delete_payment",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    },
+    "s-f9d8216b97": {
+      "job_id": "2-c-assert/c_assert/bookstack/create_page/H/1",
+      "arm": "H",
+      "family": "c_assert",
+      "app": "bookstack",
+      "task": "create_page",
+      "rep": 1,
+      "label": "bug_preserving_heal",
+      "subtype": null,
+      "files": [
+        "final"
+      ]
+    }
+  }
+}

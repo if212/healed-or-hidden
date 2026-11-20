@@ -1,0 +1,132 @@
+# Rules file (hoh.rules) for B-remove and C-rename: the reviewed targets of stage 1b.
+#
+# Made from assignment.csv: every BookStack and Invoice Ninja test whose target is a
+# link or a button the test finds with get_by_role. Each target is checked against the aria
+# snapshots of the clean app (results/snapshots, runbook section 4):
+#
+# - It is unique by exact name on the page of use: one element with the role and exactly this
+#   name on the page the test acts on (for a control inside a menu that a step opens, the page
+#   after that step). Copies on later pages change or disappear with it.
+# - Its new wording neither contains nor is contained in, ignoring case, the accessible name of
+#   an element with the same role on any page of the app, or a label that a test locator of
+#   the app uses. A name counts inside the wording from four characters on, as in the target
+#   check.
+#
+# Per test: the control C-rename renames (A+C) and B-remove removes (A+R). `exact` is left
+# at its default (true: the whole name, case-sensitive), so a rule changes every control with
+# the role and exactly this name, and no control whose name only contains it. The first
+# comment above each target is its risk note; a `snapshot:` line under it records what the
+# snapshots show where a target needed a closer look.
+#
+# Left out (6):
+#   bookstack/count_recently_created_chapters: the test finds 'Profile Menu' by get_by_label, so its role is not known yet
+#   bookstack/count_recently_created_shelves: the test finds 'Created Content' by get_by_text, so its role is not known yet
+#   bookstack/recent_activity_chapter: no target was assigned
+#   bookstack/recent_activity_page: no target was assigned
+#   bookstack/recent_activity_shelf: no target was assigned
+#   invoiceninja/disable_quotes_module: the test finds 'Account Management' by get_by_text, so its role is not known yet
+
+schema: 1
+apps:
+  bookstack:
+    # low: one button under the comments; check the editor header does not use the same words
+    comment: {role: button, name: "Add Comment", new_name: "Write a comment"}
+    # medium: sits in a dropdown that is closed until the avatar is clicked; first failing line is the visibility check, the click comes one step later
+    # snapshot: one link with this name on the page after step 1 (the dropdown open)
+    count_recently_created_books: {role: link, name: "View Profile", new_name: "Your profile"}
+    # medium: sits in a dropdown that is closed until the avatar is clicked; first failing line is the visibility check, the click comes one step later
+    # snapshot: one link with this name on the page after step 1 (the dropdown open); notes section 2 says why this test does not use its 'View All'
+    count_recently_created_pages: {role: link, name: "View Profile", new_name: "Your profile"}
+    # medium: the form heading on the next page has the old words; every wording with 'book' contains a seeded title, so the new wording names no object
+    create_book: {role: link, name: "Create New Book", new_name: "Add new"}
+    # low: one click in the last step; check the editor has no other entry with this word
+    create_page: {role: button, name: "Save Page", new_name: "Publish"}
+    # low: header link; check no settings page repeats the word in a link
+    # snapshot: one link with this name on the page before step 1; the settings pages (step-01.yml to step-final.yml) have a second, the first link of their own navigation, which changes or goes with it
+    create_sort_rule: {role: link, name: "Settings", new_name: "Configuration"}
+    # low: single button on the confirmation page
+    delete_book: {role: button, name: "Confirm", new_name: "Proceed"}
+    # medium: header link on every page, clicked up to three times per test; the list page heading is the same word and is asserted with an exact match
+    favourite_book: {role: link, name: "Shelves", new_name: "Collections"}
+    # medium: sits in a dropdown that is closed until the avatar is clicked; first failing line is the visibility check, the click comes one step later
+    # snapshot: one link with this name on the page after step 1 (the dropdown open)
+    recent_activity_all: {role: link, name: "View Profile", new_name: "Your profile"}
+    # medium: header link on every page; the list page heading is the same word and is asserted with an exact match; the word is also part of side headings; the old label is part of other labels the tests use ('Logo BookStack'), so the rule must match the whole name
+    # snapshot: one link with exactly this name on the page before step 1; the book page (step-02.yml) has a second in the breadcrumb, which changes or goes with it; the link 'Logo BookStack' contains the word and the exact match leaves it alone
+    recently_viewed_book: {role: link, name: "Books", new_name: "Library"}
+    # medium: header link on every page; the list page heading is the same word and is asserted with an exact match; the word is also part of side headings; the old label is part of other labels the tests use ('Logo BookStack'), so the rule must match the whole name
+    # snapshot: one link with exactly this name on the page before step 1; the book and chapter pages (step-02.yml, step-03.yml) have a second in the breadcrumb, which changes or goes with it; the link 'Logo BookStack' contains the word and the exact match leaves it alone
+    recently_viewed_chapter: {role: link, name: "Books", new_name: "Library"}
+    # medium: accessible name of an icon button; the search box and the results heading use the same word; the old label is part of other labels the tests use ('Search Results'), so the rule must match the whole name
+    # snapshot: one button with this name on the page before step 1; the book pages (step-03.yml, step-final.yml) have a second, the button of the book's own search, which changes or goes with it
+    search: {role: button, name: "Search", new_name: "Find"}
+    # low: sidebar link and page heading share the word (two lines)
+    settings: {role: link, name: "Customization", new_name: "Personalization"}
+    # medium: its partner label keeps the old wording, so the pair reads inconsistently; the old label contains the partner label
+    unfavourite_shelf: {role: button, name: "Unfavourite", new_name: "Unstar"}
+    # medium: generic word; comment or tag controls may carry it too; the old label is part of other labels the tests use ('Insert/edit link'), so the rule must match the whole name
+    update_book: {role: link, name: "Edit", new_name: "Modify"}
+  invoiceninja:
+    # low: one entry in a row menu; first failing line is the visibility check before the click
+    # snapshot: one button with this name on the page after step 2 (the menu open)
+    approve_quote: {role: button, name: "Approve", new_name: "Accept"}
+    # low: one entry in a row menu; first failing line is the visibility check before the click
+    # snapshot: one button with this name on the page after step 5 (the menu open)
+    convert_quote_to_invoice: {role: button, name: "Convert to Invoice", new_name: "Invoice this quote"}
+    # low: one button under the item table
+    create_invoice: {role: button, name: "Add Item", new_name: "Add line item"}
+    # medium: generic word; the button may be a split button with more entries; shared by six chosen tests
+    create_product: {role: button, name: "Save", new_name: "Submit"}
+    # low: entry of the actions menu; first failing line is the visibility check before the click
+    # snapshot: one button with this name on the page after step 5 (the menu open)
+    delete_expired_quote: {role: button, name: "Delete", new_name: "Trash"}
+    # low: entry of the bulk actions menu; first failing line is the visibility check before the click
+    # snapshot: one button with this name on the page after step 3 (the menu open); notes section 2 says why this test does not use its 'Actions' or 'Dashboard'
+    delete_payment: {role: button, name: "Delete", new_name: "Trash"}
+    # low: tab link and section heading share the words (two lines)
+    disable_invoices_module: {role: link, name: "Enabled Modules", new_name: "Features"}
+    # low: one link above the table
+    enter_payment: {role: link, name: "Enter Payment", new_name: "Record payment"}
+    # medium: module noun used all over the app (page heading, dashboard panel titles, module switch), so renaming only the sidebar link leaves the wording inconsistent; the old label is part of other labels the tests use ('Expired Quotes', 'Upcoming Quotes'), so the rule must match the whole name
+    # snapshot: one link with this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it
+    expired_quotes: {role: link, name: "Quotes", new_name: "Estimates"}
+    # low: sidebar link and page heading share the word (two lines)
+    # snapshot: one link with this name on the page before step 3; the page it opens (step-03.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it
+    localization: {role: link, name: "Localization", new_name: "Language & region"}
+    # medium: the status badge keeps the word 'Paid', so wording diverges; first failing line is the visibility check before the click
+    # snapshot: one button with this name on the page after step 3 (the menu open)
+    mark_invoice_as_paid: {role: button, name: "Mark Paid", new_name: "Mark settled"}
+    # medium: the page heading is the same word and is asserted right after the click; many tests end with this click
+    # snapshot: one link with this name on the page before step 5; that page also has a breadcrumb link 'Home' to the same address (step-04.yml:178), a known limit of the removal (notes, section 7)
+    mark_past_due_invoice_as_paid: {role: link, name: "Dashboard", new_name: "Summary"}
+    # medium: module noun used all over the app (page heading, dashboard panel titles, module switch), so renaming only the sidebar link leaves the wording inconsistent; 'Recurring Invoices' is a second sidebar link, hence the exact match in the tests; the old label is part of other labels the tests use ('Past Due Invoices', 'Recurring Invoices', 'Total Invoices Outstanding', 'Upcoming Invoices', 'Upcoming Recurring Invoices'), so the rule must match the whole name
+    # snapshot: one link with exactly this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it; the link 'Recurring Invoices' contains the word and the exact match leaves it alone
+    past_due_invoices: {role: link, name: "Invoices", new_name: "Billing"}
+    # medium: module noun used in the page heading and dashboard captions, so renaming only the sidebar link leaves the wording inconsistent; 'receipt' can also mean a document; the old label is part of other labels the tests use ('Online Payments', 'Recent Payments'), so the rule must match the whole name
+    # snapshot: one link with this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it
+    recent_payments: {role: link, name: "Payments", new_name: "Receipts"}
+    # low: the form heading on the next page has the old words (two lines)
+    recent_transactions_expenses: {role: link, name: "Enter Expense", new_name: "Record expense"}
+    # low: sidebar link only; the page heading uses other words
+    settings: {role: link, name: "Payment Settings", new_name: "Billing options"}
+    # low: one entry of the actions menu; first failing line is the visibility check before the click
+    # snapshot: one button with this name on the page after step 3 (the menu open)
+    stop_recurring_invoice: {role: button, name: "Stop", new_name: "Suspend"}
+    # medium: module noun used all over the app (page heading, dashboard panel titles, module switch), so renaming only the sidebar link leaves the wording inconsistent; 'Recurring Invoices' is a second sidebar link, hence the exact match in the tests; the old label is part of other labels the tests use ('Past Due Invoices', 'Recurring Invoices', 'Total Invoices Outstanding', 'Upcoming Invoices', 'Upcoming Recurring Invoices'), so the rule must match the whole name
+    # snapshot: one link with exactly this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it; the link 'Recurring Invoices' contains the word and the exact match leaves it alone
+    upcoming_invoices: {role: link, name: "Invoices", new_name: "Billing"}
+    # medium: module noun used all over the app (page heading, dashboard panel titles, module switch), so renaming only the sidebar link leaves the wording inconsistent; the old label is part of other labels the tests use ('Expired Quotes', 'Upcoming Quotes'), so the rule must match the whole name
+    # snapshot: one link with this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it
+    upcoming_quotes: {role: link, name: "Quotes", new_name: "Estimates"}
+    # medium: module noun used in the page heading, a dashboard panel title and the module switch, so renaming only the sidebar link leaves the wording inconsistent; the old label is part of other labels the tests use ('Upcoming Recurring Invoices'), so the rule must match the whole name
+    # snapshot: one link with this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it
+    upcoming_recurring_invoices: {role: link, name: "Recurring Invoices", new_name: "Recurring billing"}
+    # medium: module noun used all over the app (page heading, dashboard panel titles, module switch), so renaming only the sidebar link leaves the wording inconsistent; 'Recurring Invoices' is a second sidebar link, hence the exact match in the tests; the old label is part of other labels the tests use ('Past Due Invoices', 'Recurring Invoices', 'Total Invoices Outstanding', 'Upcoming Invoices', 'Upcoming Recurring Invoices'), so the rule must match the whole name
+    # snapshot: one link with exactly this name on the page before step 1; the list and invoice pages (step-01.yml, step-02.yml, step-final.yml) have a second in the breadcrumb, which changes or goes with it; the link 'Recurring Invoices' contains the word and the exact match leaves it alone
+    view_invoice_details: {role: link, name: "Invoices", new_name: "Billing"}
+    # medium: module noun; the page heading is the same word, so renaming only the sidebar link leaves the wording inconsistent
+    # snapshot: one link with this name on the page before step 1; the list page (step-01.yml, step-final.yml) has a second in the breadcrumb, which changes or goes with it
+    view_products: {role: link, name: "Products", new_name: "Catalog"}
+    # medium: module noun used all over the app (page heading, dashboard panel titles, module switch), so renaming only the sidebar link leaves the wording inconsistent; the old label is part of other labels the tests use ('Expired Quotes', 'Upcoming Quotes'), so the rule must match the whole name
+    # snapshot: one link with this name on the page before step 1; the list and quote pages (step-01.yml, step-02.yml, step-final.yml) have a second in the breadcrumb, which changes or goes with it
+    view_quote_details: {role: link, name: "Quotes", new_name: "Estimates"}

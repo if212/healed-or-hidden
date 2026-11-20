@@ -1,0 +1,55 @@
+app,task,proposed_level,confidence,reason
+bookstack,comment,fixture-dependent,medium,"Changes the nesting of seeded replies; the comment the test typed is intact. Medium because the change appears right after the test's own save, so comparing the thread before and after would show it."
+bookstack,count_recently_created_books,fixture-dependent,medium,"Adds an item to a seeded list on a page the test only visits. Medium because the list then disagrees with the page's own 'Created Content' count and the item's name is plainly fake, so a reader may spot it without knowing the seed."
+bookstack,count_recently_created_chapters,fixture-dependent,medium,Adds an item to a seeded list on a page the test only visits. Medium because the list then disagrees with the page's own 'Created Content' count and the item's name is plainly fake.
+bookstack,count_recently_created_pages,fixture-dependent,high,Adds an item to seeded search results; the test only navigates. Noticing it takes the count from the previous page or knowledge of the seed.
+bookstack,count_recently_created_shelves,fixture-dependent,medium,Adds a plausible-looking item to a seeded list on a page the test only visits. Medium because the list then disagrees with the page's own 'Created Content' count.
+bookstack,create_book,self-evidencing,high,Shows a description different from the one the test typed for the book it created.
+bookstack,create_page,self-evidencing,medium,"A comment appears on a page the test created moments earlier and never commented on; no seed data can explain it. Medium because what is contradicted is something the test did not do, not a value it typed."
+bookstack,create_sort_rule,self-evidencing,high,Shows '(Desc)' for the sort operation the test added as '(Asc)' to the rule it created.
+bookstack,delete_book,fixture-dependent,medium,"The deletion the test made is honoured; the extra card copies a seeded book. Fits none perfectly: nothing the test did is contradicted, yet the list changes right after the test's own action."
+bookstack,favourite_book,fixture-dependent,high,"A seeded favourite is missing, both before and after the test adds its own, so the test's own before/after view is consistent."
+bookstack,recent_activity_all,fixture-dependent,medium,Changes the time shown on seeded activity entries; the test only navigates. Medium because a '1 year ago' entry among recent ones is out of order on the page itself.
+bookstack,recent_activity_chapter,fixture-dependent,high,Changes seeded created/updated times on a page the test only opens; looks like an aged seed.
+bookstack,recent_activity_page,fixture-dependent,high,Changes seeded created/updated times on a page the test only opens; looks like an aged seed.
+bookstack,recent_activity_shelf,fixture-dependent,high,"Changes seeded times in both places on the page, so the page stays self-consistent; looks like an aged seed."
+bookstack,recently_viewed_book,fixture-dependent,medium,Removes seeded history entries; the item the test opened is placed correctly. Medium because comparing with the list on the start page would show the loss.
+bookstack,recently_viewed_chapter,fixture-dependent,medium,Removes a seeded history entry; the items the test opened are placed correctly. Medium because comparing with the list on the start page would show the loss.
+bookstack,search,fixture-dependent,high,Renames a seeded page in a book's contents; the test types nothing.
+bookstack,settings,control-removed,high,"Removes the 'Create Sort Rule' link. The test needs it only in its final assertion, never to proceed."
+bookstack,unfavourite_shelf,fixture-dependent,high,"A second, seeded favourite is missing, both before and after the test removes its own."
+bookstack,update_book,self-evidencing,high,The card of the book the test renamed shows another title.
+invoiceninja,approve_quote,self-evidencing,medium,"The quote the test approved is shown as still upcoming. Medium because the quote number is named only in the step's wording, not in its code, and the fake row's values are seeded ones."
+invoiceninja,convert_quote_to_invoice,fixture-dependent,high,"Changes a seeded invoice's date, from the first visit on, so before and after agree; the invoice the test produced is untouched."
+invoiceninja,create_invoice,self-evidencing,high,The saved invoice shows a subtotal of 20 for one item the test entered at 200.
+invoiceninja,create_product,fixture-dependent,low,"Fits none cleanly. The changed value is a default on a record the test created but never set, so it reads like a changed default; a reader who compared with the unsaved form would call it self-evidencing."
+invoiceninja,delete_expired_quote,self-evidencing,high,The quote the test deleted is shown as still listed.
+invoiceninja,delete_payment,self-evidencing,high,The payment the test deleted is shown as still listed.
+invoiceninja,disable_invoices_module,self-evidencing,high,Panels of the modules the test switched off are shown on the dashboard.
+invoiceninja,disable_quotes_module,self-evidencing,high,Panels of the module the test switched off are shown on the dashboard.
+invoiceninja,enter_payment,self-evidencing,high,The saved payment shows a payment type other than the one the test selected.
+invoiceninja,expired_quotes,fixture-dependent,high,Adds a row to a seeded table the test only opens.
+invoiceninja,localization,fixture-dependent,high,Changes displayed company settings the test only looks at.
+invoiceninja,mark_invoice_as_paid,self-evidencing,high,The invoice the test marked paid is shown as still upcoming.
+invoiceninja,mark_past_due_invoice_as_paid,self-evidencing,high,The invoice the test marked paid is shown as still past due.
+invoiceninja,past_due_invoices,fixture-dependent,high,Adds a row to a seeded table the test only opens.
+invoiceninja,recent_payments,fixture-dependent,high,Adds a row to a seeded table the test only opens.
+invoiceninja,recent_transactions_expenses,fixture-dependent,medium,Changes figures about invoices the test never touched; the expense the test entered shows correctly. Medium because the figures change right after the test's own action.
+invoiceninja,settings,control-removed,high,Removes the 'Export' button. The test needs it only in its final assertion.
+invoiceninja,stop_recurring_invoice,self-evidencing,medium,"The recurring invoice the test stopped is shown as still upcoming. Medium because the invoice number is named only in the step's wording, not in its code."
+invoiceninja,upcoming_invoices,fixture-dependent,high,Adds a row to a seeded table the test only opens.
+invoiceninja,upcoming_quotes,fixture-dependent,high,Adds a row to a seeded table the test only opens.
+invoiceninja,upcoming_recurring_invoices,fixture-dependent,high,Adds a row to a seeded table the test only opens.
+invoiceninja,view_invoice_details,fixture-dependent,medium,Changes a seeded invoice's totals; the test only navigates. Medium because the subtotal then disagrees with the line items on the same page.
+invoiceninja,view_products,control-removed,high,Removes the pagination bar. The test needs it only in its final assertion.
+invoiceninja,view_quote_details,fixture-dependent,medium,Changes a seeded quote's totals; the test only navigates. Medium because the subtotal then disagrees with the line items on the same page.
+indico,administration,control-removed,high,Removes the settings form with its switch and Save button. The test needs them only in its final assertion.
+indico,clone_event,fixture-dependent,medium,Removes a seeded event from the list; the clone the test made is shown. Medium because comparing with the list on the start page would show the loss.
+indico,delete_conference,fixture-dependent,medium,"Removes a second, seeded event besides the one the test deleted. Medium because comparing with the earlier list would show two events gone for one deletion."
+indico,favourite_lecture,fixture-dependent,medium,"Puts a star on a seeded event; the star on the event the test favourited is right. A reader could argue self-evidencing (one event starred by the test, two shown), but a seeded favourite would look the same."
+indico,fill_out_survey,control-removed,low,"Fits none cleanly. What is removed is a feedback message, not a control or heading; it is the direct response to the test's own submit, so self-evidencing is the other reading."
+indico,profile_settings,control-removed,high,Removes the 'Add Indico user' button. The test needs it only in its final assertion.
+indico,register_conference,fixture-dependent,high,"A seeded participant is missing, both before and after the test registers, so the test's own before/after view is consistent."
+indico,room_booking,control-removed,high,"Removes the page's main heading, which the final assertion needs."
+indico,search_events,self-evidencing,low,"Fits two. A result title no longer contains the word the test searched for, which is self-evidencing if search matches titles; but the changed title belongs to a seeded event, which is the fixture-dependent reading."
+indico,view_conference_timetable,self-evidencing,high,A block of the session the test filtered out is shown.

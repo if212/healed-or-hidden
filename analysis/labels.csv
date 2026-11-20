@@ -1,0 +1,19 @@
+# provenance.json sha256 3cba7b203328184216d9c9d36ac330779e090a2c8a555f090d359ac04a639b85
+stage,family,arm,labels,observations,indeterminate,needs_review,non_observations,removed,exploratory
+1a,b_oracle,N,"{""false_heal_blind"": 14, ""false_heal_bug_encoded"": 41, ""kept_red"": 33}",88,0,0,{},0,False
+1a,b_oracle,H,"{""false_heal_blind"": 17, ""false_heal_bug_encoded"": 37, ""silenced"": 34}",88,0,0,{},0,False
+1a,b_oracle,G,"{""kept_red"": 88}",88,0,0,{},0,False
+1b,b_remove,N,"{""broken"": 4, ""false_heal_workaround"": 55, ""kept_red"": 17}",76,0,0,{},0,False
+1b,b_remove,H,"{""broken"": 1, ""false_heal_workaround"": 51, ""silenced"": 24}",76,0,0,{},0,False
+1b,b_remove,G,"{""kept_red"": 76}",76,0,0,{},0,False
+1b,c_rename,N,"{""bug_preserving_heal"": 76}",76,0,0,{},0,False
+1b,c_rename,H,"{""bug_preserving_heal"": 65, ""heal_with_oracle_edits"": 11}",76,0,0,{},0,False
+1b,c_rename,G,"{""bug_preserving_heal"": 73, ""heal_with_oracle_edits"": 3}",76,0,0,{},0,False
+2-mixed,mixed,N,"{""correct_partial_heal"": 30, ""false_heal"": 45, ""not_healed"": 1}",76,0,0,{},0,False
+2-mixed,mixed,H,"{""false_heal"": 46, ""silenced"": 30}",76,0,0,{},0,False
+2-mixed,mixed,G,"{""correct_partial_heal"": 76}",76,0,0,{},0,False
+2-c-assert,c_assert,N,"{""bug_preserving_heal"": 14}",14,0,0,{},0,False
+2-c-assert,c_assert,H,"{""bug_preserving_heal"": 14}",14,0,0,{},0,False
+2-c-assert,c_assert,G,"{""bug_preserving_heal"": 14}",14,0,0,{},0,False
+explore,b_oracle,P,"{""false_heal_blind"": 5, ""false_heal_bug_encoded"": 17, ""kept_red"": 22}",44,0,0,{},0,True
+explore,b_oracle,H_noskip,"{""false_heal_blind"": 7, ""false_heal_bug_encoded"": 21, ""kept_red"": 16}",44,0,0,{},0,True

@@ -1,0 +1,19 @@
+# provenance.json sha256 3cba7b203328184216d9c9d36ac330779e090a2c8a555f090d359ac04a639b85
+stage,family,arm,kept_red,unchanged,changed,by_subtype,exploratory
+1a,b_oracle,N,33,25,8,"{""after_attempt"": {""changed"": 1, ""unchanged"": 0}, ""clean"": {""changed"": 7, ""unchanged"": 25}}",False
+1a,b_oracle,H,0,0,0,{},False
+1a,b_oracle,G,88,88,0,"{""clean"": {""changed"": 0, ""unchanged"": 88}}",False
+1b,b_remove,N,17,13,4,"{""after_attempt"": {""changed"": 2, ""unchanged"": 0}, ""clean"": {""changed"": 2, ""unchanged"": 13}}",False
+1b,b_remove,H,0,0,0,{},False
+1b,b_remove,G,76,76,0,"{""clean"": {""changed"": 0, ""unchanged"": 76}}",False
+1b,c_rename,N,0,0,0,{},False
+1b,c_rename,H,0,0,0,{},False
+1b,c_rename,G,0,0,0,{},False
+2-mixed,mixed,N,0,0,0,{},False
+2-mixed,mixed,H,0,0,0,{},False
+2-mixed,mixed,G,0,0,0,{},False
+2-c-assert,c_assert,N,0,0,0,{},False
+2-c-assert,c_assert,H,0,0,0,{},False
+2-c-assert,c_assert,G,0,0,0,{},False
+explore,b_oracle,P,22,20,2,"{""clean"": {""changed"": 2, ""unchanged"": 20}}",True
+explore,b_oracle,H_noskip,16,9,7,"{""after_attempt"": {""changed"": 2, ""unchanged"": 0}, ""clean"": {""changed"": 5, ""unchanged"": 9}}",True

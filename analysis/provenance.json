@@ -1,0 +1,123 @@
+{
+ "code": {
+  "commit": "a37c5ce8d16a54f24653819f599119c078441a16",
+  "dirty": false,
+  "numpy": "2.5.4"
+ },
+ "coding": {
+  "1a": {
+   "adjudicated.csv": "67628177d89467f4f6a0b34ac818f8963957d51be817c4a40b8c272c2c20e6c7",
+   "adjudication.json": "409c78584426094b51d3b86ebc435ba6b48acc27cdecdf34f29de21afb1b6e5b",
+   "agreement.json": "96cc819853e65c792b05030f387587f9c084ebe0a5c3bbdfbf5341563543bcf8",
+   "key.json": "4fbdd562b033ee55e51f65ea801227e5224403074f1ffb0e5448ce274bb062ce",
+   "state": "ready"
+  },
+  "1b": {
+   "adjudicated.csv": "4529a5deb44b42c21fbac091fb48e139be86af4a6ebfb0136c22757152a71d5b",
+   "adjudication.json": "a408426e70e18f0a7ece2dff2f04d0bbe0f95f30117e3c8ad87c7fde931b97b8",
+   "agreement.json": "c4b21dbeea7d8b4cc0b9c10617118b5311d780abb0cc82c451546f4e0cd4448d",
+   "key.json": "e1384f47e0542ae4e1a677fd0301a7166abfddddea4d14dc81d5cb46792e530f",
+   "state": "ready"
+  },
+  "2-c-assert": {
+   "adjudicated.csv": "e8a04d2e96fe27e933b463d22fda82efd124d1975f50afc446346c2b7db42a39",
+   "adjudication.json": "504e4451ecf75b6d69752fc347fcf0e9a2b1c9067d0e5aa9045e7b3ed241fa00",
+   "agreement.json": "6ef3f1893f036d15937f245ac8ce23e64dd728893fdaf54d855a49a08ca2ba31",
+   "key.json": "819300edfd9409ccdf6120580d401812b4eb58a28e8f175f5f6b0b1733466ff0",
+   "state": "ready"
+  },
+  "2-mixed": {
+   "adjudicated.csv": "f45a6710aa0180d6ce9be5c28dc25c925f536fed8842eed378d47aa2bf19d4f5",
+   "adjudication.json": "a3c56bb2a9272ba0fa07ae481e6973fc1da91bc226849582c2060cbffed4240c",
+   "agreement.json": "71a0e195612110ebe11bfd50fe1e8777cf7ff33f53e38455b8581ab0a29df84f",
+   "key.json": "f33a042fec9164a53addaa0c4d2803e52aa5e866dc7d825ddf510673e2a719ac",
+   "state": "ready"
+  }
+ },
+ "inputs": {
+  "scenarios/evidence-levels/adjudicated.csv": {
+   "equal": true,
+   "object": "bdb40bc7b7c3da308a29e28f22aad98b6382b6b0",
+   "pinned": "bdb40bc7b7c3da308a29e28f22aad98b6382b6b0"
+  },
+  "scenarios/evidence-levels/coder-1.csv": {
+   "equal": true,
+   "object": "3d102912a3c5ca86d5237ccca3e2361809c09ed0",
+   "pinned": "3d102912a3c5ca86d5237ccca3e2361809c09ed0"
+  },
+  "scenarios/evidence-levels/coder-2.csv": {
+   "equal": true,
+   "object": "2ed6adf9eb90fc569c68bd00f3f0ae640372447b",
+   "pinned": "2ed6adf9eb90fc569c68bd00f3f0ae640372447b"
+  },
+  "scenarios/selection.json": {
+   "equal": true,
+   "object": "09203aa78a559eb14e2226ab57b1da8668d80557",
+   "pinned": "09203aa78a559eb14e2226ab57b1da8668d80557"
+  },
+  "src/hoh/labels.py": {
+   "equal": true,
+   "object": "2e16557e2f6ca96f6c35d2be068f23d350aae8b1",
+   "pinned": "2e16557e2f6ca96f6c35d2be068f23d350aae8b1"
+  },
+  "src/hoh/stats.py": {
+   "equal": true,
+   "object": "cbc3033fd225f5d0c5101d1302c779d1134a37ec",
+   "pinned": "cbc3033fd225f5d0c5101d1302c779d1134a37ec"
+  }
+ },
+ "refused_attempts": {
+  "path": "docs/review/refused-attempts.csv",
+  "sha256": "5fe1fe992ab625e2bcc25dc700b96f70de5482ad319425b7bbdc2a40d1fac1d0"
+ },
+ "review": {
+  "1a": {
+   "path": "docs/review/1a.csv",
+   "sha256": "018302f9fdbf13c09eb9ae7b686e85b41dc6e57277a724b2e67a553b1246965d"
+  },
+  "1b": {
+   "path": "docs/review/1b.csv",
+   "sha256": "842884cef49f91b3c4218d3db170d2778a52b7a344494079cebfc576a5f611be"
+  },
+  "2-c-assert": {
+   "path": "docs/review/2-c-assert.csv",
+   "sha256": null
+  },
+  "2-mixed": {
+   "path": "docs/review/2-mixed.csv",
+   "sha256": "1e37df2783d4af22828df4bd2cf244970166391916d96adf0456a3e546bb982f"
+  }
+ },
+ "stages": {
+  "1a": {
+   "jobs": 264,
+   "partial": false,
+   "records_sha256": "c7fcff1bdcf28d03a127631be0a910a88c6725d34bf5586e8307de2726f92876",
+   "stage_summary_sha256": "b701363b86f95d65704ae862c8d8d90c5a9ee4eccfe5674c80ae5a2b6cf65008"
+  },
+  "1b": {
+   "jobs": 456,
+   "partial": false,
+   "records_sha256": "43169b9308253d801fe0623476a548d9ac4b0f9ed696cddde58aa0c0bf0f2a03",
+   "stage_summary_sha256": "70ed52768afb2aa12b727079ecf2488363099e8ba040e0a68fb4580bca52d00d"
+  },
+  "2-c-assert": {
+   "jobs": 42,
+   "partial": false,
+   "records_sha256": "555cc2579c2ed6017aeaf1e08f380fc40b644320dd1fc34c0260f88870ec91fb",
+   "stage_summary_sha256": "6e9d50ce16018a7d424a6b77cd122d4b1e118e9ca77917019548f24b4037bbaf"
+  },
+  "2-mixed": {
+   "jobs": 228,
+   "partial": false,
+   "records_sha256": "8b1b3057c56ecae2cda1f5de52efc358a71764071d8a3f3ef82ce07ebfba9910",
+   "stage_summary_sha256": "bd061227e5597c057458820643ef70bca47b209855ee7092c8861ff515caf35c"
+  },
+  "explore": {
+   "jobs": 88,
+   "partial": false,
+   "records_sha256": "6984dee330f11276c250acadf84d0cabb859370fedeb20ce4ab61439bb785fe3",
+   "stage_summary_sha256": "4e08723b2c8cb6d2003e01a5233264fde6e3233831ab720256dbfa8eaa3e5500"
+  }
+ }
+}

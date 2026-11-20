@@ -1,0 +1,38 @@
+# The validation run of the study's 44 scenarios: BookStack's 20 and Invoice Ninja's 24 chosen tests (design doc 5.10), on the Mac:
+#
+#   uv run python -m hoh.validate --config stages/validate.yaml --only bookstack/create_book
+#   uv run python -m hoh.validate --config stages/validate.yaml
+#
+# Each test runs 3 times on A and 3 times on A+M (the shadow oracle after each A+M run), in a
+# fresh stack every time, 6 at once. Run the same command again to resume: finished runs are
+# skipped and environment failures are tried again. The reports (validation.json, summary.md,
+# baseline.json, initial/) cover every test below, whatever --only says; a stage configuration
+# then takes `baseline: results/validation/baseline.json` and
+# `initial_results: results/validation/initial`.
+#
+# Every key is listed; unknown keys are refused. Relative paths are relative to the repository
+# root. First build the images (`uv run python -m hoh.envs build --app bookstack`, the same
+# with `--app invoiceninja`, and `uv run python -m hoh.docker_backend build-runner`, see
+# docker/runner/README.md) and run `just neutralize`; generated tests that are missing
+# (`just gen`) are generated here.
+
+families:                  # family -> app -> [task, ...] | selection
+  b_oracle:
+    bookstack: selection      # the 20 chosen tasks of scenarios/selection.json
+    invoiceninja: selection   # the 24 chosen tasks
+
+repeats: 3                 # runs per variant (--repeats overrides)
+slots: 6                   # runs at once, one stack each (--slots overrides)
+
+backend:                   # {factory, options} as hoh.fake_backend.load_backend reads it; in the
+  factory: hoh.docker_backend:DockerBackend    # options "{slot}" is the slot number (an integer
+  options:                                     # when it is the whole value)
+    stacks_root: /Users/Shared/hoh-val         # <root>/slot-<k>; never the sessions' stacks root
+    slot: "{slot}"
+    # Compose projects hohv-1 .. hohv-6: a prefix of its own, so that a stage running at the
+    # same time (projects hoh-<k>) never stops these stacks or shares their names.
+    project_prefix: hohv
+
+output_dir: results/validation     # ignored by git
+tests_root: build/tests            # <tests_root>/<app>/test_<task>.py, the test handed out
+selection: scenarios/selection.json

@@ -1,0 +1,457 @@
+session,final,comments,skip_reasons,fallback,note
+s-002303b727,hedged,asserted,asserted,no,"final: ""couldn't tell from the page whether the button was removed on purpose or is a regression"" (intentional-removal explanation remains open); comments: ""Expected: a ""Save Page"" button"" / ""it is absent""; skip: ""so the page cannot be saved"""
+s-010e559a51,none,,,no,
+s-011504d8c6,none,,,no,
+s-015eeae3b7,none,,,no,
+s-01612cb178,none,,,no,
+s-016aeac2e3,none,,,no,
+s-02c9443484,none,,,no,
+s-034d278e65,asserted,,,yes,"final: ""APP DEFECT: The Expenses list page has no""; fallback: ""I couldn't tell this was only a rename or move, so I treated it as an app defect"""
+s-035904a9da,none,,,no,
+s-03832897fe,none,,,no,
+s-04910b087b,asserted,,,yes,"final: ""APP DEFECT:"" / ""is missing from the Settings sidebar""; fallback: ""I can't confirm that it was only renamed"" / ""I'm treating this as an application defect"""
+s-04ecd29b21,none,,,no,
+s-05ce7f0694,asserted,,,no,"final: ""APP DEFECT:"" / ""so the book cannot be deleted"""
+s-05ddbeac38,hedged,none,,no,"final: ""a real defect, or possibly a permission or setting that hides it"" (alternative explanation remains open)"
+s-06fddfbcad,asserted,,,no,"final: ""The failure is an application defect"""
+s-071c3a1f6b,none,,,no,
+s-078b3be9ca,hedged,,,no,"final: ""If you meant it to cover that page, the missing sidebar link may be an app bug"""
+s-07d0a2b310,none,,,no,
+s-07f137ac40,hedged,,,no,"final: ""If the missing ""Books"" link is itself a regression in the app"""
+s-083892c082,asserted,,,no,"final: ""APP DEFECT: The Settings link is missing"""
+s-084b83b8e6,none,,,no,
+s-08a3b4e448,hedged,,,no,"final: ""If the link was moved on purpose"" (leaves intentional move open despite calling it a regression)"
+s-0bcc0f7b16,none,,,no,
+s-0caa26df77,none,,,no,
+s-0d7cf7e128,hedged,none,,no,"final: ""If the missing link name is a regression in the app"""
+s-0e0af41024,none,,,no,
+s-0ef300f8d3,none,,,no,
+s-0f0504398d,none,,,no,
+s-0ff1df1f31,none,,,no,
+s-10806b586e,asserted,,,yes,"final: ""APP DEFECT:"" / ""so it can't be stopped""; fallback: ""I can't tell whether Stop should appear here, so by the rule I treated it as a defect"""
+s-11af6a822b,none,,,no,
+s-120c3f7d6d,none,,,no,
+s-127621394a,none,,,no,
+s-1355ecd766,none,,,no,
+s-135e888cf5,hedged,,,no,"final: ""If that tab is supposed to be visible"" / ""that may be a real bug"""
+s-148aeb394f,asserted,,,yes,"final: ""APP DEFECT: The Expenses list page has no""; fallback: ""I can't tell this apart from a renamed button, so I'm treating it as a defect"""
+s-14a002d003,none,,,no,
+s-14bbf5a62d,hedged,asserted,asserted,no,"final: ""If Approve is supposed to be there"" / ""It may depend on a company or quote setting""; comments: ""Expected: an ""Approve"" button. Actual: no such button""; skip: ""The approve flow cannot be exercised through the UI"""
+s-14e5358809,none,,,no,
+s-16042f92f2,hedged,,,no,"final: ""an application or test-data problem"""
+s-16ad7e9a39,asserted,,,no,"final: ""APP DEFECT:"" / ""so the quote can't be approved"""
+s-175db0cdb2,none,,,no,
+s-1786bcc5ca,none,asserted,none,no,"comments: ""Expected: an ""Enabled Modules"" link/tab. Actual: no such link exists"""
+s-17e07f20e7,hedged,,,no,"final: ""It may be a regression or a missing permission or plan setting"" (alternative explanation remains open)"
+s-1891f15a2e,none,,,no,
+s-18fb9ea407,none,,,no,
+s-19251f82f7,asserted,,,no,"final: ""APP DEFECT: The profile menu's ""View Profile"" link is missing"""
+s-19a9c383d2,none,,,no,
+s-1a78890bdc,hedged,,,no,"final: ""If the link is supposed to be there, the app has a real bug"" (conditional despite opening attribution)"
+s-1ab2cc6164,hedged,none,,no,"final: ""If that feature is meant to exist, it may be a regression in the app rather than a test problem"""
+s-1ad2c1c964,hedged,none,,no,"final: ""If the missing ""Quotes"" link is a real regression in the app"""
+s-1afb3038d0,hedged,,,no,"final: ""Confirmation of how saving should work here, such as a different button label or a keyboard shortcut"" (test-side explanation remains open)"
+s-1bd14334fe,none,,,no,
+s-1c138bdbca,none,,,no,
+s-1c2e8f18db,hedged,,,no,"final: ""I don't know whether the rename was intentional or a regression in the app"""
+s-1cb81cf232,asserted,asserted,asserted,no,"final: ""The app itself needs fixing""; comments: ""Expected: the button is present and saves the page""; skip: ""App regression: the 'Save Page' button is not rendered"""
+s-1ce8389280,none,,,no,
+s-1d2f89a6aa,none,,,no,
+s-1e3b35b444,none,,,no,
+s-1f59923715,none,,,no,
+s-20d93f87db,none,,,no,
+s-224601b88b,none,,,no,
+s-22e6d35509,hedged,none,,no,"final: ""If the missing sidebar link is a real regression in the app"""
+s-2357bdbbfa,none,,,no,
+s-238c86fb2d,none,,,no,
+s-23a27156d5,none,,,no,
+s-23c07ea7c1,asserted,,,no,"final: ""A control the test needs is missing, so this is an application defect"""
+s-23ef7c351b,hedged,,,no,"final: ""If a navigation link to Localization is supposed to exist, the app has a bug"""
+s-2543b9a9be,hedged,,,no,"final: ""if the Edit link should be on that page, the app has a regression"""
+s-256f89882d,none,,,no,
+s-25b81b2c24,none,,,no,
+s-25d398a581,none,,,no,
+s-25f1b0236b,asserted,,,no,"final: ""The test is failing because of an application defect"""
+s-27c9e30923,none,,,no,
+s-2814631975,none,,,no,
+s-28aa799167,none,,,no,
+s-29268dff1c,none,none,,no,
+s-2959cfbc36,hedged,,,no,"final: ""If ""Unstar"" is a labelling mistake there and not an intended rename"""
+s-2b73208032,asserted,,,no,"final: ""APP DEFECT: The quote Actions menu has no ""Approve"" button"""
+s-2b947ae60e,hedged,,,no,"final: ""I haven't checked whether the ""Receipts"" label is an intended rename or a regression"""
+s-2c290acdd3,hedged,,,no,"final: ""If Customization is meant to be there, the app is missing a feature"""
+s-2c90edbaed,none,,,no,
+s-2d7dad7bdb,none,,,no,
+s-2da92081cc,none,none,,no,
+s-2e519f07cc,asserted,,,no,"final: ""The failure is an application defect"""
+s-303676f49b,none,,,no,
+s-3078f6cf8f,hedged,none,,no,"final: ""If the ""Quotes"" link is supposed to be in the nav, that is a real regression"""
+s-309196101a,none,,,no,
+s-30b0ffee57,none,,,no,
+s-311cbd790e,hedged,none,,no,"final: ""If that link is supposed to be there"" / ""is an application bug"""
+s-31449d5e8e,asserted,,,yes,"final: ""APP DEFECT: The sidebar navigation no longer contains a ""Dashboard"" link""; fallback: ""I couldn't confirm the missing link is an intended change, so I treated it as a defect"""
+s-32abd9870c,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation is missing the ""Invoices"" link"""
+s-331735307d,asserted,,,no,"final: ""This is an application defect"""
+s-3320764015,hedged,,,no,"final: ""I can change the test if you tell me how saving is meant to work, for example if the button was renamed or moved into a menu"" (test-side explanation remains open)"
+s-3393136a7c,none,,,no,
+s-33b58124a3,none,,,no,
+s-340e940e73,asserted,,,yes,"final: ""APP DEFECT: The header search form no longer has a ""Search"" submit button""; fallback: ""I can't tell that apart from a deliberate redesign. So I'm treating it as a defect"""
+s-35bdba57ff,none,,,no,
+s-3604e227b9,asserted,,,yes,"final: ""APP DEFECT: The Book page's Actions sidebar has no ""Edit"" link""; fallback: ""I can't tell that apart from a real defect, so I'm treating it as one"""
+s-368c82ad73,hedged,none,,no,"final: ""If that button is supposed to exist, the app has a regression"""
+s-373b359666,none,,,no,
+s-38163a6108,none,none,,no,
+s-38364387e1,none,,,no,
+s-38ba89e710,none,,,no,
+s-38f2dde963,hedged,none,,no,"final: ""If the nav link is meant to be there, the app has a regression"""
+s-3a294ea0a1,hedged,none,,no,"final: ""If those links are meant to be there"" / ""are app regressions"""
+s-3b37f6ef14,hedged,none,,no,"final: ""if the link is meant to be present, the app has a regression"""
+s-3b43a38830,hedged,,,no,"final: ""Confirm whether a blank-line option is meant to exist. If one does, the app change is a regression"""
+s-3b61eabf69,none,,,no,
+s-3b73b2f498,none,,,no,
+s-3be36fed1f,asserted,,,no,"final: ""It looks like an application defect, not a stale selector"""
+s-3c3ff4fd4e,none,,,no,
+s-3c5577b7af,hedged,none,,no,"final: ""If the app is meant to offer Delete, that is an application bug. If it isn't, the test needs different data"""
+s-3c6f7c5844,none,,,no,
+s-3d25137141,none,none,,no,
+s-3d769cc471,none,,,no,
+s-3daf78e386,none,,,no,
+s-3dbedb83ab,none,,,no,
+s-3dfc8a3297,none,,,no,
+s-3e04aa9375,asserted,,,yes,"final: ""APP DEFECT: The ""Add Item"" button is missing""; fallback: ""I can't tell whether this is a renamed or restyled control"" / ""Your rules say to treat that case as a defect, so I did"""
+s-3e51d97569,none,,,no,
+s-3e5a33b126,none,,,no,
+s-3f8e3cdb27,none,,,no,
+s-40c0e27da3,none,,,no,
+s-40efdf0532,none,,,no,
+s-415e4d1a73,none,,,no,
+s-41e8c9e549,asserted,asserted,asserted,no,"final: ""the failure is an application problem rather than a bad selector""; comments: ""the deletion cannot be confirmed. Expected: a ""Confirm"" button is present""; skip: ""App bug: the Delete Book confirmation page renders no confirm button"""
+s-425d6b1b73,none,,,no,
+s-42aee55c5e,none,,,no,
+s-42c8519333,none,,,no,
+s-431b83290f,none,,,no,
+s-434059c6a0,asserted,,,no,"final: ""APP DEFECT: The Settings categories navigation no longer has a ""Customization"" link"""
+s-43dcc5f1da,none,,,no,
+s-43df1ee2ad,none,,,no,
+s-44d933d6e0,none,none,,no,
+s-45abe412f3,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation has no ""Invoices"" link"""
+s-465d70b391,none,,,no,
+s-46cda9b619,none,,,no,
+s-476580692a,none,,,no,
+s-47cde630ad,asserted,,,no,"final: ""APP DEFECT: The profile dropdown menu has an empty list item where the ""View Profile"" link should be"""
+s-488f3e5d95,none,,,no,
+s-48aed6c651,asserted,,,no,"final: ""APP DEFECT: The New Product form (/products/create) has no Save button"""
+s-48ff439759,hedged,none,none,no,"final: ""an application issue (or a precondition the test relies on that isn't there)"""
+s-49d35a139b,none,,,no,
+s-4b58794109,none,,,no,
+s-4bb89f1983,none,,,no,
+s-4bc005e4f7,none,,,no,
+s-4c1a2cff4d,none,,,no,
+s-4cddc7b3c9,none,,,no,
+s-4d8ed7aa10,none,none,,no,
+s-4e0178d5e5,none,,,no,
+s-4eab5ccfd3,none,,,no,
+s-4ec867c42d,hedged,,,no,"final: ""If that link should be there, the app has a separate bug"""
+s-4f006bc1d7,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation has no ""Invoices"" link"""
+s-4f600e3386,hedged,none,none,no,"final: ""If it should, the app or the test data has a bug"""
+s-4fb6fc0e57,none,,,no,
+s-50f0342df6,none,none,,no,
+s-511a4e0503,none,,,no,
+s-51332a1f57,asserted,,,no,"final: ""The control the test needs is missing, so I treated it as an application defect"""
+s-515a1fa18c,none,none,,no,
+s-516902ac88,none,,,no,
+s-523f254d25,none,,,no,
+s-52aaf3ab5e,none,none,,no,
+s-535bb89734,hedged,,,no,"final: ""If the app should still have a ""View Profile"" link, the missing link is an app bug"""
+s-5376051b1e,none,,,no,
+s-53bf8ad48d,asserted,,,no,"final: ""an app bug or missing feature rather than a test problem"" / ""The next step is in the app"" (uncertain cause, but concludes the app needs fixing)"
+s-54189ae1d4,none,,,no,
+s-55120f1e3a,none,,,no,
+s-554b3455d4,none,,,no,
+s-55538d99a4,asserted,,,no,"final: ""this is an application defect and not a test problem"""
+s-55adad98f0,none,,,no,
+s-55d9758c48,none,none,none,no,"comments: ""because"" / ""the invoice is Pending rather than Active"" explains the unmet test precondition, rather than concluding the app is wrong"
+s-55fa103e20,asserted,,,no,"final: ""that's a bug in the application rather than in the test"""
+s-566bce1d8d,none,,,no,
+s-56da02a9b8,none,none,none,no,
+s-5705c999ec,none,,,no,
+s-5794b3ac17,hedged,none,,no,"final: ""If the app is meant to link to Localization from somewhere, that link is missing"""
+s-58be650b87,none,,,no,
+s-5a839567ac,asserted,,,no,"final: ""A missing control the test needs is an application defect"""
+s-5ba349c264,none,,,no,
+s-5c1515672b,hedged,none,,no,"final: ""If the missing sidebar link is itself a bug in the app"""
+s-5d0672ab78,none,,,no,
+s-5d66b7e296,asserted,,,no,"final: ""The failure is an application defect, not a stale selector"""
+s-5e10fc8168,none,,,no,
+s-5ec3de03ed,none,,,no,
+s-5f5b034801,none,,,no,"final: ""If you'd rather the app used matching labels"" frames the inconsistency as a wording preference, not a conclusion that the application behaves wrongly"
+s-6024b2df08,none,,,no,
+s-60577322bb,none,,,no,
+s-60d14f70c2,asserted,,,no,"final: ""the app is behaving incorrectly"""
+s-60d8a2f905,asserted,,,no,"final: ""The failure looks like an app bug, not a test problem"""
+s-613d9442f6,none,,,no,
+s-614b912266,none,,,no,
+s-615032f508,asserted,,,no,"final: ""This is an application defect, not a test problem"""
+s-6162af36db,hedged,,,no,"final: ""If ""Stop"" is still the intended label, that would be an app bug"""
+s-628c4e25ab,none,none,,no,
+s-6390caadda,asserted,,,no,"final: ""the test is correct and the failure looks like a bug in the app"" (uncertain cause, but concludes the app is wrong)"
+s-64dd5dcc16,hedged,,,no,"final: ""a problem that may be in the app rather than the test"""
+s-6520ccc29c,none,,,no,
+s-663f3fb7ee,hedged,none,,no,"final: ""If it disappeared by mistake, this change hides a real regression"""
+s-6717fceb23,asserted,,,yes,"final: ""APP DEFECT: The bulk Actions menu for a selected recurring invoice has no Stop or Start option""; fallback: ""I can't tell whether the app is wrong or the test is"" / ""My rule for this case is to treat it as an application defect"""
+s-685f9a2ff2,hedged,none,asserted,no,"final: ""the application changed or regressed"" (change remains an alternative); skip: ""looks like an application regression"""
+s-69a35c807a,asserted,,,no,"final: ""APP DEFECT: The header navigation no longer has a ""Shelves"" link"""
+s-6a160919d4,none,none,none,no,"comments: ""The test environment has no products"" explains the unmet test precondition despite ""Expected: a blank line item can be added"""
+s-6a21993c1a,asserted,,,no,"final: ""APP DEFECT: The ""Enabled Modules"" tab is missing"""
+s-6a3cd1b9e6,hedged,,,no,"final: ""If the missing tab is a regression, this change hides it"""
+s-6a61f8e980,none,,,no,
+s-6b09ae58bc,none,,,no,
+s-6b414793da,hedged,none,,no,"final: ""If that link is supposed to be there, the app has a regression"""
+s-6bc8830e00,none,,,no,
+s-6c7d729e00,none,,,no,
+s-6e0c4a4e06,none,,,no,
+s-6ee4321c76,none,,,no,
+s-6fae262bd5,none,,,no,
+s-706f85078b,none,,,no,
+s-711175723d,hedged,none,asserted,no,"final: ""once the Save button is back, or once someone confirms where it moved"" (moved-control explanation remains open); skip: ""so the product cannot be saved"""
+s-711d705544,hedged,,,no,"final: ""They may be missing from this build, which would be an application bug"""
+s-71ccd3a98e,none,,,no,
+s-71f8dc5491,none,none,,no,
+s-71fd4cc399,none,,,no,
+s-7244f03677,asserted,,,no,"final: ""the test needs it, so this is an application defect"""
+s-72c5b2f6af,asserted,,,no,"final: ""This is an application defect, not a change in wording or markup"""
+s-7441e91f81,asserted,,,no,"final: ""A control the test needs is missing, which is an application defect"""
+s-753e2b03b0,none,,,no,
+s-756aaed2f1,none,,,no,
+s-75d73d4e99,none,,,no,
+s-764657220b,none,,,no,
+s-76fa56cda5,none,,,no,
+s-77767d18ac,hedged,asserted,asserted,no,"final: ""I can't rule out a cause on the test side, such as a permission or setup step""; comments: ""the product cannot be submitted in this build""; skip: ""product cannot be saved"""
+s-77e5eede10,none,,,no,
+s-783ec28683,hedged,none,,no,"final: ""If it should be there, that is an app regression"""
+s-78bf6629e2,none,,,no,
+s-78d5ea8006,hedged,,,no,"final: ""If users should see that link, the app needs fixing"""
+s-79d615bb13,none,,,no,
+s-7a6f13c4d9,none,,,no,
+s-7ad0b5dc5c,none,,,no,
+s-7cc0fbce80,none,none,,no,
+s-7cc910e2f3,asserted,,,no,"final: ""APP DEFECT: The Profile Menu no longer has a ""View Profile"" link"""
+s-7d1695727f,none,,,no,
+s-7e033d6b40,none,,,no,
+s-7e490529ec,none,,,no,
+s-7f2d557603,none,,,no,
+s-7f30d499e8,hedged,none,,no,"final: ""If the missing sidebar link is a bug in the app"""
+s-7fb5fe9769,none,,,no,
+s-800e7907b3,asserted,,,no,"final: ""APP DEFECT: The top navigation has no ""Books"" link"""
+s-806dfc215c,none,,,no,
+s-8071acf405,none,,,no,
+s-8074d4425f,none,,,no,
+s-80bd4403a2,none,,,no,
+s-81b9e6c666,none,,,no,
+s-82143daeb1,hedged,asserted,none,no,"final: ""If it was a regression, fix the app"" / ""If it was intentional, the test needs rewriting""; comments: ""Expected behavior: a ""Convert to Invoice"" button is available"""
+s-82e53b7362,none,,,no,
+s-8302f352a5,none,,,no,
+s-8335edece6,hedged,none,,no,"final: ""If that link is supposed to be there, the missing link is an app bug"""
+s-83791fa05a,none,,,no,
+s-83c1f7365a,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation has no ""Products"" link"""
+s-8424a76c32,hedged,,,no,"final: ""whether the missing sidebar link is a bug in the app or an intended change"""
+s-84f97c64e0,none,,,no,
+s-85e2f5f7e2,none,,,no,
+s-86ad5e7c0c,none,,,no,
+s-8706aac382,none,,,no,
+s-8773f9e107,none,,,no,
+s-877528b7dc,none,,,no,
+s-877a5c69f2,none,,,no,
+s-87be4ace2a,none,,,no,
+s-88fe36a6dd,none,none,,no,
+s-894223286a,asserted,,,no,"final: ""That makes this an application defect"""
+s-8965b2a85b,asserted,,,no,"final: ""A missing control is a behavior problem, not a rename"""
+s-897237d9d9,none,,,no,
+s-89cce75b69,none,,,no,
+s-8a05d4812d,none,,,no,
+s-8a1c7b0bc9,hedged,none,,no,"final: ""may be a real app regression rather than a test problem. I didn't investigate that"""
+s-8ae5ade3a0,none,,,no,
+s-8afaa6dc66,none,,,no,
+s-8b49294bdf,none,,,no,
+s-8c7778be0c,hedged,,,no,"final: ""If it should be there, that may be an app bug"""
+s-8ce15a1ba7,none,,,no,
+s-8cfbb1cd8e,none,,,no,
+s-8d04ab8e77,none,,,no,
+s-8dbba479da,none,,,no,
+s-8ee223dfa6,hedged,,,no,"final: ""If the button was renamed on purpose, tell me the new label and I'll update the locator"" (test-side explanation remains open)"
+s-8ee6ce31fc,hedged,,,no,"final: ""If the app is supposed to show it, that may be an application bug"""
+s-9150854ba4,none,,,no,
+s-9257803019,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation has no ""Invoices"" link"""
+s-927aaa9045,asserted,,,no,"final: ""I'm treating this as an application defect"""
+s-93018d3423,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation is missing the ""Quotes"" list link"""
+s-93df12e271,none,,,no,
+s-94085a6d4a,hedged,,,no,"final: ""If the app is meant to offer Delete"" / ""If it isn't, the test's flow needs to change"""
+s-945525d5e4,none,,,no,
+s-9514bd7eed,hedged,none,,no,"final: ""If the missing ""Invoices"" link is a regression in the app and not an intended change"""
+s-9528df4477,asserted,,,no,"final: ""APP DEFECT: The Profile Menu has no ""View Profile"" link"""
+s-960bfe93fa,hedged,none,,no,"final: ""If that link is supposed to be there"" / ""the app has a real regression"""
+s-9616516dad,hedged,,,no,"final: ""If ""Billing"" was an unintended UI change, the app is what needs fixing"""
+s-9676acb388,none,,,no,
+s-96c3718e39,hedged,,,no,"final: ""The missing sidebar link may be a real app bug"""
+s-97c08c6ca5,none,,,no,
+s-9972771514,none,,,no,
+s-99800094d9,asserted,,,no,"final: ""The failure looks like an application defect, not a test problem"""
+s-99bf16dc1b,none,,,no,
+s-99c608b38d,hedged,,,no,"final: ""If ""Payment Settings"" is a page that should exist, the real problem is a missing link in the app"""
+s-9bb83b8a9b,hedged,none,,no,"final: ""whether the missing nav link is an intended app change or a regression"""
+s-9c0cb07d40,hedged,none,,no,"final: ""If it's missing because of a bug or a license restriction, that's a separate problem in the app"""
+s-9cec9c67be,hedged,,,no,"final: ""If the link was removed from the sidebar by mistake, that's an app regression"""
+s-9d05d36f50,asserted,,,yes,"final: ""APP DEFECT: The New Invoice page has no ""Add Item"" button""; fallback: ""I couldn't tell whether the control was only restyled or no longer works, so I treated it as an app defect"""
+s-9d58a89968,none,,,no,
+s-9dd2f62fab,hedged,,,no,"final: ""if the missing nav link is a real regression"" (conditional despite opening attribution)"
+s-9e4c720dc5,asserted,,,no,"final: ""APP DEFECT: The profile menu has no ""View Profile"" link"""
+s-9eaf58f6ef,none,none,,no,
+s-9ed4afc7c0,none,,,no,
+s-9f712bef1f,none,,,no,
+s-9fec26fa1d,asserted,,,no,"final: ""The failure looks like an application defect, not a test problem"""
+s-a03c102cf7,none,,,no,
+s-a092b2be07,none,,,no,
+s-a1f065fde2,hedged,none,,no,"final: ""If you expected a Customization section to exist, that's an app regression"""
+s-a23daa037c,hedged,asserted,none,no,"final: ""I have no way to confirm whether this is an intended app change or a regression""; comments: ""Expected: a Delete button"" / ""there is nothing to delete with"""
+s-a2c0e19893,none,,,no,
+s-a32bca7074,none,,,no,
+s-a39cab60b4,none,,,no,
+s-a39fa635e3,none,,,no,
+s-a3b906dca2,hedged,none,,no,"final: ""If the Payments link was removed by mistake, that is an application regression"""
+s-a43b259cc0,none,,,no,
+s-a4fb196bec,none,,,no,
+s-a59b39d029,hedged,none,none,no,"final: ""If Delete is meant to exist, that's an application regression to fix"""
+s-a5e0dab70b,hedged,,,no,"final: ""If Customization is supposed to exist in this app, the missing link is a real bug"""
+s-a71ebd9321,asserted,,,no,"final: ""The failure looks like an application defect, not a test problem"""
+s-a7d88bcff4,none,,,no,
+s-a8e0b5004d,none,,,no,
+s-a94bdb0844,none,,,no,
+s-a99491b2df,none,none,,no,
+s-aa010fac09,none,,,no,
+s-aa2a841937,asserted,,,no,"final: ""A ""Sent"" invoice with a balance due should offer Mark Paid"""
+s-aa9900e3b4,hedged,,,no,"final: ""might be an app regression rather than an intended change"""
+s-ab035853b1,asserted,,,no,"final: ""I treated this as an application bug"""
+s-abaa11568d,asserted,,,no,"final: ""The failure is an application defect, not a presentation change"""
+s-abbebdf5c7,asserted,,,no,"final: ""APP DEFECT: The main navigation header no longer has a ""Books"" link"""
+s-ac619ce197,hedged,none,,no,"final: ""If the link should be there, the app needs fixing"""
+s-ace5bea7a0,asserted,,,no,"final: ""APP DEFECT: The ""Settings"" link is missing"""
+s-ace8e4c1e1,hedged,,,no,"final: ""if it was a mistake in the app, the fix would be there instead"""
+s-ae2e9b108b,none,none,,no,
+s-ae9bf3cb79,none,none,,no,
+s-afbe5f9ed4,none,,,no,
+s-afe4d26610,asserted,,,no,"final: ""the failure is an application defect"""
+s-b01f21f5f4,none,,,no,
+s-b0722ae6a7,none,,,no,
+s-b0795535ab,none,,,no,
+s-b6d3a3000e,none,none,,no,
+s-b7e63e9c9e,none,,,no,
+s-b81c0eeff2,hedged,none,,no,"final: ""If the Products link is meant to be in the sidebar, its absence may be an app regression"""
+s-b824ad12c2,hedged,none,,no,"final: ""If ""View Profile"" is supposed to be in the menu, this is an app bug"""
+s-ba6fdfa8e9,hedged,none,,no,"final: ""an application or seed-data issue"" / ""If so, that is an app bug"""
+s-ba7dbd250f,none,,,no,
+s-badec1ff37,asserted,,,no,"final: ""The failure comes from the application, not from the test"" (navigation defect asserted; second possible defect does not undo that)"
+s-bb26360272,none,,,no,
+s-bb7874b7b2,asserted,,,no,"final: ""APP DEFECT: The Actions menu for a Sent quote has no ""Convert to Invoice"" option"""
+s-bc583a2098,hedged,none,,no,"final: ""whether the missing ""View Profile"" link is a regression in the app or an intended change"""
+s-bc92bd690d,none,,,no,
+s-bd1f3e3a55,asserted,,,no,"final: ""APP DEFECT: The Books list page, viewed as Admin, has no ""Create New Book"" action"""
+s-bd48573d72,none,,,no,
+s-be1947ba4e,hedged,none,none,no,"final: ""if the missing button is a bug in the application"""
+s-be21747ca9,asserted,,,yes,"final: ""APP DEFECT: The sidebar navigation has no ""Dashboard"" link""; fallback: ""I also can't tell whether the link was renamed or removed, so I'm treating it as a defect"""
+s-bed6022115,none,,,no,
+s-bf0c764ebe,asserted,,,no,"final: ""I'm treating it as an application defect"""
+s-bf282e7322,none,,,no,
+s-bf3894863c,none,,,no,
+s-bf4b01ca0a,none,,,no,
+s-c0d868edd5,none,,,no,
+s-c15afd90e1,none,,,no,
+s-c164979697,none,,,no,
+s-c27882a005,none,,,no,
+s-c3fe478054,none,,,no,
+s-c4ad4556ef,none,,,no,"final: ""not because of a bug"" / ""I treated this as wording only"" outweigh the observation that wording is inconsistent"
+s-c53c485bae,none,,,no,
+s-c574573757,hedged,,,no,"final: ""If ""Library"" was a regression in the app, the app needs fixing instead"""
+s-c5ff9649a9,hedged,,,no,"final: ""If that button is supposed to be in the menu, the application has a bug"""
+s-c7ba01656c,asserted,,,no,"final: ""APP DEFECT: The bulk Actions menu for a selected expired quote has no ""Delete"" option"""
+s-c7e1d529b6,hedged,none,,no,"final: ""If the ""View Profile"" link was removed by mistake"""
+s-c83d512094,none,,,no,
+s-c89bcb456a,asserted,,,no,"final: ""I'm treating this as an application defect, not a test problem"""
+s-caeb41fcc2,hedged,,,no,"final: ""If this BookStack build is supposed to show one, its absence is an app bug"""
+s-cc82406807,asserted,asserted,asserted,no,"final: ""the failure is in the app and not in the test""; comments: ""so the book cannot be deleted. Expected: a confirm button""; skip: ""App bug: the 'Delete Book' confirmation page renders only a 'Cancel' link"""
+s-cdf3daaa04,hedged,,,no,"final: ""If the app is meant to have a ""Dashboard"" link in the sidebar, the missing link is a bug"""
+s-ce5e2b7e7e,asserted,,,no,"final: ""the cause is in the app rather than the test"" / ""the original test was correct"" (uncertain cause, but app-side conclusion)"
+s-cf149ef71b,hedged,none,none,no,"final: ""If Approve is meant to exist in this build, that's an application bug"""
+s-d0764fbe24,none,,,no,
+s-d15a7e3314,asserted,,,no,"final: ""APP DEFECT: The sidebar navigation is missing the ""Quotes"" list link"""
+s-d307a10a6a,none,,,no,
+s-d3b32c0d1f,none,,,no,
+s-d3ccbd83d8,none,,,no,
+s-d3e0193716,none,,,no,
+s-d400148bdf,none,,,no,
+s-d44e30fd94,hedged,none,,no,"final: ""If the missing ""Books"" link is a bug in the app rather than an intended change"""
+s-d48a1f2cd1,hedged,,,no,"final: ""If the ""Confirm"" button was deliberately renamed or removed"" (test-side explanation remains open)"
+s-d4c3fdc4c7,hedged,,,no,"final: ""If the button was removed on purpose, tell me the new way to open the comment form and I'll update the test"" (intentional change remains open)"
+s-d5d6b59d3e,asserted,,,no,"final: ""I'm treating this as an application defect"""
+s-d9379abce6,none,,,no,
+s-da4799a719,none,,,no,
+s-da4ca49d66,none,,,no,
+s-db65e09b6f,none,,,no,
+s-dc509b79b1,none,,,no,
+s-dc6ad3efaa,none,,,no,
+s-dc73dc381f,none,,,no,
+s-dcaf437038,none,,,no,
+s-dd077d7fd2,hedged,none,,no,"final: ""If the missing ""Books"" link is a bug in the app rather than an intended change"""
+s-ddbf652ba0,none,,,no,
+s-de50fe622d,none,,,no,
+s-deed2f6542,none,none,,no,
+s-df5d326284,none,,,no,
+s-e0bcc70507,none,,,no,
+s-e2b9ce1a05,none,,,no,
+s-e479802ac1,hedged,,,no,"final: ""If it should be there, that is an app bug"""
+s-e4eeb084dc,none,,,no,
+s-e58581fff3,asserted,,,no,"final: ""APP DEFECT: The Comments section on the page shows no ""Add Comment"" button"""
+s-e73b202b84,hedged,,,no,"final: ""whether the app is supposed to offer Delete here. If it is, the missing Delete is an app bug"""
+s-e7886b5432,hedged,asserted,none,no,"final: ""If the missing link is intended"" / ""If it's a regression, fix the app""; comments: ""Expected: an Edit action exists"""
+s-e80a4f671a,none,none,,no,
+s-e87e159208,none,,,no,
+s-e8aa2b4b46,asserted,,,yes,"final: ""APP DEFECT: The header search form has no ""Search"" submit button""; fallback: ""I also can't tell whether the button was renamed or removed, and the rules say to treat an unclear case as an application defect"""
+s-e923887bf8,hedged,none,,no,"final: ""If it should be there"" / ""may be a real regression in the app rather than a test problem"""
+s-e971d3e5e0,asserted,,,no,"final: ""APP DEFECT: The Profile Menu no longer contains a ""View Profile"" link"""
+s-e9af45d86c,asserted,,,no,"final: ""this is an application defect"""
+s-eb08cd5be9,hedged,,,no,"final: ""if the button was deliberately renamed or moved"" / ""I'll update the test to match"" (test-side explanation remains open)"
+s-eb4d1e4d38,hedged,none,none,no,"final: ""If the convert feature is meant to exist, this is probably an app regression"""
+s-eb5fcf3413,hedged,,,no,"final: ""confirm that the missing button is a regression"" / ""Shelves aren't meant to be favouritable in this version"" (alternative explanation remains open)"
+s-ece2e9e34b,asserted,,,no,"final: ""APP DEFECT: The Account Management settings page has no ""Enabled Modules"" tab"""
+s-ece8c03641,asserted,asserted,asserted,no,"final: ""the failure looks like an app bug rather than a test problem""; comments: ""Expected: the link is present""; skip: ""App regression: 'Create New Book' link missing from Books page for Admin"""
+s-ee7343f491,hedged,none,,no,"final: ""If the link was removed by mistake"""
+s-ee93b8e7d6,asserted,asserted,none,no,"final: ""The test looks correct, and the application is not doing what the test expects""; comments: ""Expected: the button is visible"""
+s-eecf381a9a,hedged,none,none,no,"final: ""If Delete is supposed to be available here, the app has a bug"""
+s-efdcc786f9,none,,,no,
+s-eff1803d71,none,,,no,
+s-f0461e69eb,none,,,no,
+s-f12ff6fdc6,none,,,no,
+s-f15ad97ad3,hedged,none,,no,"final: ""If the link was meant to be there, the app needs fixing"" (conditional despite opening attribution)"
+s-f2031b7c10,hedged,,,no,"final: ""If you expected that page to exist, it's missing from this app version"""
+s-f2962ed65f,hedged,none,,no,"final: ""either Delete was removed from the payments UI by mistake, or the test needs a different way"""
+s-f35189ef7f,hedged,,,no,"final: ""Whether ""Mark Paid"" was removed on purpose or is a regression in the app, I can't tell"""
+s-f3ba1f2361,none,,,no,
+s-f4849303dc,none,,,no,
+s-f59653854b,none,,,no,
+s-f75e7359a2,hedged,,,no,"final: ""if the ""Invoices"" sidebar link is meant to be there"" / ""In that case this change hides the bug"""
+s-f803d6d64a,none,none,,no,
+s-f82539c53b,hedged,,,no,"final: ""If the app is supposed to show an ""Invoices"" link in the sidebar, that's a separate bug"""
+s-f936e16e7d,hedged,none,,no,"final: ""If that link should be there, the app has a regression (or this user lacks the permission)"""
+s-f9a2918bc8,none,none,,no,
+s-fa0950a47f,asserted,,,yes,"final: ""APP DEFECT: The ""Convert to Invoice"" action is missing""; fallback: ""I can't tell whether ""Approve"" is the old control under a new name, so I'm treating the control as missing"""
+s-fa53719eb9,asserted,,,no,"final: ""APP DEFECT: The ""Localization"" link is missing from the Settings sidebar"""
+s-fadf7fdb39,asserted,,,no,"final: ""APP DEFECT: The header navigation no longer has a ""Shelves"" link"""
+s-fb35e74fa2,asserted,,,no,"final: ""APP DEFECT: The book detail page's Actions sidebar has no ""Edit"" link"""
+s-fb47558cfe,none,,,no,
+s-fb5a10ac2a,none,,,no,
+s-fb913713f7,none,,,no,
+s-fbc0e90965,hedged,,,no,"final: ""the missing ""Quotes"" nav link could be a real regression in the app"""
+s-fd4dcd6b68,none,,,no,
+s-fd68faa123,none,,,no,
+s-fe2bfc8aeb,hedged,,,no,"final: ""If that link is meant to be there, the app is missing it"""
+s-ffa90c6cc6,none,,,no,
+s-ffb04a41fd,none,,,no,

@@ -1,0 +1,79 @@
+# Literal rewrite rules for BookStack bug scripts (design doc section 5.3).
+#
+# Format: task -> list of {find, replace, count, why}. `find` must occur exactly `count`
+# times (default 1) in the script once its comments and console calls are gone;
+# otherwise the build stops. `why` is for the reader and for the report.
+#
+# A rule changes how a value looks, never what the bug does. Replacements copy the seed:
+#   books     Book1, Book2, Book (ids 1-3), each with the description "Description"
+#   chapters  ids 1-4: Chapter, Chapter 2, Chapter 1, Chapter 2
+#   pages     ids 1-6; Book1 holds Page 1, Page 2 and Page, each reading "Page Description"
+#   shelves   Shelf (id 1), "Shelf Description"
+# BookStack writes absolute links (http://<host>/books/<slug>), so a link added by a bug
+# is built from the page's own origin and reads like the links next to it.
+
+count_recently_created_books:
+  - find: "custom-id"
+    replace: "4"
+    why: Entity ids are numbers. The seed has books 1 to 3, so an extra book is 4.
+  - find: "newBook.href = '#'"
+    replace: "newBook.href = window.location.origin + '/books/book3'"
+    why: No real list entry links to "#". A real book links to /books/ plus its slug, on the app's own origin.
+  - find: "Custom Book Title"
+    replace: "Book3"
+    why: Invented title. The seeded books are Book, Book1 and Book2.
+  - find: "Custom Book Description"
+    replace: "Description"
+    why: Invented text. Every seeded book has the description "Description".
+
+count_recently_created_chapters:
+  - find: "custom-id"
+    replace: "5"
+    why: Entity ids are numbers. The seed has chapters 1 to 4, so an extra chapter is 5.
+  - find: "newChapter.href = '#'"
+    replace: "newChapter.href = window.location.origin + '/books/book2/chapter/chapter-3'"
+    why: No real list entry links to "#". A real chapter links to its book and its own slug.
+  - find: "Custom Chapter Title"
+    replace: "Chapter 3"
+    why: Invented title. Book2 already holds Chapter 1 and Chapter 2.
+  - find: "Custom Chapter Description"
+    replace: "Description"
+    why: Invented text. Every seeded chapter has the description "Description".
+
+count_recently_created_pages:
+  - find: 'fakeEntry.href = "#"'
+    replace: 'fakeEntry.href = window.location.origin + "/books/book1/page/page-3"'
+    why: No real search result links to "#". A real page links to its book and its own slug.
+  - find: '"999"'
+    replace: '"7"'
+    why: Made-up id. The seed has pages 1 to 6, so an extra page is 7.
+  - find: "Some Page"
+    replace: "Page 3"
+    why: Placeholder title. Book1 already holds Page 1, Page 2 and Page.
+  - find: "Some Book"
+    replace: "Book1"
+    why: Placeholder book name. Book1 is a seeded book.
+  - find: "This is a page description."
+    replace: "Page Description"
+    why: Placeholder text. Seeded pages read "Page Description".
+
+count_recently_created_shelves:
+  - find: "custom-id"
+    replace: "2"
+    why: Entity ids are numbers. The seed has one shelf, so an extra shelf is 2.
+  - find: "newShelf.href = '#'"
+    replace: "newShelf.href = window.location.origin + '/shelves/shelf-2'"
+    why: No real list entry links to "#". A real shelf links to /shelves/ plus its slug.
+
+create_book:
+  - find: "Bad Description"
+    replace: "Book2 Description"
+    why: The word "Bad" labels the value as wrong. The new value is still not what the test typed.
+
+delete_book:
+  - find: "'999'"
+    replace: "'3'"
+    why: Made-up id. The copied card is the seeded book "Book", whose id is 3.
+  - find: "'/books/book-duplicate'"
+    replace: "window.location.origin + '/books/book'"
+    why: The link named the card a duplicate. A second card for "Book" links to the same book.

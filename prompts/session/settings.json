@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "blockReadsOutsideWorkingDirectories": true
+  },
+  "disableAllHooks": true,
+  "disableBundledSkills": true,
+  "autoMemoryEnabled": false,
+  "includeGitInstructions": false,
+  "enableArtifact": false,
+  "disableClaudeAiConnectors": true,
+  "syncClaudeAiSkills": false,
+  "syncClaudeAiPlugins": false,
+  "switchModelsOnFlag": false
+}

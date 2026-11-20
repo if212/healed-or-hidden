@@ -1,0 +1,3 @@
+[submodule "third_party/webtestpilot-benchmark"]
+	path = third_party/webtestpilot-benchmark
+	url = https://github.com/code-philia/WebTestPilot-benchmark

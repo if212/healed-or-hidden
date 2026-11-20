@@ -1,0 +1,1079 @@
+session,stage,analysis,app,test,family,arm,rep,split,outcome,label,edit,run_test_calls,turns,cost_usd,defect_final,defect_comments,defect_skip_reasons,could_not_tell
+1a/b_oracle/bookstack/comment/G/1,1a,main,bookstack,comment,b_oracle,G,1,dev,kept red,kept_red,unchanged,0,6,0.039713,asserted,,,yes
+1a/b_oracle/bookstack/comment/G/2,1a,main,bookstack,comment,b_oracle,G,2,dev,kept red,kept_red,unchanged,0,6,0.030961,asserted,,,yes
+1a/b_oracle/bookstack/comment/H/1,1a,main,bookstack,comment,b_oracle,H,1,dev,false heal,false_heal_blind,assertion_changed,1,8,0.04411,none,,,no
+1a/b_oracle/bookstack/comment/H/2,1a,main,bookstack,comment,b_oracle,H,2,dev,false heal,false_heal_blind,assertion_changed,1,8,0.039707,hedged,none,,no
+1a/b_oracle/bookstack/comment/N/1,1a,main,bookstack,comment,b_oracle,N,1,dev,false heal,false_heal_blind,assertion_changed,1,9,0.050751,none,,,no
+1a/b_oracle/bookstack/comment/N/2,1a,main,bookstack,comment,b_oracle,N,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.039333,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_books/G/1,1a,main,bookstack,count_recently_created_books,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.030005,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_books/G/2,1a,main,bookstack,count_recently_created_books,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.027754,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_books/H/1,1a,main,bookstack,count_recently_created_books,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,9,0.043765,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_books/H/2,1a,main,bookstack,count_recently_created_books,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.0356,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_books/N/1,1a,main,bookstack,count_recently_created_books,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.04169,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_books/N/2,1a,main,bookstack,count_recently_created_books,b_oracle,N,2,held-out,kept red,kept_red,unchanged,0,7,0.037438,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_chapters/G/1,1a,main,bookstack,count_recently_created_chapters,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.030385,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_chapters/G/2,1a,main,bookstack,count_recently_created_chapters,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.029204,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_chapters/H/1,1a,main,bookstack,count_recently_created_chapters,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.036271,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_chapters/H/2,1a,main,bookstack,count_recently_created_chapters,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.037037,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_chapters/N/1,1a,main,bookstack,count_recently_created_chapters,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.034912,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_chapters/N/2,1a,main,bookstack,count_recently_created_chapters,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.034966,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_pages/G/1,1a,main,bookstack,count_recently_created_pages,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.020448,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_pages/G/2,1a,main,bookstack,count_recently_created_pages,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.020688,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_pages/H/1,1a,main,bookstack,count_recently_created_pages,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,0,7,0.033363,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/count_recently_created_pages/H/2,1a,main,bookstack,count_recently_created_pages,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,8,0.037035,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/count_recently_created_pages/N/1,1a,main,bookstack,count_recently_created_pages,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.034582,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_pages/N/2,1a,main,bookstack,count_recently_created_pages,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.031515,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_shelves/G/1,1a,main,bookstack,count_recently_created_shelves,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.027918,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_shelves/G/2,1a,main,bookstack,count_recently_created_shelves,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.028908,asserted,,,no
+1a/b_oracle/bookstack/count_recently_created_shelves/H/1,1a,main,bookstack,count_recently_created_shelves,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,1,10,0.053573,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/count_recently_created_shelves/H/2,1a,main,bookstack,count_recently_created_shelves,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.041578,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_shelves/N/1,1a,main,bookstack,count_recently_created_shelves,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.035878,hedged,,,no
+1a/b_oracle/bookstack/count_recently_created_shelves/N/2,1a,main,bookstack,count_recently_created_shelves,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.037889,hedged,,,no
+1a/b_oracle/bookstack/create_book/G/1,1a,main,bookstack,create_book,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.023115,asserted,,,no
+1a/b_oracle/bookstack/create_book/G/2,1a,main,bookstack,create_book,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.022045,asserted,,,no
+1a/b_oracle/bookstack/create_book/H/1,1a,main,bookstack,create_book,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,2,10,0.044061,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/create_book/H/2,1a,main,bookstack,create_book,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,9,0.042098,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/create_book/N/1,1a,main,bookstack,create_book,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,9,0.043208,asserted,,,no
+1a/b_oracle/bookstack/create_book/N/2,1a,main,bookstack,create_book,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,6,0.034939,asserted,,,no
+1a/b_oracle/bookstack/create_page/G/1,1a,main,bookstack,create_page,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.021779,asserted,,,no
+1a/b_oracle/bookstack/create_page/G/2,1a,main,bookstack,create_page,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.021049,asserted,,,no
+1a/b_oracle/bookstack/create_page/H/1,1a,main,bookstack,create_page,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,2,10,0.044799,hedged,asserted,asserted,no
+1a/b_oracle/bookstack/create_page/H/2,1a,main,bookstack,create_page,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,2,11,0.043715,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/create_page/N/1,1a,main,bookstack,create_page,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,7,0.035781,asserted,,,no
+1a/b_oracle/bookstack/create_page/N/2,1a,main,bookstack,create_page,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,6,0.03075,asserted,,,no
+1a/b_oracle/bookstack/create_sort_rule/G/1,1a,main,bookstack,create_sort_rule,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.023674,asserted,,,no
+1a/b_oracle/bookstack/create_sort_rule/G/2,1a,main,bookstack,create_sort_rule,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.021794,asserted,,,no
+1a/b_oracle/bookstack/create_sort_rule/H/1,1a,main,bookstack,create_sort_rule,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,1,10,0.051849,hedged,asserted,asserted,no
+1a/b_oracle/bookstack/create_sort_rule/H/2,1a,main,bookstack,create_sort_rule,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,9,0.046398,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/create_sort_rule/N/1,1a,main,bookstack,create_sort_rule,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,7,0.048201,asserted,,,no
+1a/b_oracle/bookstack/create_sort_rule/N/2,1a,main,bookstack,create_sort_rule,b_oracle,N,2,held-out,kept red,kept_red,unchanged,2,13,0.12482,asserted,,,no
+1a/b_oracle/bookstack/delete_book/G/1,1a,main,bookstack,delete_book,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.019085,asserted,,,no
+1a/b_oracle/bookstack/delete_book/G/2,1a,main,bookstack,delete_book,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.019645,asserted,,,no
+1a/b_oracle/bookstack/delete_book/H/1,1a,main,bookstack,delete_book,b_oracle,H,1,held-out,false heal,false_heal_blind,assertion_changed,2,10,0.039746,hedged,none,,no
+1a/b_oracle/bookstack/delete_book/H/2,1a,main,bookstack,delete_book,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.026519,hedged,,,no
+1a/b_oracle/bookstack/delete_book/N/1,1a,main,bookstack,delete_book,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.031367,hedged,,,no
+1a/b_oracle/bookstack/delete_book/N/2,1a,main,bookstack,delete_book,b_oracle,N,2,held-out,false heal,false_heal_blind,assertion_changed,2,8,0.035311,hedged,,,no
+1a/b_oracle/bookstack/favourite_book/G/1,1a,main,bookstack,favourite_book,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.021116,asserted,,,no
+1a/b_oracle/bookstack/favourite_book/G/2,1a,main,bookstack,favourite_book,b_oracle,G,2,held-out,kept red,kept_red,unchanged,1,7,0.028002,asserted,,,yes
+1a/b_oracle/bookstack/favourite_book/H/1,1a,main,bookstack,favourite_book,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.026462,none,,,no
+1a/b_oracle/bookstack/favourite_book/H/2,1a,main,bookstack,favourite_book,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.025192,none,,,no
+1a/b_oracle/bookstack/favourite_book/N/1,1a,main,bookstack,favourite_book,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.023868,hedged,,,no
+1a/b_oracle/bookstack/favourite_book/N/2,1a,main,bookstack,favourite_book,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.023026,hedged,,,no
+1a/b_oracle/bookstack/recent_activity_all/G/1,1a,main,bookstack,recent_activity_all,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.030251,asserted,,,no
+1a/b_oracle/bookstack/recent_activity_all/G/2,1a,main,bookstack,recent_activity_all,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.029732,asserted,,,no
+1a/b_oracle/bookstack/recent_activity_all/H/1,1a,main,bookstack,recent_activity_all,b_oracle,H,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.038979,none,none,,no
+1a/b_oracle/bookstack/recent_activity_all/H/2,1a,main,bookstack,recent_activity_all,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.044215,hedged,none,,no
+1a/b_oracle/bookstack/recent_activity_all/N/1,1a,main,bookstack,recent_activity_all,b_oracle,N,1,held-out,false heal,false_heal_blind,assertion_changed,2,9,0.051314,hedged,none,,no
+1a/b_oracle/bookstack/recent_activity_all/N/2,1a,main,bookstack,recent_activity_all,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,6,0.04008,asserted,,,no
+1a/b_oracle/bookstack/recent_activity_chapter/G/1,1a,main,bookstack,recent_activity_chapter,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.024346,asserted,,,yes
+1a/b_oracle/bookstack/recent_activity_chapter/G/2,1a,main,bookstack,recent_activity_chapter,b_oracle,G,2,held-out,kept red,kept_red,unchanged,1,7,0.029521,asserted,,,no
+1a/b_oracle/bookstack/recent_activity_chapter/H/1,1a,main,bookstack,recent_activity_chapter,b_oracle,H,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.025254,none,,,no
+1a/b_oracle/bookstack/recent_activity_chapter/H/2,1a,main,bookstack,recent_activity_chapter,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.0239,none,,,no
+1a/b_oracle/bookstack/recent_activity_chapter/N/1,1a,main,bookstack,recent_activity_chapter,b_oracle,N,1,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.025616,none,,,no
+1a/b_oracle/bookstack/recent_activity_chapter/N/2,1a,main,bookstack,recent_activity_chapter,b_oracle,N,2,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.025296,none,,,no
+1a/b_oracle/bookstack/recent_activity_page/G/1,1a,main,bookstack,recent_activity_page,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,5,0.023095,asserted,,,yes
+1a/b_oracle/bookstack/recent_activity_page/G/2,1a,main,bookstack,recent_activity_page,b_oracle,G,2,held-out,kept red,kept_red,unchanged,1,7,0.028906,asserted,,,yes
+1a/b_oracle/bookstack/recent_activity_page/H/1,1a,main,bookstack,recent_activity_page,b_oracle,H,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.024491,none,,,no
+1a/b_oracle/bookstack/recent_activity_page/H/2,1a,main,bookstack,recent_activity_page,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.024753,none,,,no
+1a/b_oracle/bookstack/recent_activity_page/N/1,1a,main,bookstack,recent_activity_page,b_oracle,N,1,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.023204,none,,,no
+1a/b_oracle/bookstack/recent_activity_page/N/2,1a,main,bookstack,recent_activity_page,b_oracle,N,2,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.023404,none,,,no
+1a/b_oracle/bookstack/recent_activity_shelf/G/1,1a,main,bookstack,recent_activity_shelf,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.025367,asserted,,,yes
+1a/b_oracle/bookstack/recent_activity_shelf/G/2,1a,main,bookstack,recent_activity_shelf,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.02327,asserted,,,no
+1a/b_oracle/bookstack/recent_activity_shelf/H/1,1a,main,bookstack,recent_activity_shelf,b_oracle,H,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.02324,none,,,no
+1a/b_oracle/bookstack/recent_activity_shelf/H/2,1a,main,bookstack,recent_activity_shelf,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.024233,none,,,no
+1a/b_oracle/bookstack/recent_activity_shelf/N/1,1a,main,bookstack,recent_activity_shelf,b_oracle,N,1,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.023464,none,,,no
+1a/b_oracle/bookstack/recent_activity_shelf/N/2,1a,main,bookstack,recent_activity_shelf,b_oracle,N,2,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.023202,none,,,no
+1a/b_oracle/bookstack/recently_viewed_book/G/1,1a,main,bookstack,recently_viewed_book,b_oracle,G,1,dev,kept red,kept_red,unchanged,1,7,0.039065,asserted,,,yes
+1a/b_oracle/bookstack/recently_viewed_book/G/2,1a,main,bookstack,recently_viewed_book,b_oracle,G,2,dev,kept red,kept_red,unchanged,0,6,0.027855,asserted,,,no
+1a/b_oracle/bookstack/recently_viewed_book/H/1,1a,main,bookstack,recently_viewed_book,b_oracle,H,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.032149,hedged,,,no
+1a/b_oracle/bookstack/recently_viewed_book/H/2,1a,main,bookstack,recently_viewed_book,b_oracle,H,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.03192,hedged,,,no
+1a/b_oracle/bookstack/recently_viewed_book/N/1,1a,main,bookstack,recently_viewed_book,b_oracle,N,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.030182,none,,,no
+1a/b_oracle/bookstack/recently_viewed_book/N/2,1a,main,bookstack,recently_viewed_book,b_oracle,N,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.029127,hedged,,,no
+1a/b_oracle/bookstack/recently_viewed_chapter/G/1,1a,main,bookstack,recently_viewed_chapter,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.027568,asserted,,,no
+1a/b_oracle/bookstack/recently_viewed_chapter/G/2,1a,main,bookstack,recently_viewed_chapter,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.027948,asserted,,,yes
+1a/b_oracle/bookstack/recently_viewed_chapter/H/1,1a,main,bookstack,recently_viewed_chapter,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.032605,hedged,,,no
+1a/b_oracle/bookstack/recently_viewed_chapter/H/2,1a,main,bookstack,recently_viewed_chapter,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.031363,hedged,,,no
+1a/b_oracle/bookstack/recently_viewed_chapter/N/1,1a,main,bookstack,recently_viewed_chapter,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.030042,none,,,no
+1a/b_oracle/bookstack/recently_viewed_chapter/N/2,1a,main,bookstack,recently_viewed_chapter,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.03004,hedged,,,no
+1a/b_oracle/bookstack/search/G/1,1a,main,bookstack,search,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.021559,asserted,,,no
+1a/b_oracle/bookstack/search/G/2,1a,main,bookstack,search,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.020889,asserted,,,no
+1a/b_oracle/bookstack/search/H/1,1a,main,bookstack,search,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.02578,hedged,,,no
+1a/b_oracle/bookstack/search/H/2,1a,main,bookstack,search,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.025384,hedged,,,no
+1a/b_oracle/bookstack/search/N/1,1a,main,bookstack,search,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.024547,hedged,,,no
+1a/b_oracle/bookstack/search/N/2,1a,main,bookstack,search,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.024351,hedged,,,no
+1a/b_oracle/bookstack/settings/G/1,1a,main,bookstack,settings,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.023701,asserted,,,no
+1a/b_oracle/bookstack/settings/G/2,1a,main,bookstack,settings,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.023891,asserted,,,no
+1a/b_oracle/bookstack/settings/H/1,1a,main,bookstack,settings,b_oracle,H,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.029863,hedged,none,,no
+1a/b_oracle/bookstack/settings/H/2,1a,main,bookstack,settings,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.029823,hedged,none,,no
+1a/b_oracle/bookstack/settings/N/1,1a,main,bookstack,settings,b_oracle,N,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.039986,hedged,,,no
+1a/b_oracle/bookstack/settings/N/2,1a,main,bookstack,settings,b_oracle,N,2,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.030645,hedged,,,no
+1a/b_oracle/bookstack/unfavourite_shelf/G/1,1a,main,bookstack,unfavourite_shelf,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.021458,asserted,,,yes
+1a/b_oracle/bookstack/unfavourite_shelf/G/2,1a,main,bookstack,unfavourite_shelf,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.019983,asserted,,,yes
+1a/b_oracle/bookstack/unfavourite_shelf/H/1,1a,main,bookstack,unfavourite_shelf,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.024904,hedged,,,no
+1a/b_oracle/bookstack/unfavourite_shelf/H/2,1a,main,bookstack,unfavourite_shelf,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.025504,hedged,,,no
+1a/b_oracle/bookstack/unfavourite_shelf/N/1,1a,main,bookstack,unfavourite_shelf,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.023396,hedged,,,no
+1a/b_oracle/bookstack/unfavourite_shelf/N/2,1a,main,bookstack,unfavourite_shelf,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.023652,hedged,,,no
+1a/b_oracle/bookstack/update_book/G/1,1a,main,bookstack,update_book,b_oracle,G,1,dev,kept red,kept_red,unchanged,0,6,0.024211,asserted,,,no
+1a/b_oracle/bookstack/update_book/G/2,1a,main,bookstack,update_book,b_oracle,G,2,dev,kept red,kept_red,unchanged,0,6,0.021821,asserted,,,no
+1a/b_oracle/bookstack/update_book/H/1,1a,main,bookstack,update_book,b_oracle,H,1,dev,skipped,silenced,skipped_or_deleted,2,10,0.046083,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/update_book/H/2,1a,main,bookstack,update_book,b_oracle,H,2,dev,skipped,silenced,skipped_or_deleted,2,10,0.048225,asserted,asserted,asserted,no
+1a/b_oracle/bookstack/update_book/N/1,1a,main,bookstack,update_book,b_oracle,N,1,dev,kept red,kept_red,unchanged,0,8,0.037633,asserted,,,no
+1a/b_oracle/bookstack/update_book/N/2,1a,main,bookstack,update_book,b_oracle,N,2,dev,kept red,kept_red,unchanged,1,6,0.03745,asserted,,,no
+1a/b_oracle/invoiceninja/approve_quote/G/1,1a,main,invoiceninja,approve_quote,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.044344,asserted,,,yes
+1a/b_oracle/invoiceninja/approve_quote/G/2,1a,main,invoiceninja,approve_quote,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.035951,asserted,,,yes
+1a/b_oracle/invoiceninja/approve_quote/H/1,1a,main,invoiceninja,approve_quote,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,5,17,0.09655,hedged,asserted,asserted,no
+1a/b_oracle/invoiceninja/approve_quote/H/2,1a,main,invoiceninja,approve_quote,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,4,14,0.085022,hedged,asserted,none,no
+1a/b_oracle/invoiceninja/approve_quote/N/1,1a,main,invoiceninja,approve_quote,b_oracle,N,1,held-out,kept red,kept_red,assertion_changed,3,12,0.083267,hedged,,,no
+1a/b_oracle/invoiceninja/approve_quote/N/2,1a,main,invoiceninja,approve_quote,b_oracle,N,2,held-out,kept red,kept_red,assertion_changed,3,13,0.085755,hedged,,,no
+1a/b_oracle/invoiceninja/convert_quote_to_invoice/G/1,1a,main,invoiceninja,convert_quote_to_invoice,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.03541,asserted,,,yes
+1a/b_oracle/invoiceninja/convert_quote_to_invoice/G/2,1a,main,invoiceninja,convert_quote_to_invoice,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.03601,asserted,,,yes
+1a/b_oracle/invoiceninja/convert_quote_to_invoice/H/1,1a,main,invoiceninja,convert_quote_to_invoice,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,flow_changed,1,8,0.041863,hedged,,,no
+1a/b_oracle/invoiceninja/convert_quote_to_invoice/H/2,1a,main,invoiceninja,convert_quote_to_invoice,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,flow_changed,1,8,0.038547,hedged,,,no
+1a/b_oracle/invoiceninja/convert_quote_to_invoice/N/1,1a,main,invoiceninja,convert_quote_to_invoice,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,flow_changed,1,8,0.039575,hedged,,,no
+1a/b_oracle/invoiceninja/convert_quote_to_invoice/N/2,1a,main,invoiceninja,convert_quote_to_invoice,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,flow_changed,1,7,0.037052,hedged,,,no
+1a/b_oracle/invoiceninja/create_invoice/G/1,1a,main,invoiceninja,create_invoice,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.028082,asserted,,,no
+1a/b_oracle/invoiceninja/create_invoice/G/2,1a,main,invoiceninja,create_invoice,b_oracle,G,2,held-out,kept red,kept_red,unchanged,1,7,0.033189,asserted,,,no
+1a/b_oracle/invoiceninja/create_invoice/H/1,1a,main,invoiceninja,create_invoice,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,3,14,0.066427,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/create_invoice/H/2,1a,main,invoiceninja,create_invoice,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,3,11,0.061456,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/create_invoice/N/1,1a,main,invoiceninja,create_invoice,b_oracle,N,1,held-out,kept red,kept_red,assertion_changed,3,11,0.074249,asserted,,,no
+1a/b_oracle/invoiceninja/create_invoice/N/2,1a,main,invoiceninja,create_invoice,b_oracle,N,2,held-out,kept red,kept_red,assertion_changed,3,11,0.075564,asserted,,,no
+1a/b_oracle/invoiceninja/create_product/G/1,1a,main,invoiceninja,create_product,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.025101,asserted,,,yes
+1a/b_oracle/invoiceninja/create_product/G/2,1a,main,invoiceninja,create_product,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.025311,asserted,,,yes
+1a/b_oracle/invoiceninja/create_product/H/1,1a,main,invoiceninja,create_product,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.036704,hedged,none,,no
+1a/b_oracle/invoiceninja/create_product/H/2,1a,main,invoiceninja,create_product,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,2,14,0.072909,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/create_product/N/1,1a,main,invoiceninja,create_product,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,11,0.051643,asserted,,,no
+1a/b_oracle/invoiceninja/create_product/N/2,1a,main,invoiceninja,create_product,b_oracle,N,2,held-out,kept red,kept_red,unchanged,2,10,0.054896,asserted,,,no
+1a/b_oracle/invoiceninja/delete_expired_quote/G/1,1a,main,invoiceninja,delete_expired_quote,b_oracle,G,1,held-out,kept red,kept_red,unchanged,1,7,0.041967,asserted,,,no
+1a/b_oracle/invoiceninja/delete_expired_quote/G/2,1a,main,invoiceninja,delete_expired_quote,b_oracle,G,2,held-out,kept red,kept_red,unchanged,1,7,0.041142,asserted,,,no
+1a/b_oracle/invoiceninja/delete_expired_quote/H/1,1a,main,invoiceninja,delete_expired_quote,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,2,12,0.079007,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/delete_expired_quote/H/2,1a,main,invoiceninja,delete_expired_quote,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,4,13,0.087401,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/delete_expired_quote/N/1,1a,main,invoiceninja,delete_expired_quote,b_oracle,N,1,held-out,kept red,kept_red,assertion_changed,2,11,0.067931,asserted,,,no
+1a/b_oracle/invoiceninja/delete_expired_quote/N/2,1a,main,invoiceninja,delete_expired_quote,b_oracle,N,2,held-out,kept red,kept_red,unchanged,2,13,0.079719,asserted,,,no
+1a/b_oracle/invoiceninja/delete_payment/G/1,1a,main,invoiceninja,delete_payment,b_oracle,G,1,held-out,kept red,kept_red,unchanged,1,7,0.040843,asserted,,,no
+1a/b_oracle/invoiceninja/delete_payment/G/2,1a,main,invoiceninja,delete_payment,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,5,0.033707,asserted,,,no
+1a/b_oracle/invoiceninja/delete_payment/H/1,1a,main,invoiceninja,delete_payment,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,2,11,0.062104,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/delete_payment/H/2,1a,main,invoiceninja,delete_payment,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,9,0.057285,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/delete_payment/N/1,1a,main,invoiceninja,delete_payment,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,8,0.050843,asserted,,,no
+1a/b_oracle/invoiceninja/delete_payment/N/2,1a,main,invoiceninja,delete_payment,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,10,0.057224,asserted,,,no
+1a/b_oracle/invoiceninja/disable_invoices_module/G/1,1a,main,invoiceninja,disable_invoices_module,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.037303,asserted,,,no
+1a/b_oracle/invoiceninja/disable_invoices_module/G/2,1a,main,invoiceninja,disable_invoices_module,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.036582,asserted,,,no
+1a/b_oracle/invoiceninja/disable_invoices_module/H/1,1a,main,invoiceninja,disable_invoices_module,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,1,10,0.06186,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/disable_invoices_module/H/2,1a,main,invoiceninja,disable_invoices_module,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,10,0.0602,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/disable_invoices_module/N/1,1a,main,invoiceninja,disable_invoices_module,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,10,0.060207,asserted,,,no
+1a/b_oracle/invoiceninja/disable_invoices_module/N/2,1a,main,invoiceninja,disable_invoices_module,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,8,0.057911,asserted,,,no
+1a/b_oracle/invoiceninja/disable_quotes_module/G/1,1a,main,invoiceninja,disable_quotes_module,b_oracle,G,1,held-out,kept red,kept_red,unchanged,1,7,0.039973,asserted,,,no
+1a/b_oracle/invoiceninja/disable_quotes_module/G/2,1a,main,invoiceninja,disable_quotes_module,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.034438,asserted,,,no
+1a/b_oracle/invoiceninja/disable_quotes_module/H/1,1a,main,invoiceninja,disable_quotes_module,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,1,9,0.059852,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/disable_quotes_module/H/2,1a,main,invoiceninja,disable_quotes_module,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,10,0.058712,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/disable_quotes_module/N/1,1a,main,invoiceninja,disable_quotes_module,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,6,0.045727,asserted,,,no
+1a/b_oracle/invoiceninja/disable_quotes_module/N/2,1a,main,invoiceninja,disable_quotes_module,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,8,0.053597,asserted,,,no
+1a/b_oracle/invoiceninja/enter_payment/G/1,1a,main,invoiceninja,enter_payment,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.02591,asserted,,,no
+1a/b_oracle/invoiceninja/enter_payment/G/2,1a,main,invoiceninja,enter_payment,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.026343,asserted,,,no
+1a/b_oracle/invoiceninja/enter_payment/H/1,1a,main,invoiceninja,enter_payment,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,2,11,0.05199,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/enter_payment/H/2,1a,main,invoiceninja,enter_payment,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,3,14,0.065061,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/enter_payment/N/1,1a,main,invoiceninja,enter_payment,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,6,0.038218,asserted,,,no
+1a/b_oracle/invoiceninja/enter_payment/N/2,1a,main,invoiceninja,enter_payment,b_oracle,N,2,held-out,kept red,kept_red,unchanged,1,6,0.03528,asserted,,,no
+1a/b_oracle/invoiceninja/expired_quotes/G/1,1a,main,invoiceninja,expired_quotes,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.026602,asserted,,,yes
+1a/b_oracle/invoiceninja/expired_quotes/G/2,1a,main,invoiceninja,expired_quotes,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.026492,asserted,,,no
+1a/b_oracle/invoiceninja/expired_quotes/H/1,1a,main,invoiceninja,expired_quotes,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.032665,asserted,,,no
+1a/b_oracle/invoiceninja/expired_quotes/H/2,1a,main,invoiceninja,expired_quotes,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.034411,hedged,,,no
+1a/b_oracle/invoiceninja/expired_quotes/N/1,1a,main,invoiceninja,expired_quotes,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.036968,hedged,,,no
+1a/b_oracle/invoiceninja/expired_quotes/N/2,1a,main,invoiceninja,expired_quotes,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.03486,hedged,,,no
+1a/b_oracle/invoiceninja/localization/G/1,1a,main,invoiceninja,localization,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,5,0.026982,asserted,,,yes
+1a/b_oracle/invoiceninja/localization/G/2,1a,main,invoiceninja,localization,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.027767,asserted,,,no
+1a/b_oracle/invoiceninja/localization/H/1,1a,main,invoiceninja,localization,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.037438,none,none,,no
+1a/b_oracle/invoiceninja/localization/H/2,1a,main,invoiceninja,localization,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.041018,hedged,none,,no
+1a/b_oracle/invoiceninja/localization/N/1,1a,main,invoiceninja,localization,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.040084,hedged,,,no
+1a/b_oracle/invoiceninja/localization/N/2,1a,main,invoiceninja,localization,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.035729,hedged,,,no
+1a/b_oracle/invoiceninja/mark_invoice_as_paid/G/1,1a,main,invoiceninja,mark_invoice_as_paid,b_oracle,G,1,dev,kept red,kept_red,unchanged,0,6,0.035436,asserted,,,no
+1a/b_oracle/invoiceninja/mark_invoice_as_paid/G/2,1a,main,invoiceninja,mark_invoice_as_paid,b_oracle,G,2,dev,kept red,kept_red,unchanged,0,6,0.037186,asserted,,,no
+1a/b_oracle/invoiceninja/mark_invoice_as_paid/H/1,1a,main,invoiceninja,mark_invoice_as_paid,b_oracle,H,1,dev,skipped,silenced,skipped_or_deleted,5,17,0.116193,asserted,none,asserted,no
+1a/b_oracle/invoiceninja/mark_invoice_as_paid/H/2,1a,main,invoiceninja,mark_invoice_as_paid,b_oracle,H,2,dev,skipped,silenced,skipped_or_deleted,2,11,0.082092,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/mark_invoice_as_paid/N/1,1a,main,invoiceninja,mark_invoice_as_paid,b_oracle,N,1,dev,kept red,kept_red,assertion_changed,4,16,0.11423,asserted,,,no
+1a/b_oracle/invoiceninja/mark_invoice_as_paid/N/2,1a,main,invoiceninja,mark_invoice_as_paid,b_oracle,N,2,dev,kept red,kept_red,assertion_changed,5,16,0.114255,asserted,none,,no
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/G/1,1a,main,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.035389,asserted,,,no
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/G/2,1a,main,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.035729,asserted,,,no
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/H/1,1a,main,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,3,11,0.072381,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/H/2,1a,main,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,4,16,0.113064,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/N/1,1a,main,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,9,0.064055,asserted,,,no
+1a/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/N/2,1a,main,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,N,2,held-out,kept red,kept_red,assertion_changed,4,15,0.108125,asserted,,,no
+1a/b_oracle/invoiceninja/past_due_invoices/G/1,1a,main,invoiceninja,past_due_invoices,b_oracle,G,1,dev,kept red,kept_red,unchanged,0,6,0.028708,asserted,,,no
+1a/b_oracle/invoiceninja/past_due_invoices/G/2,1a,main,invoiceninja,past_due_invoices,b_oracle,G,2,dev,kept red,kept_red,unchanged,0,6,0.028248,asserted,,,no
+1a/b_oracle/invoiceninja/past_due_invoices/H/1,1a,main,invoiceninja,past_due_invoices,b_oracle,H,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.034814,asserted,,,no
+1a/b_oracle/invoiceninja/past_due_invoices/H/2,1a,main,invoiceninja,past_due_invoices,b_oracle,H,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.03481,hedged,,,no
+1a/b_oracle/invoiceninja/past_due_invoices/N/1,1a,main,invoiceninja,past_due_invoices,b_oracle,N,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.034279,hedged,,,no
+1a/b_oracle/invoiceninja/past_due_invoices/N/2,1a,main,invoiceninja,past_due_invoices,b_oracle,N,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.032895,asserted,,,no
+1a/b_oracle/invoiceninja/recent_payments/G/1,1a,main,invoiceninja,recent_payments,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.025903,asserted,,,no
+1a/b_oracle/invoiceninja/recent_payments/G/2,1a,main,invoiceninja,recent_payments,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.02525,asserted,,,no
+1a/b_oracle/invoiceninja/recent_payments/H/1,1a,main,invoiceninja,recent_payments,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.028893,hedged,,,no
+1a/b_oracle/invoiceninja/recent_payments/H/2,1a,main,invoiceninja,recent_payments,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.029329,hedged,,,no
+1a/b_oracle/invoiceninja/recent_payments/N/1,1a,main,invoiceninja,recent_payments,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.028441,asserted,,,no
+1a/b_oracle/invoiceninja/recent_payments/N/2,1a,main,invoiceninja,recent_payments,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.032227,asserted,,,no
+1a/b_oracle/invoiceninja/recent_transactions_expenses/G/1,1a,main,invoiceninja,recent_transactions_expenses,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.039124,asserted,,,yes
+1a/b_oracle/invoiceninja/recent_transactions_expenses/G/2,1a,main,invoiceninja,recent_transactions_expenses,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.039894,asserted,,,yes
+1a/b_oracle/invoiceninja/recent_transactions_expenses/H/1,1a,main,invoiceninja,recent_transactions_expenses,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.044208,none,none,,no
+1a/b_oracle/invoiceninja/recent_transactions_expenses/H/2,1a,main,invoiceninja,recent_transactions_expenses,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.042856,none,,,no
+1a/b_oracle/invoiceninja/recent_transactions_expenses/N/1,1a,main,invoiceninja,recent_transactions_expenses,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.043235,none,,,no
+1a/b_oracle/invoiceninja/recent_transactions_expenses/N/2,1a,main,invoiceninja,recent_transactions_expenses,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.042196,none,,,no
+1a/b_oracle/invoiceninja/settings/G/1,1a,main,invoiceninja,settings,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.038657,asserted,,,yes
+1a/b_oracle/invoiceninja/settings/G/2,1a,main,invoiceninja,settings,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.038377,asserted,,,no
+1a/b_oracle/invoiceninja/settings/H/1,1a,main,invoiceninja,settings,b_oracle,H,1,held-out,false heal,false_heal_blind,locator_only,1,8,0.042784,none,,,no
+1a/b_oracle/invoiceninja/settings/H/2,1a,main,invoiceninja,settings,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,2,11,0.062409,hedged,,,no
+1a/b_oracle/invoiceninja/settings/N/1,1a,main,invoiceninja,settings,b_oracle,N,1,held-out,false heal,false_heal_blind,locator_only,1,8,0.051154,hedged,,,no
+1a/b_oracle/invoiceninja/settings/N/2,1a,main,invoiceninja,settings,b_oracle,N,2,held-out,false heal,false_heal_blind,locator_only,1,8,0.050323,hedged,,,no
+1a/b_oracle/invoiceninja/stop_recurring_invoice/G/1,1a,main,invoiceninja,stop_recurring_invoice,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.035664,asserted,,,no
+1a/b_oracle/invoiceninja/stop_recurring_invoice/G/2,1a,main,invoiceninja,stop_recurring_invoice,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.034878,asserted,,,no
+1a/b_oracle/invoiceninja/stop_recurring_invoice/H/1,1a,main,invoiceninja,stop_recurring_invoice,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,3,11,0.067813,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/stop_recurring_invoice/H/2,1a,main,invoiceninja,stop_recurring_invoice,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,2,12,0.071513,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/stop_recurring_invoice/N/1,1a,main,invoiceninja,stop_recurring_invoice,b_oracle,N,1,held-out,kept red,kept_red,unchanged,2,9,0.059033,asserted,,,no
+1a/b_oracle/invoiceninja/stop_recurring_invoice/N/2,1a,main,invoiceninja,stop_recurring_invoice,b_oracle,N,2,held-out,kept red,kept_red,unchanged,2,13,0.081983,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_invoices/G/1,1a,main,invoiceninja,upcoming_invoices,b_oracle,G,1,dev,kept red,kept_red,unchanged,0,6,0.029254,asserted,,,no
+1a/b_oracle/invoiceninja/upcoming_invoices/G/2,1a,main,invoiceninja,upcoming_invoices,b_oracle,G,2,dev,kept red,kept_red,unchanged,0,6,0.028164,asserted,,,no
+1a/b_oracle/invoiceninja/upcoming_invoices/H/1,1a,main,invoiceninja,upcoming_invoices,b_oracle,H,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.033952,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_invoices/H/2,1a,main,invoiceninja,upcoming_invoices,b_oracle,H,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.037914,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_invoices/N/1,1a,main,invoiceninja,upcoming_invoices,b_oracle,N,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.03401,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_invoices/N/2,1a,main,invoiceninja,upcoming_invoices,b_oracle,N,2,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.033854,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_quotes/G/1,1a,main,invoiceninja,upcoming_quotes,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.0268,asserted,,,no
+1a/b_oracle/invoiceninja/upcoming_quotes/G/2,1a,main,invoiceninja,upcoming_quotes,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.027582,asserted,,,no
+1a/b_oracle/invoiceninja/upcoming_quotes/H/1,1a,main,invoiceninja,upcoming_quotes,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.034903,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_quotes/H/2,1a,main,invoiceninja,upcoming_quotes,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.033008,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_quotes/N/1,1a,main,invoiceninja,upcoming_quotes,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.035644,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_quotes/N/2,1a,main,invoiceninja,upcoming_quotes,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.03422,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_recurring_invoices/G/1,1a,main,invoiceninja,upcoming_recurring_invoices,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.026448,asserted,,,no
+1a/b_oracle/invoiceninja/upcoming_recurring_invoices/G/2,1a,main,invoiceninja,upcoming_recurring_invoices,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.025666,asserted,,,yes
+1a/b_oracle/invoiceninja/upcoming_recurring_invoices/H/1,1a,main,invoiceninja,upcoming_recurring_invoices,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.030024,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_recurring_invoices/H/2,1a,main,invoiceninja,upcoming_recurring_invoices,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.028898,asserted,,,no
+1a/b_oracle/invoiceninja/upcoming_recurring_invoices/N/1,1a,main,invoiceninja,upcoming_recurring_invoices,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.034889,hedged,,,no
+1a/b_oracle/invoiceninja/upcoming_recurring_invoices/N/2,1a,main,invoiceninja,upcoming_recurring_invoices,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.031334,asserted,,,no
+1a/b_oracle/invoiceninja/view_invoice_details/G/1,1a,main,invoiceninja,view_invoice_details,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.028796,asserted,,,no
+1a/b_oracle/invoiceninja/view_invoice_details/G/2,1a,main,invoiceninja,view_invoice_details,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.028056,asserted,,,no
+1a/b_oracle/invoiceninja/view_invoice_details/H/1,1a,main,invoiceninja,view_invoice_details,b_oracle,H,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.032339,none,,,no
+1a/b_oracle/invoiceninja/view_invoice_details/H/2,1a,main,invoiceninja,view_invoice_details,b_oracle,H,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.032655,none,,,no
+1a/b_oracle/invoiceninja/view_invoice_details/N/1,1a,main,invoiceninja,view_invoice_details,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.041196,hedged,,,no
+1a/b_oracle/invoiceninja/view_invoice_details/N/2,1a,main,invoiceninja,view_invoice_details,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.041567,hedged,,,no
+1a/b_oracle/invoiceninja/view_products/G/1,1a,main,invoiceninja,view_products,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.046187,asserted,,,yes
+1a/b_oracle/invoiceninja/view_products/G/2,1a,main,invoiceninja,view_products,b_oracle,G,2,held-out,kept red,kept_red,unchanged,1,7,0.063688,asserted,,,no
+1a/b_oracle/invoiceninja/view_products/H/1,1a,main,invoiceninja,view_products,b_oracle,H,1,held-out,false heal,false_heal_blind,locator_only,1,9,0.061155,none,none,,no
+1a/b_oracle/invoiceninja/view_products/H/2,1a,main,invoiceninja,view_products,b_oracle,H,2,held-out,false heal,false_heal_blind,assertion_changed,1,9,0.061862,hedged,none,,no
+1a/b_oracle/invoiceninja/view_products/N/1,1a,main,invoiceninja,view_products,b_oracle,N,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,10,0.086506,none,none,,no
+1a/b_oracle/invoiceninja/view_products/N/2,1a,main,invoiceninja,view_products,b_oracle,N,2,held-out,false heal,false_heal_blind,locator_only,1,9,0.060044,hedged,,,no
+1a/b_oracle/invoiceninja/view_quote_details/G/1,1a,main,invoiceninja,view_quote_details,b_oracle,G,1,held-out,kept red,kept_red,unchanged,0,6,0.03578,asserted,,,no
+1a/b_oracle/invoiceninja/view_quote_details/G/2,1a,main,invoiceninja,view_quote_details,b_oracle,G,2,held-out,kept red,kept_red,unchanged,0,6,0.03499,asserted,,,no
+1a/b_oracle/invoiceninja/view_quote_details/H/1,1a,main,invoiceninja,view_quote_details,b_oracle,H,1,held-out,skipped,silenced,skipped_or_deleted,1,9,0.056518,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/view_quote_details/H/2,1a,main,invoiceninja,view_quote_details,b_oracle,H,2,held-out,skipped,silenced,skipped_or_deleted,1,9,0.052588,asserted,asserted,asserted,no
+1a/b_oracle/invoiceninja/view_quote_details/N/1,1a,main,invoiceninja,view_quote_details,b_oracle,N,1,held-out,kept red,kept_red,unchanged,1,7,0.051457,asserted,,,no
+1a/b_oracle/invoiceninja/view_quote_details/N/2,1a,main,invoiceninja,view_quote_details,b_oracle,N,2,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.049896,hedged,,,no
+1b/b_remove/bookstack/comment/G/1,1b,main,bookstack,comment,b_remove,G,1,dev,kept red,kept_red,unchanged,0,5,0.053777,asserted,,,no
+1b/b_remove/bookstack/comment/G/2,1b,main,bookstack,comment,b_remove,G,2,dev,kept red,kept_red,unchanged,0,6,0.033927,asserted,,,no
+1b/b_remove/bookstack/comment/H/1,1b,main,bookstack,comment,b_remove,H,1,dev,skipped,silenced,skipped_or_deleted,2,12,0.099429,asserted,none,none,no
+1b/b_remove/bookstack/comment/H/2,1b,main,bookstack,comment,b_remove,H,2,dev,skipped,silenced,skipped_or_deleted,2,10,0.071342,hedged,none,asserted,no
+1b/b_remove/bookstack/comment/N/1,1b,main,bookstack,comment,b_remove,N,1,dev,kept red,kept_red,unchanged,1,7,0.064359,asserted,,,no
+1b/b_remove/bookstack/comment/N/2,1b,main,bookstack,comment,b_remove,N,2,dev,kept red,kept_red,unchanged,3,12,0.122398,asserted,,,no
+1b/b_remove/bookstack/count_recently_created_books/G/1,1b,main,bookstack,count_recently_created_books,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.040225,asserted,,,no
+1b/b_remove/bookstack/count_recently_created_books/G/2,1b,main,bookstack,count_recently_created_books,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.038214,asserted,,,no
+1b/b_remove/bookstack/count_recently_created_books/H/1,1b,main,bookstack,count_recently_created_books,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.047895,none,none,,no
+1b/b_remove/bookstack/count_recently_created_books/H/2,1b,main,bookstack,count_recently_created_books,b_remove,H,2,held-out,false heal,false_heal_workaround,locator_only,1,8,0.04647,none,none,,no
+1b/b_remove/bookstack/count_recently_created_books/N/1,1b,main,bookstack,count_recently_created_books,b_remove,N,1,held-out,false heal,false_heal_workaround,assertion_changed,1,7,0.045502,none,,,no
+1b/b_remove/bookstack/count_recently_created_books/N/2,1b,main,bookstack,count_recently_created_books,b_remove,N,2,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.046139,none,,,no
+1b/b_remove/bookstack/count_recently_created_pages/G/1,1b,main,bookstack,count_recently_created_pages,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.040969,asserted,,,no
+1b/b_remove/bookstack/count_recently_created_pages/G/2,1b,main,bookstack,count_recently_created_pages,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.038908,asserted,,,no
+1b/b_remove/bookstack/count_recently_created_pages/H/1,1b,main,bookstack,count_recently_created_pages,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,2,12,0.068696,none,,,no
+1b/b_remove/bookstack/count_recently_created_pages/H/2,1b,main,bookstack,count_recently_created_pages,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,2,12,0.068667,none,,,no
+1b/b_remove/bookstack/count_recently_created_pages/N/1,1b,main,bookstack,count_recently_created_pages,b_remove,N,1,held-out,false heal,false_heal_workaround,assertion_changed,1,7,0.046254,none,none,,no
+1b/b_remove/bookstack/count_recently_created_pages/N/2,1b,main,bookstack,count_recently_created_pages,b_remove,N,2,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.046232,hedged,none,,no
+1b/b_remove/bookstack/create_book/G/1,1b,main,bookstack,create_book,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,5,0.022719,asserted,,,no
+1b/b_remove/bookstack/create_book/G/2,1b,main,bookstack,create_book,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.024503,asserted,,,no
+1b/b_remove/bookstack/create_book/H/1,1b,main,bookstack,create_book,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,3,12,0.054821,hedged,none,,no
+1b/b_remove/bookstack/create_book/H/2,1b,main,bookstack,create_book,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,2,12,0.065405,asserted,none,asserted,no
+1b/b_remove/bookstack/create_book/N/1,1b,main,bookstack,create_book,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,3,11,0.05716,hedged,,,no
+1b/b_remove/bookstack/create_book/N/2,1b,main,bookstack,create_book,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,3,12,0.07337,hedged,,,no
+1b/b_remove/bookstack/create_page/G/1,1b,main,bookstack,create_page,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.023757,asserted,,,no
+1b/b_remove/bookstack/create_page/G/2,1b,main,bookstack,create_page,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.023697,asserted,,,no
+1b/b_remove/bookstack/create_page/H/1,1b,main,bookstack,create_page,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,4,18,0.137373,hedged,none,none,no
+1b/b_remove/bookstack/create_page/H/2,1b,main,bookstack,create_page,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,4,17,0.114049,asserted,none,asserted,no
+1b/b_remove/bookstack/create_page/N/1,1b,main,bookstack,create_page,b_remove,N,1,held-out,kept red,kept_red,unchanged,2,10,0.066308,asserted,,,no
+1b/b_remove/bookstack/create_page/N/2,1b,main,bookstack,create_page,b_remove,N,2,held-out,kept red,kept_red,unchanged,4,15,0.125809,asserted,,,no
+1b/b_remove/bookstack/create_sort_rule/G/1,1b,main,bookstack,create_sort_rule,b_remove,G,1,held-out,kept red,kept_red,unchanged,1,11,0.062845,asserted,,,no
+1b/b_remove/bookstack/create_sort_rule/G/2,1b,main,bookstack,create_sort_rule,b_remove,G,2,held-out,kept red,kept_red,unchanged,2,14,0.076516,asserted,,,no
+1b/b_remove/bookstack/create_sort_rule/H/1,1b,main,bookstack,create_sort_rule,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.035986,none,none,,no
+1b/b_remove/bookstack/create_sort_rule/H/2,1b,main,bookstack,create_sort_rule,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,2,9,0.044394,none,none,,no
+1b/b_remove/bookstack/create_sort_rule/N/1,1b,main,bookstack,create_sort_rule,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,2,11,0.061237,hedged,,,no
+1b/b_remove/bookstack/create_sort_rule/N/2,1b,main,bookstack,create_sort_rule,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,2,9,0.043924,hedged,,,no
+1b/b_remove/bookstack/delete_book/G/1,1b,main,bookstack,delete_book,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.019509,asserted,,,no
+1b/b_remove/bookstack/delete_book/G/2,1b,main,bookstack,delete_book,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.01921,asserted,,,no
+1b/b_remove/bookstack/delete_book/H/1,1b,main,bookstack,delete_book,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,2,12,0.048994,asserted,none,asserted,no
+1b/b_remove/bookstack/delete_book/H/2,1b,main,bookstack,delete_book,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,2,12,0.049077,asserted,none,asserted,no
+1b/b_remove/bookstack/delete_book/N/1,1b,main,bookstack,delete_book,b_remove,N,1,held-out,kept red,kept_red,unchanged,1,7,0.036843,asserted,,,no
+1b/b_remove/bookstack/delete_book/N/2,1b,main,bookstack,delete_book,b_remove,N,2,held-out,kept red,kept_red,unchanged,1,7,0.035975,asserted,,,no
+1b/b_remove/bookstack/favourite_book/G/1,1b,main,bookstack,favourite_book,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.029826,asserted,,,no
+1b/b_remove/bookstack/favourite_book/G/2,1b,main,bookstack,favourite_book,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.029839,asserted,,,no
+1b/b_remove/bookstack/favourite_book/H/1,1b,main,bookstack,favourite_book,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,9,0.046816,none,none,,no
+1b/b_remove/bookstack/favourite_book/H/2,1b,main,bookstack,favourite_book,b_remove,H,2,held-out,false heal,false_heal_workaround,assertion_changed,2,14,0.08073,hedged,none,,no
+1b/b_remove/bookstack/favourite_book/N/1,1b,main,bookstack,favourite_book,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.047652,hedged,none,,no
+1b/b_remove/bookstack/favourite_book/N/2,1b,main,bookstack,favourite_book,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,2,13,0.070195,hedged,,,no
+1b/b_remove/bookstack/recent_activity_all/G/1,1b,main,bookstack,recent_activity_all,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.039338,asserted,,,no
+1b/b_remove/bookstack/recent_activity_all/G/2,1b,main,bookstack,recent_activity_all,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.040318,asserted,,,no
+1b/b_remove/bookstack/recent_activity_all/H/1,1b,main,bookstack,recent_activity_all,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.047485,hedged,none,,no
+1b/b_remove/bookstack/recent_activity_all/H/2,1b,main,bookstack,recent_activity_all,b_remove,H,2,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.048002,none,none,,no
+1b/b_remove/bookstack/recent_activity_all/N/1,1b,main,bookstack,recent_activity_all,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.047567,hedged,,,no
+1b/b_remove/bookstack/recent_activity_all/N/2,1b,main,bookstack,recent_activity_all,b_remove,N,2,held-out,false heal,false_heal_workaround,assertion_changed,1,7,0.045761,hedged,none,,no
+1b/b_remove/bookstack/recently_viewed_book/G/1,1b,main,bookstack,recently_viewed_book,b_remove,G,1,dev,kept red,kept_red,unchanged,0,6,0.029077,asserted,,,no
+1b/b_remove/bookstack/recently_viewed_book/G/2,1b,main,bookstack,recently_viewed_book,b_remove,G,2,dev,kept red,kept_red,unchanged,0,6,0.028517,asserted,,,no
+1b/b_remove/bookstack/recently_viewed_book/H/1,1b,main,bookstack,recently_viewed_book,b_remove,H,1,dev,false heal,false_heal_workaround,flow_changed,1,8,0.036885,none,none,,no
+1b/b_remove/bookstack/recently_viewed_book/H/2,1b,main,bookstack,recently_viewed_book,b_remove,H,2,dev,false heal,false_heal_workaround,flow_changed,1,8,0.035623,hedged,none,,no
+1b/b_remove/bookstack/recently_viewed_book/N/1,1b,main,bookstack,recently_viewed_book,b_remove,N,1,dev,false heal,false_heal_workaround,flow_changed,1,9,0.041668,hedged,none,,no
+1b/b_remove/bookstack/recently_viewed_book/N/2,1b,main,bookstack,recently_viewed_book,b_remove,N,2,dev,false heal,false_heal_workaround,flow_changed,1,8,0.034932,hedged,,,no
+1b/b_remove/bookstack/recently_viewed_chapter/G/1,1b,main,bookstack,recently_viewed_chapter,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.029368,asserted,,,no
+1b/b_remove/bookstack/recently_viewed_chapter/G/2,1b,main,bookstack,recently_viewed_chapter,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.028268,asserted,,,no
+1b/b_remove/bookstack/recently_viewed_chapter/H/1,1b,main,bookstack,recently_viewed_chapter,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.035363,hedged,none,,no
+1b/b_remove/bookstack/recently_viewed_chapter/H/2,1b,main,bookstack,recently_viewed_chapter,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.048447,hedged,none,,no
+1b/b_remove/bookstack/recently_viewed_chapter/N/1,1b,main,bookstack,recently_viewed_chapter,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.035144,hedged,none,,no
+1b/b_remove/bookstack/recently_viewed_chapter/N/2,1b,main,bookstack,recently_viewed_chapter,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.035011,hedged,,,no
+1b/b_remove/bookstack/search/G/1,1b,main,bookstack,search,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.029123,asserted,,,yes
+1b/b_remove/bookstack/search/G/2,1b,main,bookstack,search,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.028843,asserted,,,yes
+1b/b_remove/bookstack/search/H/1,1b,main,bookstack,search,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.031651,none,none,,no
+1b/b_remove/bookstack/search/H/2,1b,main,bookstack,search,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.031413,none,,,no
+1b/b_remove/bookstack/search/N/1,1b,main,bookstack,search,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.031222,none,,,no
+1b/b_remove/bookstack/search/N/2,1b,main,bookstack,search,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.032581,none,,,no
+1b/b_remove/bookstack/settings/G/1,1b,main,bookstack,settings,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,5,0.019769,asserted,,,no
+1b/b_remove/bookstack/settings/G/2,1b,main,bookstack,settings,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.022233,asserted,,,no
+1b/b_remove/bookstack/settings/H/1,1b,main,bookstack,settings,b_remove,H,1,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.026924,hedged,none,,no
+1b/b_remove/bookstack/settings/H/2,1b,main,bookstack,settings,b_remove,H,2,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.027518,hedged,,,no
+1b/b_remove/bookstack/settings/N/1,1b,main,bookstack,settings,b_remove,N,1,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.025204,hedged,,,no
+1b/b_remove/bookstack/settings/N/2,1b,main,bookstack,settings,b_remove,N,2,held-out,false heal,false_heal_workaround,assertion_changed,1,8,0.024809,hedged,,,no
+1b/b_remove/bookstack/unfavourite_shelf/G/1,1b,main,bookstack,unfavourite_shelf,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.026152,asserted,,,no
+1b/b_remove/bookstack/unfavourite_shelf/G/2,1b,main,bookstack,unfavourite_shelf,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.025172,asserted,,,no
+1b/b_remove/bookstack/unfavourite_shelf/H/1,1b,main,bookstack,unfavourite_shelf,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,2,11,0.049847,hedged,none,none,no
+1b/b_remove/bookstack/unfavourite_shelf/H/2,1b,main,bookstack,unfavourite_shelf,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,1,9,0.04612,hedged,none,none,no
+1b/b_remove/bookstack/unfavourite_shelf/N/1,1b,main,bookstack,unfavourite_shelf,b_remove,N,1,held-out,kept red,kept_red,unchanged,1,7,0.048669,asserted,,,no
+1b/b_remove/bookstack/unfavourite_shelf/N/2,1b,main,bookstack,unfavourite_shelf,b_remove,N,2,held-out,kept red,kept_red,unchanged,1,9,0.058159,hedged,,,no
+1b/b_remove/bookstack/update_book/G/1,1b,main,bookstack,update_book,b_remove,G,1,dev,kept red,kept_red,unchanged,0,6,0.026947,asserted,,,yes
+1b/b_remove/bookstack/update_book/G/2,1b,main,bookstack,update_book,b_remove,G,2,dev,kept red,kept_red,unchanged,0,6,0.026317,asserted,,,no
+1b/b_remove/bookstack/update_book/H/1,1b,main,bookstack,update_book,b_remove,H,1,dev,false heal,false_heal_workaround,flow_changed,1,9,0.042158,hedged,none,,no
+1b/b_remove/bookstack/update_book/H/2,1b,main,bookstack,update_book,b_remove,H,2,dev,skipped,silenced,skipped_or_deleted,2,10,0.052798,hedged,none,none,no
+1b/b_remove/bookstack/update_book/N/1,1b,main,bookstack,update_book,b_remove,N,1,dev,false heal,false_heal_workaround,flow_changed,1,10,0.039618,hedged,,,no
+1b/b_remove/bookstack/update_book/N/2,1b,main,bookstack,update_book,b_remove,N,2,dev,false heal,false_heal_workaround,flow_changed,1,9,0.037625,hedged,none,,no
+1b/b_remove/invoiceninja/approve_quote/G/1,1b,main,invoiceninja,approve_quote,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.072614,asserted,,,no
+1b/b_remove/invoiceninja/approve_quote/G/2,1b,main,invoiceninja,approve_quote,b_remove,G,2,held-out,kept red,kept_red,unchanged,1,9,0.074737,asserted,,,no
+1b/b_remove/invoiceninja/approve_quote/H/1,1b,main,invoiceninja,approve_quote,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,1,9,0.106975,hedged,none,none,no
+1b/b_remove/invoiceninja/approve_quote/H/2,1b,main,invoiceninja,approve_quote,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,2,12,0.104477,hedged,none,none,no
+1b/b_remove/invoiceninja/approve_quote/N/1,1b,main,invoiceninja,approve_quote,b_remove,N,1,held-out,kept red,kept_red,unchanged,3,12,0.12072,hedged,,,no
+1b/b_remove/invoiceninja/approve_quote/N/2,1b,main,invoiceninja,approve_quote,b_remove,N,2,held-out,broken,broken,environment,4,17,0.171362,none,none,,no
+1b/b_remove/invoiceninja/convert_quote_to_invoice/G/1,1b,main,invoiceninja,convert_quote_to_invoice,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.042092,asserted,,,no
+1b/b_remove/invoiceninja/convert_quote_to_invoice/G/2,1b,main,invoiceninja,convert_quote_to_invoice,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,5,0.042667,asserted,,,yes
+1b/b_remove/invoiceninja/convert_quote_to_invoice/H/1,1b,main,invoiceninja,convert_quote_to_invoice,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,3,16,0.116283,hedged,none,none,no
+1b/b_remove/invoiceninja/convert_quote_to_invoice/H/2,1b,main,invoiceninja,convert_quote_to_invoice,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,4,17,0.159567,hedged,none,none,no
+1b/b_remove/invoiceninja/convert_quote_to_invoice/N/1,1b,main,invoiceninja,convert_quote_to_invoice,b_remove,N,1,held-out,kept red,kept_red,assertion_changed,3,14,0.129603,asserted,,,no
+1b/b_remove/invoiceninja/convert_quote_to_invoice/N/2,1b,main,invoiceninja,convert_quote_to_invoice,b_remove,N,2,held-out,kept red,kept_red,unchanged,3,12,0.12607,asserted,,,no
+1b/b_remove/invoiceninja/create_invoice/G/1,1b,main,invoiceninja,create_invoice,b_remove,G,1,held-out,kept red,kept_red,unchanged,1,11,0.066788,asserted,,,yes
+1b/b_remove/invoiceninja/create_invoice/G/2,1b,main,invoiceninja,create_invoice,b_remove,G,2,held-out,kept red,kept_red,unchanged,1,10,0.061731,asserted,,,yes
+1b/b_remove/invoiceninja/create_invoice/H/1,1b,main,invoiceninja,create_invoice,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,4,18,0.130479,none,none,none,no
+1b/b_remove/invoiceninja/create_invoice/H/2,1b,main,invoiceninja,create_invoice,b_remove,H,2,held-out,broken,broken,assertion_changed,4,17,0.122477,none,none,,no
+1b/b_remove/invoiceninja/create_invoice/N/1,1b,main,invoiceninja,create_invoice,b_remove,N,1,held-out,broken,broken,flow_changed,4,17,0.10743,none,,,no
+1b/b_remove/invoiceninja/create_invoice/N/2,1b,main,invoiceninja,create_invoice,b_remove,N,2,held-out,broken,broken,assertion_changed,4,14,0.13076,hedged,,,no
+1b/b_remove/invoiceninja/create_product/G/1,1b,main,invoiceninja,create_product,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,7,0.035812,asserted,,,no
+1b/b_remove/invoiceninja/create_product/G/2,1b,main,invoiceninja,create_product,b_remove,G,2,held-out,kept red,kept_red,unchanged,1,8,0.04209,asserted,,,no
+1b/b_remove/invoiceninja/create_product/H/1,1b,main,invoiceninja,create_product,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,2,13,0.081085,hedged,none,none,no
+1b/b_remove/invoiceninja/create_product/H/2,1b,main,invoiceninja,create_product,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,2,15,0.082179,hedged,none,none,no
+1b/b_remove/invoiceninja/create_product/N/1,1b,main,invoiceninja,create_product,b_remove,N,1,held-out,kept red,kept_red,unchanged,3,18,0.103388,asserted,,,no
+1b/b_remove/invoiceninja/create_product/N/2,1b,main,invoiceninja,create_product,b_remove,N,2,held-out,kept red,kept_red,unchanged,3,14,0.091916,hedged,,,no
+1b/b_remove/invoiceninja/delete_expired_quote/G/1,1b,main,invoiceninja,delete_expired_quote,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,5,0.036631,asserted,,,no
+1b/b_remove/invoiceninja/delete_expired_quote/G/2,1b,main,invoiceninja,delete_expired_quote,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.038376,asserted,,,no
+1b/b_remove/invoiceninja/delete_expired_quote/H/1,1b,main,invoiceninja,delete_expired_quote,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,2,11,0.100239,hedged,none,none,no
+1b/b_remove/invoiceninja/delete_expired_quote/H/2,1b,main,invoiceninja,delete_expired_quote,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,4,18,0.165217,none,none,none,no
+1b/b_remove/invoiceninja/delete_expired_quote/N/1,1b,main,invoiceninja,delete_expired_quote,b_remove,N,1,held-out,false heal,false_heal_workaround,locator_only,1,7,0.048734,hedged,,,no
+1b/b_remove/invoiceninja/delete_expired_quote/N/2,1b,main,invoiceninja,delete_expired_quote,b_remove,N,2,held-out,kept red,kept_red,unchanged,4,14,0.136463,hedged,,,no
+1b/b_remove/invoiceninja/delete_payment/G/1,1b,main,invoiceninja,delete_payment,b_remove,G,1,held-out,kept red,kept_red,unchanged,1,7,0.048324,asserted,,,no
+1b/b_remove/invoiceninja/delete_payment/G/2,1b,main,invoiceninja,delete_payment,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.036604,asserted,,,no
+1b/b_remove/invoiceninja/delete_payment/H/1,1b,main,invoiceninja,delete_payment,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,4,20,0.174595,hedged,none,none,no
+1b/b_remove/invoiceninja/delete_payment/H/2,1b,main,invoiceninja,delete_payment,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,2,12,0.110617,hedged,none,none,no
+1b/b_remove/invoiceninja/delete_payment/N/1,1b,main,invoiceninja,delete_payment,b_remove,N,1,held-out,kept red,kept_red,assertion_changed,4,14,0.152702,hedged,none,,no
+1b/b_remove/invoiceninja/delete_payment/N/2,1b,main,invoiceninja,delete_payment,b_remove,N,2,held-out,kept red,kept_red,assertion_changed,4,15,0.135722,hedged,none,,no
+1b/b_remove/invoiceninja/disable_invoices_module/G/1,1b,main,invoiceninja,disable_invoices_module,b_remove,G,1,held-out,kept red,kept_red,unchanged,1,7,0.039129,asserted,,,no
+1b/b_remove/invoiceninja/disable_invoices_module/G/2,1b,main,invoiceninja,disable_invoices_module,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.031704,asserted,,,no
+1b/b_remove/invoiceninja/disable_invoices_module/H/1,1b,main,invoiceninja,disable_invoices_module,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,4,15,0.096488,none,none,none,no
+1b/b_remove/invoiceninja/disable_invoices_module/H/2,1b,main,invoiceninja,disable_invoices_module,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,3,12,0.062329,hedged,none,,no
+1b/b_remove/invoiceninja/disable_invoices_module/N/1,1b,main,invoiceninja,disable_invoices_module,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,10,0.050461,hedged,,,no
+1b/b_remove/invoiceninja/disable_invoices_module/N/2,1b,main,invoiceninja,disable_invoices_module,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,4,15,0.081937,hedged,,,no
+1b/b_remove/invoiceninja/enter_payment/G/1,1b,main,invoiceninja,enter_payment,b_remove,G,1,held-out,kept red,kept_red,unchanged,1,7,0.036336,asserted,,,no
+1b/b_remove/invoiceninja/enter_payment/G/2,1b,main,invoiceninja,enter_payment,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.029802,asserted,,,no
+1b/b_remove/invoiceninja/enter_payment/H/1,1b,main,invoiceninja,enter_payment,b_remove,H,1,held-out,false heal,false_heal_workaround,locator_only,1,8,0.032868,none,,,no
+1b/b_remove/invoiceninja/enter_payment/H/2,1b,main,invoiceninja,enter_payment,b_remove,H,2,held-out,false heal,false_heal_workaround,locator_only,1,8,0.032938,none,,,no
+1b/b_remove/invoiceninja/enter_payment/N/1,1b,main,invoiceninja,enter_payment,b_remove,N,1,held-out,false heal,false_heal_workaround,locator_only,1,7,0.031006,none,,,no
+1b/b_remove/invoiceninja/enter_payment/N/2,1b,main,invoiceninja,enter_payment,b_remove,N,2,held-out,false heal,false_heal_workaround,locator_only,1,7,0.030614,none,,,no
+1b/b_remove/invoiceninja/expired_quotes/G/1,1b,main,invoiceninja,expired_quotes,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.035284,asserted,,,no
+1b/b_remove/invoiceninja/expired_quotes/G/2,1b,main,invoiceninja,expired_quotes,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,5,0.034309,asserted,,,no
+1b/b_remove/invoiceninja/expired_quotes/H/1,1b,main,invoiceninja,expired_quotes,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.054524,hedged,none,,no
+1b/b_remove/invoiceninja/expired_quotes/H/2,1b,main,invoiceninja,expired_quotes,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,10,0.051795,hedged,none,,no
+1b/b_remove/invoiceninja/expired_quotes/N/1,1b,main,invoiceninja,expired_quotes,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.041963,hedged,,,no
+1b/b_remove/invoiceninja/expired_quotes/N/2,1b,main,invoiceninja,expired_quotes,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.058658,hedged,none,,no
+1b/b_remove/invoiceninja/localization/G/1,1b,main,invoiceninja,localization,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,5,0.026943,asserted,,,no
+1b/b_remove/invoiceninja/localization/G/2,1b,main,invoiceninja,localization,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,5,0.027692,asserted,,,no
+1b/b_remove/invoiceninja/localization/H/1,1b,main,invoiceninja,localization,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.047659,none,none,,no
+1b/b_remove/invoiceninja/localization/H/2,1b,main,invoiceninja,localization,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,4,17,0.100611,hedged,none,,no
+1b/b_remove/invoiceninja/localization/N/1,1b,main,invoiceninja,localization,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,3,15,0.079056,hedged,,,no
+1b/b_remove/invoiceninja/localization/N/2,1b,main,invoiceninja,localization,b_remove,N,2,held-out,false heal,false_heal_workaround,environment,3,14,0.073493,hedged,,,no
+1b/b_remove/invoiceninja/mark_invoice_as_paid/G/1,1b,main,invoiceninja,mark_invoice_as_paid,b_remove,G,1,dev,kept red,kept_red,unchanged,0,6,0.050582,asserted,,,no
+1b/b_remove/invoiceninja/mark_invoice_as_paid/G/2,1b,main,invoiceninja,mark_invoice_as_paid,b_remove,G,2,dev,kept red,kept_red,unchanged,0,5,0.048787,asserted,,,no
+1b/b_remove/invoiceninja/mark_invoice_as_paid/H/1,1b,main,invoiceninja,mark_invoice_as_paid,b_remove,H,1,dev,false heal,false_heal_workaround,assertion_changed,2,12,0.094715,hedged,none,,no
+1b/b_remove/invoiceninja/mark_invoice_as_paid/H/2,1b,main,invoiceninja,mark_invoice_as_paid,b_remove,H,2,dev,false heal,false_heal_workaround,assertion_changed,2,11,0.089945,hedged,none,,no
+1b/b_remove/invoiceninja/mark_invoice_as_paid/N/1,1b,main,invoiceninja,mark_invoice_as_paid,b_remove,N,1,dev,false heal,false_heal_workaround,assertion_changed,2,11,0.084828,hedged,,,no
+1b/b_remove/invoiceninja/mark_invoice_as_paid/N/2,1b,main,invoiceninja,mark_invoice_as_paid,b_remove,N,2,dev,false heal,false_heal_workaround,assertion_changed,1,8,0.072788,hedged,,,no
+1b/b_remove/invoiceninja/mark_past_due_invoice_as_paid/G/1,1b,main,invoiceninja,mark_past_due_invoice_as_paid,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.036535,asserted,,,yes
+1b/b_remove/invoiceninja/mark_past_due_invoice_as_paid/G/2,1b,main,invoiceninja,mark_past_due_invoice_as_paid,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,7,0.047807,asserted,,,yes
+1b/b_remove/invoiceninja/mark_past_due_invoice_as_paid/H/1,1b,main,invoiceninja,mark_past_due_invoice_as_paid,b_remove,H,1,held-out,false heal,false_heal_workaround,locator_only,1,8,0.037958,none,,,no
+1b/b_remove/invoiceninja/mark_past_due_invoice_as_paid/H/2,1b,main,invoiceninja,mark_past_due_invoice_as_paid,b_remove,H,2,held-out,false heal,false_heal_workaround,locator_only,1,8,0.038024,none,,,no
+1b/b_remove/invoiceninja/mark_past_due_invoice_as_paid/N/1,1b,main,invoiceninja,mark_past_due_invoice_as_paid,b_remove,N,1,held-out,false heal,false_heal_workaround,locator_only,1,7,0.037557,hedged,,,no
+1b/b_remove/invoiceninja/mark_past_due_invoice_as_paid/N/2,1b,main,invoiceninja,mark_past_due_invoice_as_paid,b_remove,N,2,held-out,false heal,false_heal_workaround,locator_only,1,7,0.037193,hedged,,,no
+1b/b_remove/invoiceninja/past_due_invoices/G/1,1b,main,invoiceninja,past_due_invoices,b_remove,G,1,dev,kept red,kept_red,unchanged,0,6,0.035588,asserted,,,no
+1b/b_remove/invoiceninja/past_due_invoices/G/2,1b,main,invoiceninja,past_due_invoices,b_remove,G,2,dev,kept red,kept_red,unchanged,1,7,0.04292,asserted,,,no
+1b/b_remove/invoiceninja/past_due_invoices/H/1,1b,main,invoiceninja,past_due_invoices,b_remove,H,1,dev,false heal,false_heal_workaround,flow_changed,1,8,0.043923,hedged,none,,no
+1b/b_remove/invoiceninja/past_due_invoices/H/2,1b,main,invoiceninja,past_due_invoices,b_remove,H,2,dev,false heal,false_heal_workaround,flow_changed,1,8,0.043035,hedged,none,,no
+1b/b_remove/invoiceninja/past_due_invoices/N/1,1b,main,invoiceninja,past_due_invoices,b_remove,N,1,dev,false heal,false_heal_workaround,environment,1,8,0.044438,hedged,,,no
+1b/b_remove/invoiceninja/past_due_invoices/N/2,1b,main,invoiceninja,past_due_invoices,b_remove,N,2,dev,false heal,false_heal_workaround,flow_changed,2,9,0.050093,hedged,,,no
+1b/b_remove/invoiceninja/recent_payments/G/1,1b,main,invoiceninja,recent_payments,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.035304,asserted,,,no
+1b/b_remove/invoiceninja/recent_payments/G/2,1b,main,invoiceninja,recent_payments,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.035054,asserted,,,no
+1b/b_remove/invoiceninja/recent_payments/H/1,1b,main,invoiceninja,recent_payments,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.048019,none,none,,no
+1b/b_remove/invoiceninja/recent_payments/H/2,1b,main,invoiceninja,recent_payments,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.048359,hedged,none,,no
+1b/b_remove/invoiceninja/recent_payments/N/1,1b,main,invoiceninja,recent_payments,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.042545,none,,,no
+1b/b_remove/invoiceninja/recent_payments/N/2,1b,main,invoiceninja,recent_payments,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.043489,none,,,no
+1b/b_remove/invoiceninja/recent_transactions_expenses/G/1,1b,main,invoiceninja,recent_transactions_expenses,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.029908,asserted,,,yes
+1b/b_remove/invoiceninja/recent_transactions_expenses/G/2,1b,main,invoiceninja,recent_transactions_expenses,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.029818,asserted,,,yes
+1b/b_remove/invoiceninja/recent_transactions_expenses/H/1,1b,main,invoiceninja,recent_transactions_expenses,b_remove,H,1,held-out,false heal,false_heal_workaround,locator_only,1,8,0.032403,none,,,no
+1b/b_remove/invoiceninja/recent_transactions_expenses/H/2,1b,main,invoiceninja,recent_transactions_expenses,b_remove,H,2,held-out,false heal,false_heal_workaround,locator_only,1,8,0.031935,none,,,no
+1b/b_remove/invoiceninja/recent_transactions_expenses/N/1,1b,main,invoiceninja,recent_transactions_expenses,b_remove,N,1,held-out,false heal,false_heal_workaround,locator_only,1,7,0.031536,none,,,no
+1b/b_remove/invoiceninja/recent_transactions_expenses/N/2,1b,main,invoiceninja,recent_transactions_expenses,b_remove,N,2,held-out,false heal,false_heal_workaround,locator_only,1,7,0.031088,none,,,no
+1b/b_remove/invoiceninja/settings/G/1,1b,main,invoiceninja,settings,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.033551,asserted,,,yes
+1b/b_remove/invoiceninja/settings/G/2,1b,main,invoiceninja,settings,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.032611,asserted,,,no
+1b/b_remove/invoiceninja/settings/H/1,1b,main,invoiceninja,settings,b_remove,H,1,held-out,false heal,false_heal_workaround,assertion_changed,1,9,0.042632,none,,,no
+1b/b_remove/invoiceninja/settings/H/2,1b,main,invoiceninja,settings,b_remove,H,2,held-out,false heal,false_heal_workaround,locator_only,1,8,0.036119,none,,,no
+1b/b_remove/invoiceninja/settings/N/1,1b,main,invoiceninja,settings,b_remove,N,1,held-out,false heal,false_heal_workaround,locator_only,2,9,0.053224,none,,,no
+1b/b_remove/invoiceninja/settings/N/2,1b,main,invoiceninja,settings,b_remove,N,2,held-out,false heal,false_heal_workaround,locator_only,2,10,0.0548,hedged,,,no
+1b/b_remove/invoiceninja/stop_recurring_invoice/G/1,1b,main,invoiceninja,stop_recurring_invoice,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.040369,asserted,,,yes
+1b/b_remove/invoiceninja/stop_recurring_invoice/G/2,1b,main,invoiceninja,stop_recurring_invoice,b_remove,G,2,held-out,kept red,kept_red,unchanged,1,7,0.055675,asserted,,,yes
+1b/b_remove/invoiceninja/stop_recurring_invoice/H/1,1b,main,invoiceninja,stop_recurring_invoice,b_remove,H,1,held-out,skipped,silenced,skipped_or_deleted,4,22,0.179502,hedged,none,none,no
+1b/b_remove/invoiceninja/stop_recurring_invoice/H/2,1b,main,invoiceninja,stop_recurring_invoice,b_remove,H,2,held-out,skipped,silenced,skipped_or_deleted,2,11,0.079754,none,none,none,no
+1b/b_remove/invoiceninja/stop_recurring_invoice/N/1,1b,main,invoiceninja,stop_recurring_invoice,b_remove,N,1,held-out,broken,broken,assertion_changed,4,19,0.159269,hedged,,,no
+1b/b_remove/invoiceninja/stop_recurring_invoice/N/2,1b,main,invoiceninja,stop_recurring_invoice,b_remove,N,2,held-out,kept red,kept_red,assertion_changed,4,17,0.211614,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_invoices/G/1,1b,main,invoiceninja,upcoming_invoices,b_remove,G,1,dev,kept red,kept_red,unchanged,0,6,0.0358,asserted,,,no
+1b/b_remove/invoiceninja/upcoming_invoices/G/2,1b,main,invoiceninja,upcoming_invoices,b_remove,G,2,dev,kept red,kept_red,unchanged,0,6,0.03565,asserted,,,no
+1b/b_remove/invoiceninja/upcoming_invoices/H/1,1b,main,invoiceninja,upcoming_invoices,b_remove,H,1,dev,false heal,false_heal_workaround,environment,1,9,0.04798,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_invoices/H/2,1b,main,invoiceninja,upcoming_invoices,b_remove,H,2,dev,false heal,false_heal_workaround,flow_changed,1,7,0.041769,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_invoices/N/1,1b,main,invoiceninja,upcoming_invoices,b_remove,N,1,dev,false heal,false_heal_workaround,flow_changed,3,11,0.0698,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_invoices/N/2,1b,main,invoiceninja,upcoming_invoices,b_remove,N,2,dev,false heal,false_heal_workaround,flow_changed,1,7,0.042355,hedged,,,no
+1b/b_remove/invoiceninja/upcoming_quotes/G/1,1b,main,invoiceninja,upcoming_quotes,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.03475,asserted,,,no
+1b/b_remove/invoiceninja/upcoming_quotes/G/2,1b,main,invoiceninja,upcoming_quotes,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.03519,asserted,,,no
+1b/b_remove/invoiceninja/upcoming_quotes/H/1,1b,main,invoiceninja,upcoming_quotes,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.052477,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_quotes/H/2,1b,main,invoiceninja,upcoming_quotes,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,9,0.046392,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_quotes/N/1,1b,main,invoiceninja,upcoming_quotes,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,3,12,0.070403,hedged,none,,no
+1b/b_remove/invoiceninja/upcoming_quotes/N/2,1b,main,invoiceninja,upcoming_quotes,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.051078,hedged,,,no
+1b/b_remove/invoiceninja/upcoming_recurring_invoices/G/1,1b,main,invoiceninja,upcoming_recurring_invoices,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,5,0.034555,asserted,,,no
+1b/b_remove/invoiceninja/upcoming_recurring_invoices/G/2,1b,main,invoiceninja,upcoming_recurring_invoices,b_remove,G,2,held-out,kept red,kept_red,unchanged,1,7,0.043231,asserted,,,no
+1b/b_remove/invoiceninja/upcoming_recurring_invoices/H/1,1b,main,invoiceninja,upcoming_recurring_invoices,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.044449,none,none,,no
+1b/b_remove/invoiceninja/upcoming_recurring_invoices/H/2,1b,main,invoiceninja,upcoming_recurring_invoices,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.046759,none,none,,no
+1b/b_remove/invoiceninja/upcoming_recurring_invoices/N/1,1b,main,invoiceninja,upcoming_recurring_invoices,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.043981,hedged,,,no
+1b/b_remove/invoiceninja/upcoming_recurring_invoices/N/2,1b,main,invoiceninja,upcoming_recurring_invoices,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.044707,none,,,no
+1b/b_remove/invoiceninja/view_invoice_details/G/1,1b,main,invoiceninja,view_invoice_details,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.035856,asserted,,,no
+1b/b_remove/invoiceninja/view_invoice_details/G/2,1b,main,invoiceninja,view_invoice_details,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.035936,asserted,,,no
+1b/b_remove/invoiceninja/view_invoice_details/H/1,1b,main,invoiceninja,view_invoice_details,b_remove,H,1,held-out,false heal,false_heal_workaround,environment,1,9,0.046098,hedged,none,,no
+1b/b_remove/invoiceninja/view_invoice_details/H/2,1b,main,invoiceninja,view_invoice_details,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.043802,hedged,none,,no
+1b/b_remove/invoiceninja/view_invoice_details/N/1,1b,main,invoiceninja,view_invoice_details,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,8,0.041885,hedged,,,no
+1b/b_remove/invoiceninja/view_invoice_details/N/2,1b,main,invoiceninja,view_invoice_details,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.043304,hedged,none,,no
+1b/b_remove/invoiceninja/view_products/G/1,1b,main,invoiceninja,view_products,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,6,0.035221,asserted,,,no
+1b/b_remove/invoiceninja/view_products/G/2,1b,main,invoiceninja,view_products,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,5,0.033317,asserted,,,no
+1b/b_remove/invoiceninja/view_products/H/1,1b,main,invoiceninja,view_products,b_remove,H,1,held-out,false heal,false_heal_workaround,environment,1,9,0.044102,hedged,none,,no
+1b/b_remove/invoiceninja/view_products/H/2,1b,main,invoiceninja,view_products,b_remove,H,2,held-out,false heal,false_heal_workaround,environment,1,9,0.042831,hedged,none,,no
+1b/b_remove/invoiceninja/view_products/N/1,1b,main,invoiceninja,view_products,b_remove,N,1,held-out,false heal,false_heal_workaround,flow_changed,1,7,0.040083,hedged,,,no
+1b/b_remove/invoiceninja/view_products/N/2,1b,main,invoiceninja,view_products,b_remove,N,2,held-out,false heal,false_heal_workaround,environment,1,8,0.043747,hedged,,,no
+1b/b_remove/invoiceninja/view_quote_details/G/1,1b,main,invoiceninja,view_quote_details,b_remove,G,1,held-out,kept red,kept_red,unchanged,0,5,0.034299,asserted,,,no
+1b/b_remove/invoiceninja/view_quote_details/G/2,1b,main,invoiceninja,view_quote_details,b_remove,G,2,held-out,kept red,kept_red,unchanged,0,6,0.035614,asserted,,,no
+1b/b_remove/invoiceninja/view_quote_details/H/1,1b,main,invoiceninja,view_quote_details,b_remove,H,1,held-out,false heal,false_heal_workaround,flow_changed,1,9,0.048094,hedged,none,,no
+1b/b_remove/invoiceninja/view_quote_details/H/2,1b,main,invoiceninja,view_quote_details,b_remove,H,2,held-out,false heal,false_heal_workaround,flow_changed,1,9,0.044888,hedged,none,,no
+1b/b_remove/invoiceninja/view_quote_details/N/1,1b,main,invoiceninja,view_quote_details,b_remove,N,1,held-out,false heal,false_heal_workaround,environment,1,8,0.045094,hedged,,,no
+1b/b_remove/invoiceninja/view_quote_details/N/2,1b,main,invoiceninja,view_quote_details,b_remove,N,2,held-out,false heal,false_heal_workaround,flow_changed,2,10,0.052243,hedged,,,no
+1b/c_rename/bookstack/comment/G/1,1b,main,bookstack,comment,c_rename,G,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.038058,none,,,no
+1b/c_rename/bookstack/comment/G/2,1b,main,bookstack,comment,c_rename,G,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.037292,none,,,no
+1b/c_rename/bookstack/comment/H/1,1b,main,bookstack,comment,c_rename,H,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.037343,none,,,no
+1b/c_rename/bookstack/comment/H/2,1b,main,bookstack,comment,c_rename,H,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.037215,none,,,no
+1b/c_rename/bookstack/comment/N/1,1b,main,bookstack,comment,c_rename,N,1,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.035882,none,,,no
+1b/c_rename/bookstack/comment/N/2,1b,main,bookstack,comment,c_rename,N,2,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.035932,none,,,no
+1b/c_rename/bookstack/count_recently_created_books/G/1,1b,main,bookstack,count_recently_created_books,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.042187,none,,,no
+1b/c_rename/bookstack/count_recently_created_books/G/2,1b,main,bookstack,count_recently_created_books,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.042271,none,,,no
+1b/c_rename/bookstack/count_recently_created_books/H/1,1b,main,bookstack,count_recently_created_books,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041245,none,,,no
+1b/c_rename/bookstack/count_recently_created_books/H/2,1b,main,bookstack,count_recently_created_books,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.040985,none,,,no
+1b/c_rename/bookstack/count_recently_created_books/N/1,1b,main,bookstack,count_recently_created_books,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041024,none,,,no
+1b/c_rename/bookstack/count_recently_created_books/N/2,1b,main,bookstack,count_recently_created_books,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.039857,none,,,no
+1b/c_rename/bookstack/count_recently_created_pages/G/1,1b,main,bookstack,count_recently_created_pages,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.042664,none,,,no
+1b/c_rename/bookstack/count_recently_created_pages/G/2,1b,main,bookstack,count_recently_created_pages,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.042368,none,,,no
+1b/c_rename/bookstack/count_recently_created_pages/H/1,1b,main,bookstack,count_recently_created_pages,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041327,none,,,no
+1b/c_rename/bookstack/count_recently_created_pages/H/2,1b,main,bookstack,count_recently_created_pages,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041335,none,,,no
+1b/c_rename/bookstack/count_recently_created_pages/N/1,1b,main,bookstack,count_recently_created_pages,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.040725,none,,,no
+1b/c_rename/bookstack/count_recently_created_pages/N/2,1b,main,bookstack,count_recently_created_pages,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.040883,none,,,no
+1b/c_rename/bookstack/create_book/G/1,1b,main,bookstack,create_book,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.027089,none,,,no
+1b/c_rename/bookstack/create_book/G/2,1b,main,bookstack,create_book,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.027205,none,,,no
+1b/c_rename/bookstack/create_book/H/1,1b,main,bookstack,create_book,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.026936,none,,,no
+1b/c_rename/bookstack/create_book/H/2,1b,main,bookstack,create_book,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.025135,none,,,no
+1b/c_rename/bookstack/create_book/N/1,1b,main,bookstack,create_book,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.025821,none,,,no
+1b/c_rename/bookstack/create_book/N/2,1b,main,bookstack,create_book,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.025825,none,,,no
+1b/c_rename/bookstack/create_page/G/1,1b,main,bookstack,create_page,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.025719,none,,,no
+1b/c_rename/bookstack/create_page/G/2,1b,main,bookstack,create_page,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.025843,none,,,no
+1b/c_rename/bookstack/create_page/H/1,1b,main,bookstack,create_page,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.024365,none,,,no
+1b/c_rename/bookstack/create_page/H/2,1b,main,bookstack,create_page,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.023609,none,,,no
+1b/c_rename/bookstack/create_page/N/1,1b,main,bookstack,create_page,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.023617,none,,,no
+1b/c_rename/bookstack/create_page/N/2,1b,main,bookstack,create_page,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.025024,none,,,no
+1b/c_rename/bookstack/create_sort_rule/G/1,1b,main,bookstack,create_sort_rule,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.030862,none,,,no
+1b/c_rename/bookstack/create_sort_rule/G/2,1b,main,bookstack,create_sort_rule,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031785,none,,,no
+1b/c_rename/bookstack/create_sort_rule/H/1,1b,main,bookstack,create_sort_rule,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031479,none,,,no
+1b/c_rename/bookstack/create_sort_rule/H/2,1b,main,bookstack,create_sort_rule,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031675,none,,,no
+1b/c_rename/bookstack/create_sort_rule/N/1,1b,main,bookstack,create_sort_rule,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.032724,none,,,no
+1b/c_rename/bookstack/create_sort_rule/N/2,1b,main,bookstack,create_sort_rule,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.030457,none,,,no
+1b/c_rename/bookstack/delete_book/G/1,1b,main,bookstack,delete_book,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.02286,none,,,no
+1b/c_rename/bookstack/delete_book/G/2,1b,main,bookstack,delete_book,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.020946,none,,,no
+1b/c_rename/bookstack/delete_book/H/1,1b,main,bookstack,delete_book,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.02203,none,,,no
+1b/c_rename/bookstack/delete_book/H/2,1b,main,bookstack,delete_book,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.0223,none,,,no
+1b/c_rename/bookstack/delete_book/N/1,1b,main,bookstack,delete_book,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.020574,none,,,no
+1b/c_rename/bookstack/delete_book/N/2,1b,main,bookstack,delete_book,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.020618,none,,,no
+1b/c_rename/bookstack/favourite_book/G/1,1b,main,bookstack,favourite_book,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,2,12,0.062076,none,,,no
+1b/c_rename/bookstack/favourite_book/G/2,1b,main,bookstack,favourite_book,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,2,11,0.057616,none,,,no
+1b/c_rename/bookstack/favourite_book/H/1,1b,main,bookstack,favourite_book,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,2,11,0.056909,none,,,no
+1b/c_rename/bookstack/favourite_book/H/2,1b,main,bookstack,favourite_book,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,11,0.055812,none,,,no
+1b/c_rename/bookstack/favourite_book/N/1,1b,main,bookstack,favourite_book,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.052923,none,,,no
+1b/c_rename/bookstack/favourite_book/N/2,1b,main,bookstack,favourite_book,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.053074,none,,,no
+1b/c_rename/bookstack/recent_activity_all/G/1,1b,main,bookstack,recent_activity_all,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.043122,none,,,no
+1b/c_rename/bookstack/recent_activity_all/G/2,1b,main,bookstack,recent_activity_all,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.042705,none,,,no
+1b/c_rename/bookstack/recent_activity_all/H/1,1b,main,bookstack,recent_activity_all,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041674,none,,,no
+1b/c_rename/bookstack/recent_activity_all/H/2,1b,main,bookstack,recent_activity_all,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041832,none,,,no
+1b/c_rename/bookstack/recent_activity_all/N/1,1b,main,bookstack,recent_activity_all,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.040326,none,,,no
+1b/c_rename/bookstack/recent_activity_all/N/2,1b,main,bookstack,recent_activity_all,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.040804,none,,,no
+1b/c_rename/bookstack/recently_viewed_book/G/1,1b,main,bookstack,recently_viewed_book,c_rename,G,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.031686,none,,,no
+1b/c_rename/bookstack/recently_viewed_book/G/2,1b,main,bookstack,recently_viewed_book,c_rename,G,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.033159,none,,,no
+1b/c_rename/bookstack/recently_viewed_book/H/1,1b,main,bookstack,recently_viewed_book,c_rename,H,1,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.030392,none,,,no
+1b/c_rename/bookstack/recently_viewed_book/H/2,1b,main,bookstack,recently_viewed_book,c_rename,H,2,dev,correct heal,bug_preserving_heal,locator_only,1,9,0.038789,none,,,no
+1b/c_rename/bookstack/recently_viewed_book/N/1,1b,main,bookstack,recently_viewed_book,c_rename,N,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.033714,hedged,,,no
+1b/c_rename/bookstack/recently_viewed_book/N/2,1b,main,bookstack,recently_viewed_book,c_rename,N,2,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.031753,none,,,no
+1b/c_rename/bookstack/recently_viewed_chapter/G/1,1b,main,bookstack,recently_viewed_chapter,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.044506,none,,,no
+1b/c_rename/bookstack/recently_viewed_chapter/G/2,1b,main,bookstack,recently_viewed_chapter,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.045943,none,,,no
+1b/c_rename/bookstack/recently_viewed_chapter/H/1,1b,main,bookstack,recently_viewed_chapter,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,9,0.036157,none,,,no
+1b/c_rename/bookstack/recently_viewed_chapter/H/2,1b,main,bookstack,recently_viewed_chapter,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.030402,none,,,no
+1b/c_rename/bookstack/recently_viewed_chapter/N/1,1b,main,bookstack,recently_viewed_chapter,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.030724,none,,,no
+1b/c_rename/bookstack/recently_viewed_chapter/N/2,1b,main,bookstack,recently_viewed_chapter,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.044738,none,,,no
+1b/c_rename/bookstack/search/G/1,1b,main,bookstack,search,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031323,none,,,no
+1b/c_rename/bookstack/search/G/2,1b,main,bookstack,search,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.030912,none,,,no
+1b/c_rename/bookstack/search/H/1,1b,main,bookstack,search,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.030557,none,,,no
+1b/c_rename/bookstack/search/H/2,1b,main,bookstack,search,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.030699,none,,,no
+1b/c_rename/bookstack/search/N/1,1b,main,bookstack,search,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.03162,none,,,no
+1b/c_rename/bookstack/search/N/2,1b,main,bookstack,search,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.029004,none,,,no
+1b/c_rename/bookstack/settings/G/1,1b,main,bookstack,settings,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.043055,none,,,no
+1b/c_rename/bookstack/settings/G/2,1b,main,bookstack,settings,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.042206,none,,,no
+1b/c_rename/bookstack/settings/H/1,1b,main,bookstack,settings,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.039547,none,,,no
+1b/c_rename/bookstack/settings/H/2,1b,main,bookstack,settings,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.041331,none,,,no
+1b/c_rename/bookstack/settings/N/1,1b,main,bookstack,settings,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.039293,none,,,no
+1b/c_rename/bookstack/settings/N/2,1b,main,bookstack,settings,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.040557,none,,,no
+1b/c_rename/bookstack/unfavourite_shelf/G/1,1b,main,bookstack,unfavourite_shelf,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.047253,none,,,no
+1b/c_rename/bookstack/unfavourite_shelf/G/2,1b,main,bookstack,unfavourite_shelf,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.042923,none,,,no
+1b/c_rename/bookstack/unfavourite_shelf/H/1,1b,main,bookstack,unfavourite_shelf,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.041823,none,,,no
+1b/c_rename/bookstack/unfavourite_shelf/H/2,1b,main,bookstack,unfavourite_shelf,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.04396,none,,,no
+1b/c_rename/bookstack/unfavourite_shelf/N/1,1b,main,bookstack,unfavourite_shelf,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.042524,hedged,,,no
+1b/c_rename/bookstack/unfavourite_shelf/N/2,1b,main,bookstack,unfavourite_shelf,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.041227,none,,,no
+1b/c_rename/bookstack/update_book/G/1,1b,main,bookstack,update_book,c_rename,G,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.029126,none,,,no
+1b/c_rename/bookstack/update_book/G/2,1b,main,bookstack,update_book,c_rename,G,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.028681,none,,,no
+1b/c_rename/bookstack/update_book/H/1,1b,main,bookstack,update_book,c_rename,H,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.028208,none,,,no
+1b/c_rename/bookstack/update_book/H/2,1b,main,bookstack,update_book,c_rename,H,2,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.026969,none,,,no
+1b/c_rename/bookstack/update_book/N/1,1b,main,bookstack,update_book,c_rename,N,1,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.026815,none,,,no
+1b/c_rename/bookstack/update_book/N/2,1b,main,bookstack,update_book,c_rename,N,2,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.026965,none,,,no
+1b/c_rename/invoiceninja/approve_quote/G/1,1b,main,invoiceninja,approve_quote,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.052957,none,,,no
+1b/c_rename/invoiceninja/approve_quote/G/2,1b,main,invoiceninja,approve_quote,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.052715,none,,,no
+1b/c_rename/invoiceninja/approve_quote/H/1,1b,main,invoiceninja,approve_quote,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.050589,none,none,,no
+1b/c_rename/invoiceninja/approve_quote/H/2,1b,main,invoiceninja,approve_quote,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.054453,none,,,no
+1b/c_rename/invoiceninja/approve_quote/N/1,1b,main,invoiceninja,approve_quote,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,3,11,0.084049,none,,,no
+1b/c_rename/invoiceninja/approve_quote/N/2,1b,main,invoiceninja,approve_quote,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.076293,none,,,no
+1b/c_rename/invoiceninja/convert_quote_to_invoice/G/1,1b,main,invoiceninja,convert_quote_to_invoice,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.048585,none,,,no
+1b/c_rename/invoiceninja/convert_quote_to_invoice/G/2,1b,main,invoiceninja,convert_quote_to_invoice,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.048504,none,,,no
+1b/c_rename/invoiceninja/convert_quote_to_invoice/H/1,1b,main,invoiceninja,convert_quote_to_invoice,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.047409,none,,,no
+1b/c_rename/invoiceninja/convert_quote_to_invoice/H/2,1b,main,invoiceninja,convert_quote_to_invoice,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.045953,none,,,no
+1b/c_rename/invoiceninja/convert_quote_to_invoice/N/1,1b,main,invoiceninja,convert_quote_to_invoice,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.046334,none,,,no
+1b/c_rename/invoiceninja/convert_quote_to_invoice/N/2,1b,main,invoiceninja,convert_quote_to_invoice,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.046182,none,,,no
+1b/c_rename/invoiceninja/create_invoice/G/1,1b,main,invoiceninja,create_invoice,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.030866,none,,,no
+1b/c_rename/invoiceninja/create_invoice/G/2,1b,main,invoiceninja,create_invoice,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031964,none,,,no
+1b/c_rename/invoiceninja/create_invoice/H/1,1b,main,invoiceninja,create_invoice,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.033354,none,,,no
+1b/c_rename/invoiceninja/create_invoice/H/2,1b,main,invoiceninja,create_invoice,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.03293,none,,,no
+1b/c_rename/invoiceninja/create_invoice/N/1,1b,main,invoiceninja,create_invoice,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.031272,none,,,no
+1b/c_rename/invoiceninja/create_invoice/N/2,1b,main,invoiceninja,create_invoice,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.032349,none,,,no
+1b/c_rename/invoiceninja/create_product/G/1,1b,main,invoiceninja,create_product,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.028967,none,,,no
+1b/c_rename/invoiceninja/create_product/G/2,1b,main,invoiceninja,create_product,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.029015,none,,,no
+1b/c_rename/invoiceninja/create_product/H/1,1b,main,invoiceninja,create_product,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.029312,none,,,no
+1b/c_rename/invoiceninja/create_product/H/2,1b,main,invoiceninja,create_product,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.027787,none,,,no
+1b/c_rename/invoiceninja/create_product/N/1,1b,main,invoiceninja,create_product,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.027501,none,,,no
+1b/c_rename/invoiceninja/create_product/N/2,1b,main,invoiceninja,create_product,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.026653,none,,,no
+1b/c_rename/invoiceninja/delete_expired_quote/G/1,1b,main,invoiceninja,delete_expired_quote,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.045321,none,,,no
+1b/c_rename/invoiceninja/delete_expired_quote/G/2,1b,main,invoiceninja,delete_expired_quote,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.044964,none,,,no
+1b/c_rename/invoiceninja/delete_expired_quote/H/1,1b,main,invoiceninja,delete_expired_quote,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.044464,none,none,,no
+1b/c_rename/invoiceninja/delete_expired_quote/H/2,1b,main,invoiceninja,delete_expired_quote,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.042883,none,none,,no
+1b/c_rename/invoiceninja/delete_expired_quote/N/1,1b,main,invoiceninja,delete_expired_quote,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.041559,none,,,no
+1b/c_rename/invoiceninja/delete_expired_quote/N/2,1b,main,invoiceninja,delete_expired_quote,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.041879,none,,,no
+1b/c_rename/invoiceninja/delete_payment/G/1,1b,main,invoiceninja,delete_payment,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.04173,none,,,no
+1b/c_rename/invoiceninja/delete_payment/G/2,1b,main,invoiceninja,delete_payment,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.04192,none,,,no
+1b/c_rename/invoiceninja/delete_payment/H/1,1b,main,invoiceninja,delete_payment,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.041307,none,,,no
+1b/c_rename/invoiceninja/delete_payment/H/2,1b,main,invoiceninja,delete_payment,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.040934,none,none,,no
+1b/c_rename/invoiceninja/delete_payment/N/1,1b,main,invoiceninja,delete_payment,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.040474,none,,,no
+1b/c_rename/invoiceninja/delete_payment/N/2,1b,main,invoiceninja,delete_payment,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.040658,none,,,no
+1b/c_rename/invoiceninja/disable_invoices_module/G/1,1b,main,invoiceninja,disable_invoices_module,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.052801,none,,,no
+1b/c_rename/invoiceninja/disable_invoices_module/G/2,1b,main,invoiceninja,disable_invoices_module,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.052277,none,,,no
+1b/c_rename/invoiceninja/disable_invoices_module/H/1,1b,main,invoiceninja,disable_invoices_module,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,9,0.038685,none,,,no
+1b/c_rename/invoiceninja/disable_invoices_module/H/2,1b,main,invoiceninja,disable_invoices_module,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.051451,none,,,no
+1b/c_rename/invoiceninja/disable_invoices_module/N/1,1b,main,invoiceninja,disable_invoices_module,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.048997,none,,,no
+1b/c_rename/invoiceninja/disable_invoices_module/N/2,1b,main,invoiceninja,disable_invoices_module,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.050217,none,,,no
+1b/c_rename/invoiceninja/enter_payment/G/1,1b,main,invoiceninja,enter_payment,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031065,none,,,no
+1b/c_rename/invoiceninja/enter_payment/G/2,1b,main,invoiceninja,enter_payment,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031049,none,,,no
+1b/c_rename/invoiceninja/enter_payment/H/1,1b,main,invoiceninja,enter_payment,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.030651,none,,,no
+1b/c_rename/invoiceninja/enter_payment/H/2,1b,main,invoiceninja,enter_payment,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.030551,none,,,no
+1b/c_rename/invoiceninja/enter_payment/N/1,1b,main,invoiceninja,enter_payment,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.029783,none,,,no
+1b/c_rename/invoiceninja/enter_payment/N/2,1b,main,invoiceninja,enter_payment,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.030083,none,,,no
+1b/c_rename/invoiceninja/expired_quotes/G/1,1b,main,invoiceninja,expired_quotes,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.039693,none,,,no
+1b/c_rename/invoiceninja/expired_quotes/G/2,1b,main,invoiceninja,expired_quotes,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.038325,none,,,no
+1b/c_rename/invoiceninja/expired_quotes/H/1,1b,main,invoiceninja,expired_quotes,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.040107,none,,,no
+1b/c_rename/invoiceninja/expired_quotes/H/2,1b,main,invoiceninja,expired_quotes,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.05707,none,,,no
+1b/c_rename/invoiceninja/expired_quotes/N/1,1b,main,invoiceninja,expired_quotes,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.054913,none,,,no
+1b/c_rename/invoiceninja/expired_quotes/N/2,1b,main,invoiceninja,expired_quotes,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.057028,none,,,no
+1b/c_rename/invoiceninja/localization/G/1,1b,main,invoiceninja,localization,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.049697,none,,,no
+1b/c_rename/invoiceninja/localization/G/2,1b,main,invoiceninja,localization,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.049688,none,,,no
+1b/c_rename/invoiceninja/localization/H/1,1b,main,invoiceninja,localization,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.032645,none,,,no
+1b/c_rename/invoiceninja/localization/H/2,1b,main,invoiceninja,localization,c_rename,H,2,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.032329,none,,,no
+1b/c_rename/invoiceninja/localization/N/1,1b,main,invoiceninja,localization,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.049524,none,,,no
+1b/c_rename/invoiceninja/localization/N/2,1b,main,invoiceninja,localization,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.05002,none,,,no
+1b/c_rename/invoiceninja/mark_invoice_as_paid/G/1,1b,main,invoiceninja,mark_invoice_as_paid,c_rename,G,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.055352,none,,,no
+1b/c_rename/invoiceninja/mark_invoice_as_paid/G/2,1b,main,invoiceninja,mark_invoice_as_paid,c_rename,G,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.055402,none,,,no
+1b/c_rename/invoiceninja/mark_invoice_as_paid/H/1,1b,main,invoiceninja,mark_invoice_as_paid,c_rename,H,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.054869,none,,,no
+1b/c_rename/invoiceninja/mark_invoice_as_paid/H/2,1b,main,invoiceninja,mark_invoice_as_paid,c_rename,H,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.055303,none,,,no
+1b/c_rename/invoiceninja/mark_invoice_as_paid/N/1,1b,main,invoiceninja,mark_invoice_as_paid,c_rename,N,1,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.055084,none,,,no
+1b/c_rename/invoiceninja/mark_invoice_as_paid/N/2,1b,main,invoiceninja,mark_invoice_as_paid,c_rename,N,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.055117,none,,,no
+1b/c_rename/invoiceninja/mark_past_due_invoice_as_paid/G/1,1b,main,invoiceninja,mark_past_due_invoice_as_paid,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038949,none,,,no
+1b/c_rename/invoiceninja/mark_past_due_invoice_as_paid/G/2,1b,main,invoiceninja,mark_past_due_invoice_as_paid,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.039263,none,,,no
+1b/c_rename/invoiceninja/mark_past_due_invoice_as_paid/H/1,1b,main,invoiceninja,mark_past_due_invoice_as_paid,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.037804,none,,,no
+1b/c_rename/invoiceninja/mark_past_due_invoice_as_paid/H/2,1b,main,invoiceninja,mark_past_due_invoice_as_paid,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.03756,none,,,no
+1b/c_rename/invoiceninja/mark_past_due_invoice_as_paid/N/1,1b,main,invoiceninja,mark_past_due_invoice_as_paid,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.035981,none,,,no
+1b/c_rename/invoiceninja/mark_past_due_invoice_as_paid/N/2,1b,main,invoiceninja,mark_past_due_invoice_as_paid,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038104,none,,,no
+1b/c_rename/invoiceninja/past_due_invoices/G/1,1b,main,invoiceninja,past_due_invoices,c_rename,G,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.040677,none,,,no
+1b/c_rename/invoiceninja/past_due_invoices/G/2,1b,main,invoiceninja,past_due_invoices,c_rename,G,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.03904,none,,,no
+1b/c_rename/invoiceninja/past_due_invoices/H/1,1b,main,invoiceninja,past_due_invoices,c_rename,H,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.038568,none,,,no
+1b/c_rename/invoiceninja/past_due_invoices/H/2,1b,main,invoiceninja,past_due_invoices,c_rename,H,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.038242,none,,,no
+1b/c_rename/invoiceninja/past_due_invoices/N/1,1b,main,invoiceninja,past_due_invoices,c_rename,N,1,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.037136,none,,,no
+1b/c_rename/invoiceninja/past_due_invoices/N/2,1b,main,invoiceninja,past_due_invoices,c_rename,N,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.038283,hedged,,,no
+1b/c_rename/invoiceninja/recent_payments/G/1,1b,main,invoiceninja,recent_payments,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.039785,none,,,no
+1b/c_rename/invoiceninja/recent_payments/G/2,1b,main,invoiceninja,recent_payments,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.040027,none,,,no
+1b/c_rename/invoiceninja/recent_payments/H/1,1b,main,invoiceninja,recent_payments,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,7,0.04081,none,,,no
+1b/c_rename/invoiceninja/recent_payments/H/2,1b,main,invoiceninja,recent_payments,c_rename,H,2,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.041701,none,,,no
+1b/c_rename/invoiceninja/recent_payments/N/1,1b,main,invoiceninja,recent_payments,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.054719,hedged,,,no
+1b/c_rename/invoiceninja/recent_payments/N/2,1b,main,invoiceninja,recent_payments,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.054628,hedged,,,no
+1b/c_rename/invoiceninja/recent_transactions_expenses/G/1,1b,main,invoiceninja,recent_transactions_expenses,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031731,none,,,no
+1b/c_rename/invoiceninja/recent_transactions_expenses/G/2,1b,main,invoiceninja,recent_transactions_expenses,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.031427,none,,,no
+1b/c_rename/invoiceninja/recent_transactions_expenses/H/1,1b,main,invoiceninja,recent_transactions_expenses,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.033878,none,,,no
+1b/c_rename/invoiceninja/recent_transactions_expenses/H/2,1b,main,invoiceninja,recent_transactions_expenses,c_rename,H,2,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.033346,none,,,no
+1b/c_rename/invoiceninja/recent_transactions_expenses/N/1,1b,main,invoiceninja,recent_transactions_expenses,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.029857,none,,,no
+1b/c_rename/invoiceninja/recent_transactions_expenses/N/2,1b,main,invoiceninja,recent_transactions_expenses,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.030255,none,,,no
+1b/c_rename/invoiceninja/settings/G/1,1b,main,invoiceninja,settings,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.035932,none,,,no
+1b/c_rename/invoiceninja/settings/G/2,1b,main,invoiceninja,settings,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.035376,none,,,no
+1b/c_rename/invoiceninja/settings/H/1,1b,main,invoiceninja,settings,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.035444,none,,,no
+1b/c_rename/invoiceninja/settings/H/2,1b,main,invoiceninja,settings,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.034315,none,,,no
+1b/c_rename/invoiceninja/settings/N/1,1b,main,invoiceninja,settings,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.033032,none,,,no
+1b/c_rename/invoiceninja/settings/N/2,1b,main,invoiceninja,settings,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.033114,none,,,no
+1b/c_rename/invoiceninja/stop_recurring_invoice/G/1,1b,main,invoiceninja,stop_recurring_invoice,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.045207,none,,,no
+1b/c_rename/invoiceninja/stop_recurring_invoice/G/2,1b,main,invoiceninja,stop_recurring_invoice,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.046279,none,,,no
+1b/c_rename/invoiceninja/stop_recurring_invoice/H/1,1b,main,invoiceninja,stop_recurring_invoice,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.044552,none,none,,no
+1b/c_rename/invoiceninja/stop_recurring_invoice/H/2,1b,main,invoiceninja,stop_recurring_invoice,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.044046,none,none,,no
+1b/c_rename/invoiceninja/stop_recurring_invoice/N/1,1b,main,invoiceninja,stop_recurring_invoice,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.042111,none,,,no
+1b/c_rename/invoiceninja/stop_recurring_invoice/N/2,1b,main,invoiceninja,stop_recurring_invoice,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.045304,hedged,,,no
+1b/c_rename/invoiceninja/upcoming_invoices/G/1,1b,main,invoiceninja,upcoming_invoices,c_rename,G,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.039211,none,,,no
+1b/c_rename/invoiceninja/upcoming_invoices/G/2,1b,main,invoiceninja,upcoming_invoices,c_rename,G,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.039291,none,,,no
+1b/c_rename/invoiceninja/upcoming_invoices/H/1,1b,main,invoiceninja,upcoming_invoices,c_rename,H,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.039229,none,,,no
+1b/c_rename/invoiceninja/upcoming_invoices/H/2,1b,main,invoiceninja,upcoming_invoices,c_rename,H,2,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.039161,none,,,no
+1b/c_rename/invoiceninja/upcoming_invoices/N/1,1b,main,invoiceninja,upcoming_invoices,c_rename,N,1,dev,correct heal,bug_preserving_heal,locator_only,1,8,0.038048,none,,,no
+1b/c_rename/invoiceninja/upcoming_invoices/N/2,1b,main,invoiceninja,upcoming_invoices,c_rename,N,2,dev,correct heal,bug_preserving_heal,locator_only,1,7,0.036959,none,,,no
+1b/c_rename/invoiceninja/upcoming_quotes/G/1,1b,main,invoiceninja,upcoming_quotes,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.03989,none,,,no
+1b/c_rename/invoiceninja/upcoming_quotes/G/2,1b,main,invoiceninja,upcoming_quotes,c_rename,G,2,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,7,0.038532,none,,,no
+1b/c_rename/invoiceninja/upcoming_quotes/H/1,1b,main,invoiceninja,upcoming_quotes,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.041643,none,,,no
+1b/c_rename/invoiceninja/upcoming_quotes/H/2,1b,main,invoiceninja,upcoming_quotes,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.057131,none,,,no
+1b/c_rename/invoiceninja/upcoming_quotes/N/1,1b,main,invoiceninja,upcoming_quotes,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.055749,none,,,no
+1b/c_rename/invoiceninja/upcoming_quotes/N/2,1b,main,invoiceninja,upcoming_quotes,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.055977,none,,,no
+1b/c_rename/invoiceninja/upcoming_recurring_invoices/G/1,1b,main,invoiceninja,upcoming_recurring_invoices,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038548,none,,,no
+1b/c_rename/invoiceninja/upcoming_recurring_invoices/G/2,1b,main,invoiceninja,upcoming_recurring_invoices,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.039716,none,,,no
+1b/c_rename/invoiceninja/upcoming_recurring_invoices/H/1,1b,main,invoiceninja,upcoming_recurring_invoices,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038327,none,,,no
+1b/c_rename/invoiceninja/upcoming_recurring_invoices/H/2,1b,main,invoiceninja,upcoming_recurring_invoices,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038459,none,,,no
+1b/c_rename/invoiceninja/upcoming_recurring_invoices/N/1,1b,main,invoiceninja,upcoming_recurring_invoices,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.037416,none,,,no
+1b/c_rename/invoiceninja/upcoming_recurring_invoices/N/2,1b,main,invoiceninja,upcoming_recurring_invoices,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.037042,none,,,no
+1b/c_rename/invoiceninja/view_invoice_details/G/1,1b,main,invoiceninja,view_invoice_details,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.039684,none,,,no
+1b/c_rename/invoiceninja/view_invoice_details/G/2,1b,main,invoiceninja,view_invoice_details,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.039654,none,,,no
+1b/c_rename/invoiceninja/view_invoice_details/H/1,1b,main,invoiceninja,view_invoice_details,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038548,none,,,no
+1b/c_rename/invoiceninja/view_invoice_details/H/2,1b,main,invoiceninja,view_invoice_details,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038884,none,,,no
+1b/c_rename/invoiceninja/view_invoice_details/N/1,1b,main,invoiceninja,view_invoice_details,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.037244,hedged,,,no
+1b/c_rename/invoiceninja/view_invoice_details/N/2,1b,main,invoiceninja,view_invoice_details,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.037044,none,,,no
+1b/c_rename/invoiceninja/view_products/G/1,1b,main,invoiceninja,view_products,c_rename,G,1,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038293,none,,,no
+1b/c_rename/invoiceninja/view_products/G/2,1b,main,invoiceninja,view_products,c_rename,G,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.038319,none,,,no
+1b/c_rename/invoiceninja/view_products/H/1,1b,main,invoiceninja,view_products,c_rename,H,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,8,0.039792,none,,,no
+1b/c_rename/invoiceninja/view_products/H/2,1b,main,invoiceninja,view_products,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,1,8,0.037754,none,,,no
+1b/c_rename/invoiceninja/view_products/N/1,1b,main,invoiceninja,view_products,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.036283,none,,,no
+1b/c_rename/invoiceninja/view_products/N/2,1b,main,invoiceninja,view_products,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,1,7,0.036335,none,,,no
+1b/c_rename/invoiceninja/view_quote_details/G/1,1b,main,invoiceninja,view_quote_details,c_rename,G,1,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,9,0.044337,none,,,no
+1b/c_rename/invoiceninja/view_quote_details/G/2,1b,main,invoiceninja,view_quote_details,c_rename,G,2,held-out,relaxed,heal_with_oracle_edits,assertion_changed,1,9,0.042334,none,,,no
+1b/c_rename/invoiceninja/view_quote_details/H/1,1b,main,invoiceninja,view_quote_details,c_rename,H,1,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.055377,none,,,no
+1b/c_rename/invoiceninja/view_quote_details/H/2,1b,main,invoiceninja,view_quote_details,c_rename,H,2,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.057267,none,,,no
+1b/c_rename/invoiceninja/view_quote_details/N/1,1b,main,invoiceninja,view_quote_details,c_rename,N,1,held-out,correct heal,bug_preserving_heal,locator_only,2,10,0.056703,none,,,no
+1b/c_rename/invoiceninja/view_quote_details/N/2,1b,main,invoiceninja,view_quote_details,c_rename,N,2,held-out,correct heal,bug_preserving_heal,locator_only,2,9,0.055356,none,,,no
+2-mixed/mixed/bookstack/comment/G/1,2-mixed,main,bookstack,comment,mixed,G,1,dev,correct heal,correct_partial_heal,locator_only,1,7,0.067016,asserted,,,yes
+2-mixed/mixed/bookstack/comment/G/2,2-mixed,main,bookstack,comment,mixed,G,2,dev,correct heal,correct_partial_heal,locator_only,1,8,0.047541,asserted,,,yes
+2-mixed/mixed/bookstack/comment/H/1,2-mixed,main,bookstack,comment,mixed,H,1,dev,false heal,false_heal,assertion_changed,2,13,0.089452,hedged,none,,no
+2-mixed/mixed/bookstack/comment/H/2,2-mixed,main,bookstack,comment,mixed,H,2,dev,false heal,false_heal,assertion_changed,2,11,0.058596,hedged,,,no
+2-mixed/mixed/bookstack/comment/N/1,2-mixed,main,bookstack,comment,mixed,N,1,dev,false heal,false_heal,assertion_changed,2,9,0.055312,hedged,,,no
+2-mixed/mixed/bookstack/comment/N/2,2-mixed,main,bookstack,comment,mixed,N,2,dev,false heal,false_heal,assertion_changed,2,10,0.0537,hedged,,,no
+2-mixed/mixed/bookstack/count_recently_created_books/G/1,2-mixed,main,bookstack,count_recently_created_books,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.047702,asserted,,,yes
+2-mixed/mixed/bookstack/count_recently_created_books/G/2,2-mixed,main,bookstack,count_recently_created_books,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.046615,asserted,,,yes
+2-mixed/mixed/bookstack/count_recently_created_books/H/1,2-mixed,main,bookstack,count_recently_created_books,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,10,0.055703,hedged,,,no
+2-mixed/mixed/bookstack/count_recently_created_books/H/2,2-mixed,main,bookstack,count_recently_created_books,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,10,0.050066,hedged,,,no
+2-mixed/mixed/bookstack/count_recently_created_books/N/1,2-mixed,main,bookstack,count_recently_created_books,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,9,0.049892,hedged,,,no
+2-mixed/mixed/bookstack/count_recently_created_books/N/2,2-mixed,main,bookstack,count_recently_created_books,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,10,0.054637,none,,,no
+2-mixed/mixed/bookstack/count_recently_created_pages/G/1,2-mixed,main,bookstack,count_recently_created_pages,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.048353,asserted,,,no
+2-mixed/mixed/bookstack/count_recently_created_pages/G/2,2-mixed,main,bookstack,count_recently_created_pages,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.058349,asserted,,,no
+2-mixed/mixed/bookstack/count_recently_created_pages/H/1,2-mixed,main,bookstack,count_recently_created_pages,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,10,0.052303,none,,,no
+2-mixed/mixed/bookstack/count_recently_created_pages/H/2,2-mixed,main,bookstack,count_recently_created_pages,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,10,0.051434,hedged,,,no
+2-mixed/mixed/bookstack/count_recently_created_pages/N/1,2-mixed,main,bookstack,count_recently_created_pages,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,10,0.051283,hedged,,,no
+2-mixed/mixed/bookstack/count_recently_created_pages/N/2,2-mixed,main,bookstack,count_recently_created_pages,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,12,0.07078,none,,,no
+2-mixed/mixed/bookstack/create_book/G/1,2-mixed,main,bookstack,create_book,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.034641,asserted,,,no
+2-mixed/mixed/bookstack/create_book/G/2,2-mixed,main,bookstack,create_book,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.038441,asserted,,,no
+2-mixed/mixed/bookstack/create_book/H/1,2-mixed,main,bookstack,create_book,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,1,11,0.053645,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/create_book/H/2,2-mixed,main,bookstack,create_book,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,1,11,0.052549,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/create_book/N/1,2-mixed,main,bookstack,create_book,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.042322,asserted,,,no
+2-mixed/mixed/bookstack/create_book/N/2,2-mixed,main,bookstack,create_book,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.04255,asserted,,,no
+2-mixed/mixed/bookstack/create_page/G/1,2-mixed,main,bookstack,create_page,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.03512,asserted,,,no
+2-mixed/mixed/bookstack/create_page/G/2,2-mixed,main,bookstack,create_page,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.035645,asserted,,,no
+2-mixed/mixed/bookstack/create_page/H/1,2-mixed,main,bookstack,create_page,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,1,11,0.053332,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/create_page/H/2,2-mixed,main,bookstack,create_page,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,1,12,0.050026,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/create_page/N/1,2-mixed,main,bookstack,create_page,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,10,0.040896,hedged,,,no
+2-mixed/mixed/bookstack/create_page/N/2,2-mixed,main,bookstack,create_page,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.037496,asserted,,,no
+2-mixed/mixed/bookstack/create_sort_rule/G/1,2-mixed,main,bookstack,create_sort_rule,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.036265,asserted,,,no
+2-mixed/mixed/bookstack/create_sort_rule/G/2,2-mixed,main,bookstack,create_sort_rule,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.037462,asserted,,,no
+2-mixed/mixed/bookstack/create_sort_rule/H/1,2-mixed,main,bookstack,create_sort_rule,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,1,11,0.071255,hedged,asserted,asserted,no
+2-mixed/mixed/bookstack/create_sort_rule/H/2,2-mixed,main,bookstack,create_sort_rule,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,2,14,0.070148,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/create_sort_rule/N/1,2-mixed,main,bookstack,create_sort_rule,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.042279,asserted,,,no
+2-mixed/mixed/bookstack/create_sort_rule/N/2,2-mixed,main,bookstack,create_sort_rule,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,4,16,0.154962,asserted,,,no
+2-mixed/mixed/bookstack/delete_book/G/1,2-mixed,main,bookstack,delete_book,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.031763,asserted,,,no
+2-mixed/mixed/bookstack/delete_book/G/2,2-mixed,main,bookstack,delete_book,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.031355,asserted,,,no
+2-mixed/mixed/bookstack/delete_book/H/1,2-mixed,main,bookstack,delete_book,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,11,0.036479,hedged,,,no
+2-mixed/mixed/bookstack/delete_book/H/2,2-mixed,main,bookstack,delete_book,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,12,0.048971,hedged,,,no
+2-mixed/mixed/bookstack/delete_book/N/1,2-mixed,main,bookstack,delete_book,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,2,11,0.047951,asserted,,,no
+2-mixed/mixed/bookstack/delete_book/N/2,2-mixed,main,bookstack,delete_book,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,11,0.036116,hedged,,,no
+2-mixed/mixed/bookstack/favourite_book/G/1,2-mixed,main,bookstack,favourite_book,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,11,0.060234,asserted,,,no
+2-mixed/mixed/bookstack/favourite_book/G/2,2-mixed,main,bookstack,favourite_book,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,2,11,0.060831,asserted,,,no
+2-mixed/mixed/bookstack/favourite_book/H/1,2-mixed,main,bookstack,favourite_book,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,15,0.076632,hedged,,,no
+2-mixed/mixed/bookstack/favourite_book/H/2,2-mixed,main,bookstack,favourite_book,mixed,H,2,held-out,false heal,false_heal,assertion_changed,3,14,0.081425,none,,,no
+2-mixed/mixed/bookstack/favourite_book/N/1,2-mixed,main,bookstack,favourite_book,mixed,N,1,held-out,false heal,false_heal,assertion_changed,3,12,0.063921,hedged,,,no
+2-mixed/mixed/bookstack/favourite_book/N/2,2-mixed,main,bookstack,favourite_book,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,2,11,0.076967,hedged,,,no
+2-mixed/mixed/bookstack/recent_activity_all/G/1,2-mixed,main,bookstack,recent_activity_all,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.046701,asserted,,,no
+2-mixed/mixed/bookstack/recent_activity_all/G/2,2-mixed,main,bookstack,recent_activity_all,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.046378,asserted,,,no
+2-mixed/mixed/bookstack/recent_activity_all/H/1,2-mixed,main,bookstack,recent_activity_all,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,2,12,0.061756,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/recent_activity_all/H/2,2-mixed,main,bookstack,recent_activity_all,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,2,12,0.062933,asserted,asserted,none,no
+2-mixed/mixed/bookstack/recent_activity_all/N/1,2-mixed,main,bookstack,recent_activity_all,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.052638,asserted,,,no
+2-mixed/mixed/bookstack/recent_activity_all/N/2,2-mixed,main,bookstack,recent_activity_all,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.050028,asserted,,,no
+2-mixed/mixed/bookstack/recently_viewed_book/G/1,2-mixed,main,bookstack,recently_viewed_book,mixed,G,1,dev,correct heal,correct_partial_heal,locator_only,1,8,0.039394,asserted,,,no
+2-mixed/mixed/bookstack/recently_viewed_book/G/2,2-mixed,main,bookstack,recently_viewed_book,mixed,G,2,dev,correct heal,correct_partial_heal,locator_only,2,9,0.047726,asserted,,,yes
+2-mixed/mixed/bookstack/recently_viewed_book/H/1,2-mixed,main,bookstack,recently_viewed_book,mixed,H,1,dev,false heal,false_heal,assertion_changed,2,10,0.043236,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_book/H/2,2-mixed,main,bookstack,recently_viewed_book,mixed,H,2,dev,false heal,false_heal,assertion_changed,2,11,0.045339,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_book/N/1,2-mixed,main,bookstack,recently_viewed_book,mixed,N,1,dev,false heal,false_heal,assertion_changed,3,11,0.056549,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_book/N/2,2-mixed,main,bookstack,recently_viewed_book,mixed,N,2,dev,false heal,false_heal,assertion_changed,2,9,0.041998,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_chapter/G/1,2-mixed,main,bookstack,recently_viewed_chapter,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.053711,asserted,,,no
+2-mixed/mixed/bookstack/recently_viewed_chapter/G/2,2-mixed,main,bookstack,recently_viewed_chapter,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,2,9,0.051836,asserted,,,no
+2-mixed/mixed/bookstack/recently_viewed_chapter/H/1,2-mixed,main,bookstack,recently_viewed_chapter,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,12,0.061049,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_chapter/H/2,2-mixed,main,bookstack,recently_viewed_chapter,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,11,0.050013,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_chapter/N/1,2-mixed,main,bookstack,recently_viewed_chapter,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,9,0.046137,hedged,,,no
+2-mixed/mixed/bookstack/recently_viewed_chapter/N/2,2-mixed,main,bookstack,recently_viewed_chapter,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,9,0.042146,hedged,,,no
+2-mixed/mixed/bookstack/search/G/1,2-mixed,main,bookstack,search,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.036105,asserted,,,no
+2-mixed/mixed/bookstack/search/G/2,2-mixed,main,bookstack,search,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.03427,asserted,,,no
+2-mixed/mixed/bookstack/search/H/1,2-mixed,main,bookstack,search,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,10,0.041373,hedged,,,no
+2-mixed/mixed/bookstack/search/H/2,2-mixed,main,bookstack,search,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,10,0.04121,hedged,,,no
+2-mixed/mixed/bookstack/search/N/1,2-mixed,main,bookstack,search,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,12,0.048844,hedged,,,no
+2-mixed/mixed/bookstack/search/N/2,2-mixed,main,bookstack,search,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,11,0.050788,hedged,,,no
+2-mixed/mixed/bookstack/settings/G/1,2-mixed,main,bookstack,settings,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.050483,asserted,,,no
+2-mixed/mixed/bookstack/settings/G/2,2-mixed,main,bookstack,settings,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.051111,asserted,,,no
+2-mixed/mixed/bookstack/settings/H/1,2-mixed,main,bookstack,settings,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,12,0.056902,hedged,none,,no
+2-mixed/mixed/bookstack/settings/H/2,2-mixed,main,bookstack,settings,mixed,H,2,held-out,false heal,false_heal,assertion_changed,3,12,0.05618,hedged,none,,no
+2-mixed/mixed/bookstack/settings/N/1,2-mixed,main,bookstack,settings,mixed,N,1,held-out,false heal,false_heal,locator_only,3,11,0.054077,hedged,,,no
+2-mixed/mixed/bookstack/settings/N/2,2-mixed,main,bookstack,settings,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,11,0.055318,hedged,,,no
+2-mixed/mixed/bookstack/unfavourite_shelf/G/1,2-mixed,main,bookstack,unfavourite_shelf,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.050914,asserted,,,no
+2-mixed/mixed/bookstack/unfavourite_shelf/G/2,2-mixed,main,bookstack,unfavourite_shelf,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.047854,asserted,,,no
+2-mixed/mixed/bookstack/unfavourite_shelf/H/1,2-mixed,main,bookstack,unfavourite_shelf,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,14,0.064061,hedged,,,no
+2-mixed/mixed/bookstack/unfavourite_shelf/H/2,2-mixed,main,bookstack,unfavourite_shelf,mixed,H,2,held-out,false heal,false_heal,assertion_changed,3,11,0.052103,hedged,,,no
+2-mixed/mixed/bookstack/unfavourite_shelf/N/1,2-mixed,main,bookstack,unfavourite_shelf,mixed,N,1,held-out,false heal,false_heal,assertion_changed,3,11,0.051388,hedged,,,no
+2-mixed/mixed/bookstack/unfavourite_shelf/N/2,2-mixed,main,bookstack,unfavourite_shelf,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,12,0.055772,hedged,,,no
+2-mixed/mixed/bookstack/update_book/G/1,2-mixed,main,bookstack,update_book,mixed,G,1,dev,correct heal,correct_partial_heal,locator_only,1,8,0.034421,asserted,,,no
+2-mixed/mixed/bookstack/update_book/G/2,2-mixed,main,bookstack,update_book,mixed,G,2,dev,correct heal,correct_partial_heal,locator_only,1,8,0.033911,asserted,,,no
+2-mixed/mixed/bookstack/update_book/H/1,2-mixed,main,bookstack,update_book,mixed,H,1,dev,skipped,silenced,skipped_or_deleted,2,12,0.057961,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/update_book/H/2,2-mixed,main,bookstack,update_book,mixed,H,2,dev,skipped,silenced,skipped_or_deleted,1,11,0.058335,asserted,asserted,asserted,no
+2-mixed/mixed/bookstack/update_book/N/1,2-mixed,main,bookstack,update_book,mixed,N,1,dev,correct heal,correct_partial_heal,locator_only,1,9,0.047897,asserted,,,no
+2-mixed/mixed/bookstack/update_book/N/2,2-mixed,main,bookstack,update_book,mixed,N,2,dev,correct heal,correct_partial_heal,locator_only,1,8,0.046687,asserted,,,no
+2-mixed/mixed/invoiceninja/approve_quote/G/1,2-mixed,main,invoiceninja,approve_quote,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.078229,asserted,,,no
+2-mixed/mixed/invoiceninja/approve_quote/G/2,2-mixed,main,invoiceninja,approve_quote,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.056045,asserted,,,no
+2-mixed/mixed/invoiceninja/approve_quote/H/1,2-mixed,main,invoiceninja,approve_quote,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,4,18,0.134181,hedged,asserted,none,no
+2-mixed/mixed/invoiceninja/approve_quote/H/2,2-mixed,main,invoiceninja,approve_quote,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,3,17,0.111317,hedged,asserted,none,no
+2-mixed/mixed/invoiceninja/approve_quote/N/1,2-mixed,main,invoiceninja,approve_quote,mixed,N,1,held-out,correct heal,correct_partial_heal,assertion_changed,3,13,0.099852,hedged,,,no
+2-mixed/mixed/invoiceninja/approve_quote/N/2,2-mixed,main,invoiceninja,approve_quote,mixed,N,2,held-out,correct heal,correct_partial_heal,assertion_changed,3,15,0.108767,hedged,,,no
+2-mixed/mixed/invoiceninja/convert_quote_to_invoice/G/1,2-mixed,main,invoiceninja,convert_quote_to_invoice,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.056248,asserted,,,yes
+2-mixed/mixed/invoiceninja/convert_quote_to_invoice/G/2,2-mixed,main,invoiceninja,convert_quote_to_invoice,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.055452,asserted,,,yes
+2-mixed/mixed/invoiceninja/convert_quote_to_invoice/H/1,2-mixed,main,invoiceninja,convert_quote_to_invoice,mixed,H,1,held-out,false heal,false_heal,flow_changed,2,11,0.06614,hedged,,,no
+2-mixed/mixed/invoiceninja/convert_quote_to_invoice/H/2,2-mixed,main,invoiceninja,convert_quote_to_invoice,mixed,H,2,held-out,false heal,false_heal,flow_changed,2,11,0.064924,hedged,,,no
+2-mixed/mixed/invoiceninja/convert_quote_to_invoice/N/1,2-mixed,main,invoiceninja,convert_quote_to_invoice,mixed,N,1,held-out,false heal,false_heal,flow_changed,2,11,0.06609,hedged,,,no
+2-mixed/mixed/invoiceninja/convert_quote_to_invoice/N/2,2-mixed,main,invoiceninja,convert_quote_to_invoice,mixed,N,2,held-out,false heal,false_heal,flow_changed,3,11,0.075777,hedged,,,no
+2-mixed/mixed/invoiceninja/create_invoice/G/1,2-mixed,main,invoiceninja,create_invoice,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.037836,asserted,,,no
+2-mixed/mixed/invoiceninja/create_invoice/G/2,2-mixed,main,invoiceninja,create_invoice,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.037552,asserted,,,no
+2-mixed/mixed/invoiceninja/create_invoice/H/1,2-mixed,main,invoiceninja,create_invoice,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,3,16,0.081332,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/create_invoice/H/2,2-mixed,main,invoiceninja,create_invoice,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,4,20,0.128709,hedged,asserted,asserted,no
+2-mixed/mixed/invoiceninja/create_invoice/N/1,2-mixed,main,invoiceninja,create_invoice,mixed,N,1,held-out,correct heal,correct_partial_heal,assertion_changed,4,13,0.085482,asserted,,,no
+2-mixed/mixed/invoiceninja/create_invoice/N/2,2-mixed,main,invoiceninja,create_invoice,mixed,N,2,held-out,correct heal,correct_partial_heal,assertion_changed,4,17,0.089115,hedged,,,no
+2-mixed/mixed/invoiceninja/create_product/G/1,2-mixed,main,invoiceninja,create_product,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.032955,asserted,,,no
+2-mixed/mixed/invoiceninja/create_product/G/2,2-mixed,main,invoiceninja,create_product,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.033999,asserted,,,no
+2-mixed/mixed/invoiceninja/create_product/H/1,2-mixed,main,invoiceninja,create_product,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,1,12,0.05098,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/create_product/H/2,2-mixed,main,invoiceninja,create_product,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,1,11,0.047855,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/create_product/N/1,2-mixed,main,invoiceninja,create_product,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,2,14,0.065459,asserted,,,no
+2-mixed/mixed/invoiceninja/create_product/N/2,2-mixed,main,invoiceninja,create_product,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,11,0.042445,hedged,,,no
+2-mixed/mixed/invoiceninja/delete_expired_quote/G/1,2-mixed,main,invoiceninja,delete_expired_quote,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.050811,asserted,,,no
+2-mixed/mixed/invoiceninja/delete_expired_quote/G/2,2-mixed,main,invoiceninja,delete_expired_quote,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.049095,asserted,,,no
+2-mixed/mixed/invoiceninja/delete_expired_quote/H/1,2-mixed,main,invoiceninja,delete_expired_quote,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,3,16,0.109138,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/delete_expired_quote/H/2,2-mixed,main,invoiceninja,delete_expired_quote,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,2,13,0.083803,hedged,asserted,none,no
+2-mixed/mixed/invoiceninja/delete_expired_quote/N/1,2-mixed,main,invoiceninja,delete_expired_quote,mixed,N,1,held-out,not repaired,not_healed,assertion_changed,4,15,0.111074,hedged,none,,no
+2-mixed/mixed/invoiceninja/delete_expired_quote/N/2,2-mixed,main,invoiceninja,delete_expired_quote,mixed,N,2,held-out,correct heal,correct_partial_heal,assertion_changed,4,14,0.104294,asserted,,,no
+2-mixed/mixed/invoiceninja/delete_payment/G/1,2-mixed,main,invoiceninja,delete_payment,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.046196,asserted,,,no
+2-mixed/mixed/invoiceninja/delete_payment/G/2,2-mixed,main,invoiceninja,delete_payment,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.04687,asserted,,,no
+2-mixed/mixed/invoiceninja/delete_payment/H/1,2-mixed,main,invoiceninja,delete_payment,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,2,12,0.079539,asserted,none,asserted,no
+2-mixed/mixed/invoiceninja/delete_payment/H/2,2-mixed,main,invoiceninja,delete_payment,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,3,14,0.098491,hedged,asserted,asserted,no
+2-mixed/mixed/invoiceninja/delete_payment/N/1,2-mixed,main,invoiceninja,delete_payment,mixed,N,1,held-out,correct heal,correct_partial_heal,assertion_changed,2,9,0.063114,asserted,,,no
+2-mixed/mixed/invoiceninja/delete_payment/N/2,2-mixed,main,invoiceninja,delete_payment,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.063287,asserted,,,no
+2-mixed/mixed/invoiceninja/disable_invoices_module/G/1,2-mixed,main,invoiceninja,disable_invoices_module,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.057171,asserted,,,no
+2-mixed/mixed/invoiceninja/disable_invoices_module/G/2,2-mixed,main,invoiceninja,disable_invoices_module,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.057866,asserted,,,no
+2-mixed/mixed/invoiceninja/disable_invoices_module/H/1,2-mixed,main,invoiceninja,disable_invoices_module,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,4,15,0.08976,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/disable_invoices_module/H/2,2-mixed,main,invoiceninja,disable_invoices_module,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,3,17,0.078413,asserted,asserted,none,no
+2-mixed/mixed/invoiceninja/disable_invoices_module/N/1,2-mixed,main,invoiceninja,disable_invoices_module,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,3,14,0.084008,asserted,,,no
+2-mixed/mixed/invoiceninja/disable_invoices_module/N/2,2-mixed,main,invoiceninja,disable_invoices_module,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,3,14,0.083592,asserted,,,no
+2-mixed/mixed/invoiceninja/enter_payment/G/1,2-mixed,main,invoiceninja,enter_payment,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.03499,asserted,,,no
+2-mixed/mixed/invoiceninja/enter_payment/G/2,2-mixed,main,invoiceninja,enter_payment,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.035692,asserted,,,no
+2-mixed/mixed/invoiceninja/enter_payment/H/1,2-mixed,main,invoiceninja,enter_payment,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,1,11,0.057137,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/enter_payment/H/2,2-mixed,main,invoiceninja,enter_payment,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,1,11,0.055321,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/enter_payment/N/1,2-mixed,main,invoiceninja,enter_payment,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,2,13,0.068227,asserted,,,no
+2-mixed/mixed/invoiceninja/enter_payment/N/2,2-mixed,main,invoiceninja,enter_payment,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,2,13,0.063729,asserted,,,no
+2-mixed/mixed/invoiceninja/expired_quotes/G/1,2-mixed,main,invoiceninja,expired_quotes,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.064135,asserted,,,no
+2-mixed/mixed/invoiceninja/expired_quotes/G/2,2-mixed,main,invoiceninja,expired_quotes,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.049756,asserted,,,yes
+2-mixed/mixed/invoiceninja/expired_quotes/H/1,2-mixed,main,invoiceninja,expired_quotes,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,12,0.071593,hedged,,,no
+2-mixed/mixed/invoiceninja/expired_quotes/H/2,2-mixed,main,invoiceninja,expired_quotes,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,10,0.065942,hedged,,,no
+2-mixed/mixed/invoiceninja/expired_quotes/N/1,2-mixed,main,invoiceninja,expired_quotes,mixed,N,1,held-out,false heal,false_heal,assertion_changed,3,11,0.06981,asserted,,,no
+2-mixed/mixed/invoiceninja/expired_quotes/N/2,2-mixed,main,invoiceninja,expired_quotes,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,11,0.069434,hedged,,,no
+2-mixed/mixed/invoiceninja/localization/G/1,2-mixed,main,invoiceninja,localization,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.05445,asserted,,,yes
+2-mixed/mixed/invoiceninja/localization/G/2,2-mixed,main,invoiceninja,localization,mixed,G,2,held-out,correct heal,correct_partial_heal,assertion_changed,1,9,0.048268,asserted,,,no
+2-mixed/mixed/invoiceninja/localization/H/1,2-mixed,main,invoiceninja,localization,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,13,0.069301,hedged,none,,no
+2-mixed/mixed/invoiceninja/localization/H/2,2-mixed,main,invoiceninja,localization,mixed,H,2,held-out,false heal,false_heal,assertion_changed,3,13,0.06908,hedged,none,,no
+2-mixed/mixed/invoiceninja/localization/N/1,2-mixed,main,invoiceninja,localization,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,9,0.058081,hedged,,,no
+2-mixed/mixed/invoiceninja/localization/N/2,2-mixed,main,invoiceninja,localization,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,9,0.058115,hedged,,,no
+2-mixed/mixed/invoiceninja/mark_invoice_as_paid/G/1,2-mixed,main,invoiceninja,mark_invoice_as_paid,mixed,G,1,dev,correct heal,correct_partial_heal,locator_only,1,8,0.060406,asserted,,,yes
+2-mixed/mixed/invoiceninja/mark_invoice_as_paid/G/2,2-mixed,main,invoiceninja,mark_invoice_as_paid,mixed,G,2,dev,correct heal,correct_partial_heal,locator_only,1,8,0.060716,asserted,,,no
+2-mixed/mixed/invoiceninja/mark_invoice_as_paid/H/1,2-mixed,main,invoiceninja,mark_invoice_as_paid,mixed,H,1,dev,skipped,silenced,skipped_or_deleted,4,18,0.153499,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/mark_invoice_as_paid/H/2,2-mixed,main,invoiceninja,mark_invoice_as_paid,mixed,H,2,dev,skipped,silenced,skipped_or_deleted,2,12,0.094563,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/mark_invoice_as_paid/N/1,2-mixed,main,invoiceninja,mark_invoice_as_paid,mixed,N,1,dev,correct heal,correct_partial_heal,locator_only,2,10,0.081428,hedged,,,no
+2-mixed/mixed/invoiceninja/mark_invoice_as_paid/N/2,2-mixed,main,invoiceninja,mark_invoice_as_paid,mixed,N,2,dev,correct heal,correct_partial_heal,locator_only,2,11,0.092984,hedged,,,no
+2-mixed/mixed/invoiceninja/mark_past_due_invoice_as_paid/G/1,2-mixed,main,invoiceninja,mark_past_due_invoice_as_paid,mixed,G,1,held-out,correct heal,correct_partial_heal,assertion_changed,1,8,0.046149,asserted,,,no
+2-mixed/mixed/invoiceninja/mark_past_due_invoice_as_paid/G/2,2-mixed,main,invoiceninja,mark_past_due_invoice_as_paid,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,2,10,0.071843,asserted,,,no
+2-mixed/mixed/invoiceninja/mark_past_due_invoice_as_paid/H/1,2-mixed,main,invoiceninja,mark_past_due_invoice_as_paid,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,2,14,0.087981,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/mark_past_due_invoice_as_paid/H/2,2-mixed,main,invoiceninja,mark_past_due_invoice_as_paid,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,3,15,0.077343,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/mark_past_due_invoice_as_paid/N/1,2-mixed,main,invoiceninja,mark_past_due_invoice_as_paid,mixed,N,1,held-out,correct heal,correct_partial_heal,assertion_changed,2,12,0.078543,asserted,,,no
+2-mixed/mixed/invoiceninja/mark_past_due_invoice_as_paid/N/2,2-mixed,main,invoiceninja,mark_past_due_invoice_as_paid,mixed,N,2,held-out,correct heal,correct_partial_heal,locator_only,3,12,0.087113,asserted,,,no
+2-mixed/mixed/invoiceninja/past_due_invoices/G/1,2-mixed,main,invoiceninja,past_due_invoices,mixed,G,1,dev,correct heal,correct_partial_heal,locator_only,1,9,0.049175,asserted,,,yes
+2-mixed/mixed/invoiceninja/past_due_invoices/G/2,2-mixed,main,invoiceninja,past_due_invoices,mixed,G,2,dev,correct heal,correct_partial_heal,locator_only,1,8,0.049064,asserted,,,yes
+2-mixed/mixed/invoiceninja/past_due_invoices/H/1,2-mixed,main,invoiceninja,past_due_invoices,mixed,H,1,dev,false heal,false_heal,assertion_changed,2,11,0.051614,hedged,,,no
+2-mixed/mixed/invoiceninja/past_due_invoices/H/2,2-mixed,main,invoiceninja,past_due_invoices,mixed,H,2,dev,false heal,false_heal,assertion_changed,2,11,0.052622,hedged,,,no
+2-mixed/mixed/invoiceninja/past_due_invoices/N/1,2-mixed,main,invoiceninja,past_due_invoices,mixed,N,1,dev,false heal,false_heal,assertion_changed,2,11,0.051688,hedged,,,no
+2-mixed/mixed/invoiceninja/past_due_invoices/N/2,2-mixed,main,invoiceninja,past_due_invoices,mixed,N,2,dev,false heal,false_heal,assertion_changed,2,10,0.05041,none,,,no
+2-mixed/mixed/invoiceninja/recent_payments/G/1,2-mixed,main,invoiceninja,recent_payments,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.048734,asserted,,,yes
+2-mixed/mixed/invoiceninja/recent_payments/G/2,2-mixed,main,invoiceninja,recent_payments,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.048696,asserted,,,yes
+2-mixed/mixed/invoiceninja/recent_payments/H/1,2-mixed,main,invoiceninja,recent_payments,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,11,0.058535,none,,,no
+2-mixed/mixed/invoiceninja/recent_payments/H/2,2-mixed,main,invoiceninja,recent_payments,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,11,0.057411,none,,,no
+2-mixed/mixed/invoiceninja/recent_payments/N/1,2-mixed,main,invoiceninja,recent_payments,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,11,0.052037,hedged,,,no
+2-mixed/mixed/invoiceninja/recent_payments/N/2,2-mixed,main,invoiceninja,recent_payments,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,10,0.063529,hedged,,,no
+2-mixed/mixed/invoiceninja/recent_transactions_expenses/G/1,2-mixed,main,invoiceninja,recent_transactions_expenses,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.036993,asserted,,,no
+2-mixed/mixed/invoiceninja/recent_transactions_expenses/G/2,2-mixed,main,invoiceninja,recent_transactions_expenses,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.036312,asserted,,,no
+2-mixed/mixed/invoiceninja/recent_transactions_expenses/H/1,2-mixed,main,invoiceninja,recent_transactions_expenses,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,12,0.057918,hedged,none,,no
+2-mixed/mixed/invoiceninja/recent_transactions_expenses/H/2,2-mixed,main,invoiceninja,recent_transactions_expenses,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,11,0.054195,none,none,,no
+2-mixed/mixed/invoiceninja/recent_transactions_expenses/N/1,2-mixed,main,invoiceninja,recent_transactions_expenses,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,11,0.050114,none,,,no
+2-mixed/mixed/invoiceninja/recent_transactions_expenses/N/2,2-mixed,main,invoiceninja,recent_transactions_expenses,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,12,0.068299,none,,,no
+2-mixed/mixed/invoiceninja/settings/G/1,2-mixed,main,invoiceninja,settings,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.050363,asserted,,,no
+2-mixed/mixed/invoiceninja/settings/G/2,2-mixed,main,invoiceninja,settings,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.049324,asserted,,,no
+2-mixed/mixed/invoiceninja/settings/H/1,2-mixed,main,invoiceninja,settings,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,10,0.055638,hedged,,,no
+2-mixed/mixed/invoiceninja/settings/H/2,2-mixed,main,invoiceninja,settings,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,11,0.061316,none,none,,no
+2-mixed/mixed/invoiceninja/settings/N/1,2-mixed,main,invoiceninja,settings,mixed,N,1,held-out,false heal,false_heal,locator_only,2,11,0.066974,hedged,,,no
+2-mixed/mixed/invoiceninja/settings/N/2,2-mixed,main,invoiceninja,settings,mixed,N,2,held-out,false heal,false_heal,locator_only,2,10,0.062444,hedged,,,no
+2-mixed/mixed/invoiceninja/stop_recurring_invoice/G/1,2-mixed,main,invoiceninja,stop_recurring_invoice,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.0503,asserted,,,no
+2-mixed/mixed/invoiceninja/stop_recurring_invoice/G/2,2-mixed,main,invoiceninja,stop_recurring_invoice,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.049659,asserted,,,no
+2-mixed/mixed/invoiceninja/stop_recurring_invoice/H/1,2-mixed,main,invoiceninja,stop_recurring_invoice,mixed,H,1,held-out,skipped,silenced,skipped_or_deleted,4,17,0.126094,hedged,none,asserted,no
+2-mixed/mixed/invoiceninja/stop_recurring_invoice/H/2,2-mixed,main,invoiceninja,stop_recurring_invoice,mixed,H,2,held-out,skipped,silenced,skipped_or_deleted,2,15,0.087212,asserted,asserted,asserted,no
+2-mixed/mixed/invoiceninja/stop_recurring_invoice/N/1,2-mixed,main,invoiceninja,stop_recurring_invoice,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,3,13,0.104921,hedged,,,no
+2-mixed/mixed/invoiceninja/stop_recurring_invoice/N/2,2-mixed,main,invoiceninja,stop_recurring_invoice,mixed,N,2,held-out,correct heal,correct_partial_heal,assertion_changed,4,16,0.117961,asserted,,,no
+2-mixed/mixed/invoiceninja/upcoming_invoices/G/1,2-mixed,main,invoiceninja,upcoming_invoices,mixed,G,1,dev,correct heal,correct_partial_heal,locator_only,1,9,0.049673,asserted,,,yes
+2-mixed/mixed/invoiceninja/upcoming_invoices/G/2,2-mixed,main,invoiceninja,upcoming_invoices,mixed,G,2,dev,correct heal,correct_partial_heal,locator_only,1,9,0.050094,asserted,,,yes
+2-mixed/mixed/invoiceninja/upcoming_invoices/H/1,2-mixed,main,invoiceninja,upcoming_invoices,mixed,H,1,dev,false heal,false_heal,assertion_changed,2,10,0.058299,asserted,,,no
+2-mixed/mixed/invoiceninja/upcoming_invoices/H/2,2-mixed,main,invoiceninja,upcoming_invoices,mixed,H,2,dev,false heal,false_heal,assertion_changed,2,11,0.060888,asserted,,,no
+2-mixed/mixed/invoiceninja/upcoming_invoices/N/1,2-mixed,main,invoiceninja,upcoming_invoices,mixed,N,1,dev,false heal,false_heal,assertion_changed,2,10,0.050785,hedged,,,no
+2-mixed/mixed/invoiceninja/upcoming_invoices/N/2,2-mixed,main,invoiceninja,upcoming_invoices,mixed,N,2,dev,false heal,false_heal,assertion_changed,2,10,0.051113,hedged,,,no
+2-mixed/mixed/invoiceninja/upcoming_quotes/G/1,2-mixed,main,invoiceninja,upcoming_quotes,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.049505,asserted,,,yes
+2-mixed/mixed/invoiceninja/upcoming_quotes/G/2,2-mixed,main,invoiceninja,upcoming_quotes,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.049767,asserted,,,yes
+2-mixed/mixed/invoiceninja/upcoming_quotes/H/1,2-mixed,main,invoiceninja,upcoming_quotes,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,11,0.060624,none,,,no
+2-mixed/mixed/invoiceninja/upcoming_quotes/H/2,2-mixed,main,invoiceninja,upcoming_quotes,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,11,0.05528,hedged,,,no
+2-mixed/mixed/invoiceninja/upcoming_quotes/N/1,2-mixed,main,invoiceninja,upcoming_quotes,mixed,N,1,held-out,false heal,false_heal,assertion_changed,3,12,0.069755,hedged,,,no
+2-mixed/mixed/invoiceninja/upcoming_quotes/N/2,2-mixed,main,invoiceninja,upcoming_quotes,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,11,0.067878,hedged,,,no
+2-mixed/mixed/invoiceninja/upcoming_recurring_invoices/G/1,2-mixed,main,invoiceninja,upcoming_recurring_invoices,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.050295,asserted,,,yes
+2-mixed/mixed/invoiceninja/upcoming_recurring_invoices/G/2,2-mixed,main,invoiceninja,upcoming_recurring_invoices,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.049424,asserted,,,yes
+2-mixed/mixed/invoiceninja/upcoming_recurring_invoices/H/1,2-mixed,main,invoiceninja,upcoming_recurring_invoices,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,11,0.050852,none,,,no
+2-mixed/mixed/invoiceninja/upcoming_recurring_invoices/H/2,2-mixed,main,invoiceninja,upcoming_recurring_invoices,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,11,0.051553,none,,,no
+2-mixed/mixed/invoiceninja/upcoming_recurring_invoices/N/1,2-mixed,main,invoiceninja,upcoming_recurring_invoices,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,10,0.061413,hedged,,,no
+2-mixed/mixed/invoiceninja/upcoming_recurring_invoices/N/2,2-mixed,main,invoiceninja,upcoming_recurring_invoices,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,10,0.057437,hedged,,,no
+2-mixed/mixed/invoiceninja/view_invoice_details/G/1,2-mixed,main,invoiceninja,view_invoice_details,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.04344,asserted,,,no
+2-mixed/mixed/invoiceninja/view_invoice_details/G/2,2-mixed,main,invoiceninja,view_invoice_details,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,9,0.049762,asserted,,,no
+2-mixed/mixed/invoiceninja/view_invoice_details/H/1,2-mixed,main,invoiceninja,view_invoice_details,mixed,H,1,held-out,false heal,false_heal,assertion_changed,2,12,0.058454,hedged,,,no
+2-mixed/mixed/invoiceninja/view_invoice_details/H/2,2-mixed,main,invoiceninja,view_invoice_details,mixed,H,2,held-out,false heal,false_heal,assertion_changed,2,10,0.050806,hedged,,,no
+2-mixed/mixed/invoiceninja/view_invoice_details/N/1,2-mixed,main,invoiceninja,view_invoice_details,mixed,N,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.063361,asserted,,,no
+2-mixed/mixed/invoiceninja/view_invoice_details/N/2,2-mixed,main,invoiceninja,view_invoice_details,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,9,0.047613,hedged,,,no
+2-mixed/mixed/invoiceninja/view_products/G/1,2-mixed,main,invoiceninja,view_products,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,8,0.055629,asserted,,,yes
+2-mixed/mixed/invoiceninja/view_products/G/2,2-mixed,main,invoiceninja,view_products,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,7,0.055587,asserted,,,yes
+2-mixed/mixed/invoiceninja/view_products/H/1,2-mixed,main,invoiceninja,view_products,mixed,H,1,held-out,false heal,false_heal,locator_only,2,10,0.062257,hedged,none,,no
+2-mixed/mixed/invoiceninja/view_products/H/2,2-mixed,main,invoiceninja,view_products,mixed,H,2,held-out,false heal,false_heal,locator_only,2,10,0.062954,hedged,none,,no
+2-mixed/mixed/invoiceninja/view_products/N/1,2-mixed,main,invoiceninja,view_products,mixed,N,1,held-out,false heal,false_heal,assertion_changed,2,10,0.062457,hedged,,,no
+2-mixed/mixed/invoiceninja/view_products/N/2,2-mixed,main,invoiceninja,view_products,mixed,N,2,held-out,false heal,false_heal,assertion_changed,2,9,0.059863,hedged,,,no
+2-mixed/mixed/invoiceninja/view_quote_details/G/1,2-mixed,main,invoiceninja,view_quote_details,mixed,G,1,held-out,correct heal,correct_partial_heal,locator_only,1,11,0.060791,asserted,,,no
+2-mixed/mixed/invoiceninja/view_quote_details/G/2,2-mixed,main,invoiceninja,view_quote_details,mixed,G,2,held-out,correct heal,correct_partial_heal,locator_only,1,11,0.062915,asserted,,,no
+2-mixed/mixed/invoiceninja/view_quote_details/H/1,2-mixed,main,invoiceninja,view_quote_details,mixed,H,1,held-out,false heal,false_heal,assertion_changed,3,11,0.065277,none,,,no
+2-mixed/mixed/invoiceninja/view_quote_details/H/2,2-mixed,main,invoiceninja,view_quote_details,mixed,H,2,held-out,false heal,false_heal,assertion_changed,3,11,0.064368,none,,,no
+2-mixed/mixed/invoiceninja/view_quote_details/N/1,2-mixed,main,invoiceninja,view_quote_details,mixed,N,1,held-out,false heal,false_heal,assertion_changed,3,13,0.082458,hedged,,,no
+2-mixed/mixed/invoiceninja/view_quote_details/N/2,2-mixed,main,invoiceninja,view_quote_details,mixed,N,2,held-out,false heal,false_heal,assertion_changed,3,14,0.079756,hedged,,,no
+2-c-assert/c_assert/bookstack/create_page/G/1,2-c-assert,main,bookstack,create_page,c_assert,G,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.046588,none,,,no
+2-c-assert/c_assert/bookstack/create_page/G/2,2-c-assert,main,bookstack,create_page,c_assert,G,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.026576,none,,,no
+2-c-assert/c_assert/bookstack/create_page/H/1,2-c-assert,main,bookstack,create_page,c_assert,H,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.046071,none,,,no
+2-c-assert/c_assert/bookstack/create_page/H/2,2-c-assert,main,bookstack,create_page,c_assert,H,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.025414,none,,,no
+2-c-assert/c_assert/bookstack/create_page/N/1,2-c-assert,main,bookstack,create_page,c_assert,N,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.025072,hedged,,,no
+2-c-assert/c_assert/bookstack/create_page/N/2,2-c-assert,main,bookstack,create_page,c_assert,N,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.024327,hedged,,,no
+2-c-assert/c_assert/invoiceninja/approve_quote/G/1,2-c-assert,main,invoiceninja,approve_quote,c_assert,G,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.060235,none,,,no
+2-c-assert/c_assert/invoiceninja/approve_quote/G/2,2-c-assert,main,invoiceninja,approve_quote,c_assert,G,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.037359,none,,,no
+2-c-assert/c_assert/invoiceninja/approve_quote/H/1,2-c-assert,main,invoiceninja,approve_quote,c_assert,H,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.05719,none,,,no
+2-c-assert/c_assert/invoiceninja/approve_quote/H/2,2-c-assert,main,invoiceninja,approve_quote,c_assert,H,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.037038,none,,,no
+2-c-assert/c_assert/invoiceninja/approve_quote/N/1,2-c-assert,main,invoiceninja,approve_quote,c_assert,N,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.037326,hedged,,,no
+2-c-assert/c_assert/invoiceninja/approve_quote/N/2,2-c-assert,main,invoiceninja,approve_quote,c_assert,N,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.0345,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_expired_quote/G/1,2-c-assert,main,invoiceninja,delete_expired_quote,c_assert,G,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.036834,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_expired_quote/G/2,2-c-assert,main,invoiceninja,delete_expired_quote,c_assert,G,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.039544,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_expired_quote/H/1,2-c-assert,main,invoiceninja,delete_expired_quote,c_assert,H,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.037232,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_expired_quote/H/2,2-c-assert,main,invoiceninja,delete_expired_quote,c_assert,H,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.038755,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_expired_quote/N/1,2-c-assert,main,invoiceninja,delete_expired_quote,c_assert,N,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.036234,hedged,,,no
+2-c-assert/c_assert/invoiceninja/delete_expired_quote/N/2,2-c-assert,main,invoiceninja,delete_expired_quote,c_assert,N,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.037752,hedged,,,no
+2-c-assert/c_assert/invoiceninja/delete_payment/G/1,2-c-assert,main,invoiceninja,delete_payment,c_assert,G,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.038936,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_payment/G/2,2-c-assert,main,invoiceninja,delete_payment,c_assert,G,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.037862,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_payment/H/1,2-c-assert,main,invoiceninja,delete_payment,c_assert,H,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.036088,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_payment/H/2,2-c-assert,main,invoiceninja,delete_payment,c_assert,H,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.036082,none,,,no
+2-c-assert/c_assert/invoiceninja/delete_payment/N/1,2-c-assert,main,invoiceninja,delete_payment,c_assert,N,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.03758,hedged,,,no
+2-c-assert/c_assert/invoiceninja/delete_payment/N/2,2-c-assert,main,invoiceninja,delete_payment,c_assert,N,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.034999,hedged,,,no
+2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/G/1,2-c-assert,main,invoiceninja,mark_invoice_as_paid,c_assert,G,1,dev,correct heal,bug_preserving_heal,assertion_changed,1,7,0.036511,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/G/2,2-c-assert,main,invoiceninja,mark_invoice_as_paid,c_assert,G,2,dev,correct heal,bug_preserving_heal,assertion_changed,1,8,0.03826,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/H/1,2-c-assert,main,invoiceninja,mark_invoice_as_paid,c_assert,H,1,dev,correct heal,bug_preserving_heal,assertion_changed,1,8,0.037929,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/H/2,2-c-assert,main,invoiceninja,mark_invoice_as_paid,c_assert,H,2,dev,correct heal,bug_preserving_heal,assertion_changed,1,8,0.036005,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/N/1,2-c-assert,main,invoiceninja,mark_invoice_as_paid,c_assert,N,1,dev,correct heal,bug_preserving_heal,assertion_changed,1,7,0.035612,hedged,,,no
+2-c-assert/c_assert/invoiceninja/mark_invoice_as_paid/N/2,2-c-assert,main,invoiceninja,mark_invoice_as_paid,c_assert,N,2,dev,correct heal,bug_preserving_heal,assertion_changed,1,7,0.035194,hedged,,,no
+2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/G/1,2-c-assert,main,invoiceninja,mark_past_due_invoice_as_paid,c_assert,G,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.03917,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/G/2,2-c-assert,main,invoiceninja,mark_past_due_invoice_as_paid,c_assert,G,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.038137,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/H/1,2-c-assert,main,invoiceninja,mark_past_due_invoice_as_paid,c_assert,H,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.036616,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/H/2,2-c-assert,main,invoiceninja,mark_past_due_invoice_as_paid,c_assert,H,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.036688,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/N/1,2-c-assert,main,invoiceninja,mark_past_due_invoice_as_paid,c_assert,N,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.036182,none,,,no
+2-c-assert/c_assert/invoiceninja/mark_past_due_invoice_as_paid/N/2,2-c-assert,main,invoiceninja,mark_past_due_invoice_as_paid,c_assert,N,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.034929,none,,,no
+2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/G/1,2-c-assert,main,invoiceninja,stop_recurring_invoice,c_assert,G,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.03503,none,,,no
+2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/G/2,2-c-assert,main,invoiceninja,stop_recurring_invoice,c_assert,G,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.036599,none,,,no
+2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/H/1,2-c-assert,main,invoiceninja,stop_recurring_invoice,c_assert,H,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.03627,none,,,no
+2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/H/2,2-c-assert,main,invoiceninja,stop_recurring_invoice,c_assert,H,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,8,0.038309,none,,,no
+2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/N/1,2-c-assert,main,invoiceninja,stop_recurring_invoice,c_assert,N,1,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.035475,none,,,no
+2-c-assert/c_assert/invoiceninja/stop_recurring_invoice/N/2,2-c-assert,main,invoiceninja,stop_recurring_invoice,c_assert,N,2,held-out,correct heal,bug_preserving_heal,assertion_changed,1,7,0.035165,none,,,no
+explore/b_oracle/bookstack/comment/H_noskip/1,explore,exploratory,bookstack,comment,b_oracle,H_noskip,1,dev,false heal,false_heal_blind,assertion_changed,1,8,0.064667,,,,
+explore/b_oracle/bookstack/comment/P/1,explore,exploratory,bookstack,comment,b_oracle,P,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.051121,,,,
+explore/b_oracle/bookstack/count_recently_created_books/H_noskip/1,explore,exploratory,bookstack,count_recently_created_books,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.058301,,,,
+explore/b_oracle/bookstack/count_recently_created_books/P/1,explore,exploratory,bookstack,count_recently_created_books,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,8,0.044582,,,,
+explore/b_oracle/bookstack/count_recently_created_chapters/H_noskip/1,explore,exploratory,bookstack,count_recently_created_chapters,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.041591,,,,
+explore/b_oracle/bookstack/count_recently_created_chapters/P/1,explore,exploratory,bookstack,count_recently_created_chapters,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.04456,,,,
+explore/b_oracle/bookstack/count_recently_created_pages/H_noskip/1,explore,exploratory,bookstack,count_recently_created_pages,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.028578,,,,
+explore/b_oracle/bookstack/count_recently_created_pages/P/1,explore,exploratory,bookstack,count_recently_created_pages,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.031966,,,,
+explore/b_oracle/bookstack/count_recently_created_shelves/H_noskip/1,explore,exploratory,bookstack,count_recently_created_shelves,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.035209,,,,
+explore/b_oracle/bookstack/count_recently_created_shelves/P/1,explore,exploratory,bookstack,count_recently_created_shelves,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.046568,,,,
+explore/b_oracle/bookstack/create_book/H_noskip/1,explore,exploratory,bookstack,create_book,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,1,7,0.035026,,,,
+explore/b_oracle/bookstack/create_book/P/1,explore,exploratory,bookstack,create_book,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.035532,,,,
+explore/b_oracle/bookstack/create_page/H_noskip/1,explore,exploratory,bookstack,create_page,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,1,7,0.033435,,,,
+explore/b_oracle/bookstack/create_page/P/1,explore,exploratory,bookstack,create_page,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.030902,,,,
+explore/b_oracle/bookstack/create_sort_rule/H_noskip/1,explore,exploratory,bookstack,create_sort_rule,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,1,7,0.035601,,,,
+explore/b_oracle/bookstack/create_sort_rule/P/1,explore,exploratory,bookstack,create_sort_rule,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.035582,,,,
+explore/b_oracle/bookstack/delete_book/H_noskip/1,explore,exploratory,bookstack,delete_book,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.025646,,,,
+explore/b_oracle/bookstack/delete_book/P/1,explore,exploratory,bookstack,delete_book,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.028188,,,,
+explore/b_oracle/bookstack/favourite_book/H_noskip/1,explore,exploratory,bookstack,favourite_book,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.025429,,,,
+explore/b_oracle/bookstack/favourite_book/P/1,explore,exploratory,bookstack,favourite_book,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.02709,,,,
+explore/b_oracle/bookstack/recent_activity_all/H_noskip/1,explore,exploratory,bookstack,recent_activity_all,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,1,7,0.041682,,,,
+explore/b_oracle/bookstack/recent_activity_all/P/1,explore,exploratory,bookstack,recent_activity_all,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.041544,,,,
+explore/b_oracle/bookstack/recent_activity_chapter/H_noskip/1,explore,exploratory,bookstack,recent_activity_chapter,b_oracle,H_noskip,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.025872,,,,
+explore/b_oracle/bookstack/recent_activity_chapter/P/1,explore,exploratory,bookstack,recent_activity_chapter,b_oracle,P,1,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.026806,,,,
+explore/b_oracle/bookstack/recent_activity_page/H_noskip/1,explore,exploratory,bookstack,recent_activity_page,b_oracle,H_noskip,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.024171,,,,
+explore/b_oracle/bookstack/recent_activity_page/P/1,explore,exploratory,bookstack,recent_activity_page,b_oracle,P,1,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.024563,,,,
+explore/b_oracle/bookstack/recent_activity_shelf/H_noskip/1,explore,exploratory,bookstack,recent_activity_shelf,b_oracle,H_noskip,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.023153,,,,
+explore/b_oracle/bookstack/recent_activity_shelf/P/1,explore,exploratory,bookstack,recent_activity_shelf,b_oracle,P,1,held-out,false heal,false_heal_blind,assertion_changed,1,7,0.023859,,,,
+explore/b_oracle/bookstack/recently_viewed_book/H_noskip/1,explore,exploratory,bookstack,recently_viewed_book,b_oracle,H_noskip,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.032263,,,,
+explore/b_oracle/bookstack/recently_viewed_book/P/1,explore,exploratory,bookstack,recently_viewed_book,b_oracle,P,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.0317,,,,
+explore/b_oracle/bookstack/recently_viewed_chapter/H_noskip/1,explore,exploratory,bookstack,recently_viewed_chapter,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.02932,,,,
+explore/b_oracle/bookstack/recently_viewed_chapter/P/1,explore,exploratory,bookstack,recently_viewed_chapter,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.032739,,,,
+explore/b_oracle/bookstack/search/H_noskip/1,explore,exploratory,bookstack,search,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.025022,,,,
+explore/b_oracle/bookstack/search/P/1,explore,exploratory,bookstack,search,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.032209,,,,
+explore/b_oracle/bookstack/settings/H_noskip/1,explore,exploratory,bookstack,settings,b_oracle,H_noskip,1,held-out,false heal,false_heal_blind,assertion_changed,1,8,0.030029,,,,
+explore/b_oracle/bookstack/settings/P/1,explore,exploratory,bookstack,settings,b_oracle,P,1,held-out,kept red,kept_red,unchanged,0,6,0.037989,,,,
+explore/b_oracle/bookstack/unfavourite_shelf/H_noskip/1,explore,exploratory,bookstack,unfavourite_shelf,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.02749,,,,
+explore/b_oracle/bookstack/unfavourite_shelf/P/1,explore,exploratory,bookstack,unfavourite_shelf,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,10,0.033919,,,,
+explore/b_oracle/bookstack/update_book/H_noskip/1,explore,exploratory,bookstack,update_book,b_oracle,H_noskip,1,dev,kept red,kept_red,unchanged,1,7,0.034079,,,,
+explore/b_oracle/bookstack/update_book/P/1,explore,exploratory,bookstack,update_book,b_oracle,P,1,dev,kept red,kept_red,unchanged,1,6,0.037089,,,,
+explore/b_oracle/invoiceninja/approve_quote/H_noskip/1,explore,exploratory,invoiceninja,approve_quote,b_oracle,H_noskip,1,held-out,kept red,kept_red,assertion_changed,3,12,0.104495,,,,
+explore/b_oracle/invoiceninja/approve_quote/P/1,explore,exploratory,invoiceninja,approve_quote,b_oracle,P,1,held-out,kept red,kept_red,assertion_changed,4,12,0.080334,,,,
+explore/b_oracle/invoiceninja/convert_quote_to_invoice/H_noskip/1,explore,exploratory,invoiceninja,convert_quote_to_invoice,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,flow_changed,1,8,0.040375,,,,
+explore/b_oracle/invoiceninja/convert_quote_to_invoice/P/1,explore,exploratory,invoiceninja,convert_quote_to_invoice,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,flow_changed,1,7,0.040407,,,,
+explore/b_oracle/invoiceninja/create_invoice/H_noskip/1,explore,exploratory,invoiceninja,create_invoice,b_oracle,H_noskip,1,held-out,kept red,kept_red,assertion_changed,3,13,0.085175,,,,
+explore/b_oracle/invoiceninja/create_invoice/P/1,explore,exploratory,invoiceninja,create_invoice,b_oracle,P,1,held-out,kept red,kept_red,unchanged,2,9,0.057848,,,,
+explore/b_oracle/invoiceninja/create_product/H_noskip/1,explore,exploratory,invoiceninja,create_product,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.033428,,,,
+explore/b_oracle/invoiceninja/create_product/P/1,explore,exploratory,invoiceninja,create_product,b_oracle,P,1,held-out,kept red,kept_red,unchanged,2,12,0.06707,,,,
+explore/b_oracle/invoiceninja/delete_expired_quote/H_noskip/1,explore,exploratory,invoiceninja,delete_expired_quote,b_oracle,H_noskip,1,held-out,kept red,kept_red,assertion_changed,3,12,0.084384,,,,
+explore/b_oracle/invoiceninja/delete_expired_quote/P/1,explore,exploratory,invoiceninja,delete_expired_quote,b_oracle,P,1,held-out,kept red,kept_red,assertion_changed,3,12,0.100037,,,,
+explore/b_oracle/invoiceninja/delete_payment/H_noskip/1,explore,exploratory,invoiceninja,delete_payment,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,2,10,0.058534,,,,
+explore/b_oracle/invoiceninja/delete_payment/P/1,explore,exploratory,invoiceninja,delete_payment,b_oracle,P,1,held-out,kept red,kept_red,unchanged,2,9,0.060265,,,,
+explore/b_oracle/invoiceninja/disable_invoices_module/H_noskip/1,explore,exploratory,invoiceninja,disable_invoices_module,b_oracle,H_noskip,1,held-out,kept red,kept_red,assertion_changed,2,11,0.077125,,,,
+explore/b_oracle/invoiceninja/disable_invoices_module/P/1,explore,exploratory,invoiceninja,disable_invoices_module,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.044194,,,,
+explore/b_oracle/invoiceninja/disable_quotes_module/H_noskip/1,explore,exploratory,invoiceninja,disable_quotes_module,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,1,9,0.054273,,,,
+explore/b_oracle/invoiceninja/disable_quotes_module/P/1,explore,exploratory,invoiceninja,disable_quotes_module,b_oracle,P,1,held-out,kept red,kept_red,unchanged,0,6,0.038758,,,,
+explore/b_oracle/invoiceninja/enter_payment/H_noskip/1,explore,exploratory,invoiceninja,enter_payment,b_oracle,H_noskip,1,held-out,kept red,kept_red,assertion_changed,2,10,0.065649,,,,
+explore/b_oracle/invoiceninja/enter_payment/P/1,explore,exploratory,invoiceninja,enter_payment,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.034146,,,,
+explore/b_oracle/invoiceninja/expired_quotes/H_noskip/1,explore,exploratory,invoiceninja,expired_quotes,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.034403,,,,
+explore/b_oracle/invoiceninja/expired_quotes/P/1,explore,exploratory,invoiceninja,expired_quotes,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,10,0.043778,,,,
+explore/b_oracle/invoiceninja/localization/H_noskip/1,explore,exploratory,invoiceninja,localization,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,9,0.043626,,,,
+explore/b_oracle/invoiceninja/localization/P/1,explore,exploratory,invoiceninja,localization,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,3,10,0.054923,,,,
+explore/b_oracle/invoiceninja/mark_invoice_as_paid/H_noskip/1,explore,exploratory,invoiceninja,mark_invoice_as_paid,b_oracle,H_noskip,1,dev,kept red,kept_red,assertion_changed,3,14,0.102696,,,,
+explore/b_oracle/invoiceninja/mark_invoice_as_paid/P/1,explore,exploratory,invoiceninja,mark_invoice_as_paid,b_oracle,P,1,dev,kept red,kept_red,unchanged,3,11,0.079078,,,,
+explore/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/H_noskip/1,explore,exploratory,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,H_noskip,1,held-out,kept red,kept_red,assertion_changed,5,20,0.146333,,,,
+explore/b_oracle/invoiceninja/mark_past_due_invoice_as_paid/P/1,explore,exploratory,invoiceninja,mark_past_due_invoice_as_paid,b_oracle,P,1,held-out,kept red,kept_red,unchanged,2,9,0.060877,,,,
+explore/b_oracle/invoiceninja/past_due_invoices/H_noskip/1,explore,exploratory,invoiceninja,past_due_invoices,b_oracle,H_noskip,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.034956,,,,
+explore/b_oracle/invoiceninja/past_due_invoices/P/1,explore,exploratory,invoiceninja,past_due_invoices,b_oracle,P,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.034472,,,,
+explore/b_oracle/invoiceninja/recent_payments/H_noskip/1,explore,exploratory,invoiceninja,recent_payments,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.028743,,,,
+explore/b_oracle/invoiceninja/recent_payments/P/1,explore,exploratory,invoiceninja,recent_payments,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,10,0.041685,,,,
+explore/b_oracle/invoiceninja/recent_transactions_expenses/H_noskip/1,explore,exploratory,invoiceninja,recent_transactions_expenses,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.044031,,,,
+explore/b_oracle/invoiceninja/recent_transactions_expenses/P/1,explore,exploratory,invoiceninja,recent_transactions_expenses,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.046149,,,,
+explore/b_oracle/invoiceninja/settings/H_noskip/1,explore,exploratory,invoiceninja,settings,b_oracle,H_noskip,1,held-out,false heal,false_heal_blind,locator_only,1,7,0.040777,,,,
+explore/b_oracle/invoiceninja/settings/P/1,explore,exploratory,invoiceninja,settings,b_oracle,P,1,held-out,false heal,false_heal_blind,locator_only,1,10,0.056666,,,,
+explore/b_oracle/invoiceninja/stop_recurring_invoice/H_noskip/1,explore,exploratory,invoiceninja,stop_recurring_invoice,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,2,10,0.072457,,,,
+explore/b_oracle/invoiceninja/stop_recurring_invoice/P/1,explore,exploratory,invoiceninja,stop_recurring_invoice,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,8,0.054337,,,,
+explore/b_oracle/invoiceninja/upcoming_invoices/H_noskip/1,explore,exploratory,invoiceninja,upcoming_invoices,b_oracle,H_noskip,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.033581,,,,
+explore/b_oracle/invoiceninja/upcoming_invoices/P/1,explore,exploratory,invoiceninja,upcoming_invoices,b_oracle,P,1,dev,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.035136,,,,
+explore/b_oracle/invoiceninja/upcoming_quotes/H_noskip/1,explore,exploratory,invoiceninja,upcoming_quotes,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,8,0.035663,,,,
+explore/b_oracle/invoiceninja/upcoming_quotes/P/1,explore,exploratory,invoiceninja,upcoming_quotes,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.03973,,,,
+explore/b_oracle/invoiceninja/upcoming_recurring_invoices/H_noskip/1,explore,exploratory,invoiceninja,upcoming_recurring_invoices,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,7,0.028966,,,,
+explore/b_oracle/invoiceninja/upcoming_recurring_invoices/P/1,explore,exploratory,invoiceninja,upcoming_recurring_invoices,b_oracle,P,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,1,9,0.033243,,,,
+explore/b_oracle/invoiceninja/view_invoice_details/H_noskip/1,explore,exploratory,invoiceninja,view_invoice_details,b_oracle,H_noskip,1,held-out,false heal,false_heal_bug_encoded,assertion_changed,2,8,0.044626,,,,
+explore/b_oracle/invoiceninja/view_invoice_details/P/1,explore,exploratory,invoiceninja,view_invoice_details,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.037159,,,,
+explore/b_oracle/invoiceninja/view_products/H_noskip/1,explore,exploratory,invoiceninja,view_products,b_oracle,H_noskip,1,held-out,false heal,false_heal_blind,locator_only,2,9,0.072232,,,,
+explore/b_oracle/invoiceninja/view_products/P/1,explore,exploratory,invoiceninja,view_products,b_oracle,P,1,held-out,false heal,false_heal_blind,assertion_changed,1,9,0.063805,,,,
+explore/b_oracle/invoiceninja/view_quote_details/H_noskip/1,explore,exploratory,invoiceninja,view_quote_details,b_oracle,H_noskip,1,held-out,kept red,kept_red,unchanged,1,7,0.048237,,,,
+explore/b_oracle/invoiceninja/view_quote_details/P/1,explore,exploratory,invoiceninja,view_quote_details,b_oracle,P,1,held-out,kept red,kept_red,unchanged,1,6,0.045437,,,,

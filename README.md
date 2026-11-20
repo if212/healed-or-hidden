@@ -8,8 +8,9 @@ and asked to fix it. Sometimes the test was stale (a harmless change to the
 application) and sometimes the application had a bug. Each session ran under one of
 three instructions: a naive request (N), Playwright's official healer prompt (H), and
 a guarded healer prompt (G). Every returned test was labeled by running it again.
-This repository holds one record per session, the analysis outputs behind every
-number in the paper, the prompts, the scenarios and the code that ran the study.
+This repository holds one record per session of the study's five stages, the analysis
+outputs behind the paper's numbers, the prompts, the scenarios and the code that ran
+the study.
 
 ## What is here
 
@@ -17,7 +18,7 @@ number in the paper, the prompts, the scenarios and the code that ran the study.
 |---|---|
 | `data/sessions.csv` | One row per session (1078: 990 main, 88 exploratory) |
 | `data/sessions.jsonl` | Per session: the agent's texts and the lines its returned test changed |
-| `analysis/` | The analysis outputs; `numbers.tex` holds every number the paper prints |
+| `analysis/` | The analysis outputs; `numbers.tex` holds the numbers the analysis computes for the paper |
 | `docs/analysis-plan.md` | The analysis plan, frozen before the first recorded session |
 | `docs/coding/` | The two coders' instructions and codes, their agreement and the adjudication |
 | `docs/review/` | The decision on each false heal, read by hand before the data were frozen |
@@ -66,7 +67,9 @@ One JSON object per line, in the order of `sessions.csv`:
 - `files`: per test file, `removed` (lines of the original test that the returned test
   no longer has) and `added` (lines the returned test added), each as
   `[line number, text]`. No other line of the test is given: the tests were generated
-  from the benchmark's, whose files are not distributed here.
+  from the benchmark's, whose files are not distributed here. A test appears in
+  several sessions, so the removed lines of all its sessions together can show much
+  of a short test.
 
 ## What is not here
 
@@ -77,6 +80,11 @@ One JSON object per line, in the order of `sessions.csv`:
   rebuild the generated tests and the rewritten bug scripts from it.
 - The raw session records (transcripts, page snapshots, the full returned tests): they
   contain the generated tests and the applications' pages.
+- The fidelity check of the paper's Section IV-E, in which Playwright's own healer
+  agent ran 20 sessions (the last row of Table IV): the paper reports its labels, and
+  its sessions are not included.
+- The study's design document, runbooks, run reports and unit tests. Comments in the
+  code and some files under `docs/` refer to them.
 
 ## Running it again
 
@@ -92,9 +100,10 @@ just prompts     # build/prompts: the prompts of prompts/final/
 ```
 
 A stage runs with `python -m hoh.run_stage --stage <name> --config <file>`;
-`stages/dry-run.yaml` shows the configuration format in full, and `--dry-run` runs the
-whole pipeline without Docker or a credential. `just analyze` computes `analysis/` from
-the stages' records, and `just export` writes `data/` from them.
+`stages/dry-run.yaml` shows the configuration format in full. `just analyze` and
+`just export` read the stages' raw records, which are not public. From them,
+`just analyze` writes the files of `analysis/` to `build/analysis/` and
+`paper/generated/`, and `just export` writes `data/`.
 
 ## Citing
 
@@ -102,7 +111,11 @@ the stages' records, and `just export` writes `data/` from them.
 
 ## License
 
-The code is under the MIT License (`LICENSE`). `third_party/playwright-healer/` is
-Playwright's, under the Apache License 2.0 (its `LICENSE` and `NOTICE`), and so are
-the parts of `prompts/final/` taken from it. The data in `data/`, `analysis/` and
-`docs/` are under CC BY 4.0.
+The code, the prompts, the scenarios and the stage configurations are under the MIT
+License (`LICENSE`). `third_party/playwright-healer/` is Playwright's, under the Apache
+License 2.0 (its `LICENSE` and `NOTICE`), and so are the parts of `prompts/final/` and
+of the edit files in `prompts/` taken from it; the `NOTICE` names the modified files.
+The data in `data/`, `analysis/` and `docs/` are under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The fragments of the
+benchmark's bug scripts that `docs/neutralization-report.md` quotes are the
+benchmark's, and this license does not cover them.

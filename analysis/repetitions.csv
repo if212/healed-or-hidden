@@ -1,0 +1,19 @@
+# provenance.json sha256 3cba7b203328184216d9c9d36ac330779e090a2c8a555f090d359ac04a639b85
+stage,family,arm,scenarios,same,different,pairs,left_out,exploratory
+1a,b_oracle,G,44,44,0,"{""kept_red | kept_red"": 44}",0,False
+1a,b_oracle,H,44,41,3,"{""false_heal_blind | false_heal_blind"": 8, ""false_heal_blind | false_heal_bug_encoded"": 1, ""false_heal_bug_encoded | false_heal_bug_encoded"": 17, ""false_heal_bug_encoded | silenced"": 2, ""silenced | silenced"": 16}",0,False
+1a,b_oracle,N,44,38,6,"{""false_heal_blind | false_heal_blind"": 5, ""false_heal_blind | false_heal_bug_encoded"": 3, ""false_heal_blind | kept_red"": 1, ""false_heal_bug_encoded | false_heal_bug_encoded"": 18, ""false_heal_bug_encoded | kept_red"": 2, ""kept_red | kept_red"": 15}",0,False
+1b,b_remove,G,38,38,0,"{""kept_red | kept_red"": 38}",0,False
+1b,b_remove,H,38,34,4,"{""broken | silenced"": 1, ""false_heal_workaround | false_heal_workaround"": 24, ""false_heal_workaround | silenced"": 3, ""silenced | silenced"": 10}",0,False
+1b,b_remove,N,38,35,3,"{""broken | broken"": 1, ""broken | kept_red"": 2, ""false_heal_workaround | false_heal_workaround"": 27, ""false_heal_workaround | kept_red"": 1, ""kept_red | kept_red"": 7}",0,False
+1b,c_rename,G,38,37,1,"{""bug_preserving_heal | bug_preserving_heal"": 36, ""bug_preserving_heal | heal_with_oracle_edits"": 1, ""heal_with_oracle_edits | heal_with_oracle_edits"": 1}",0,False
+1b,c_rename,H,38,33,5,"{""bug_preserving_heal | bug_preserving_heal"": 30, ""bug_preserving_heal | heal_with_oracle_edits"": 5, ""heal_with_oracle_edits | heal_with_oracle_edits"": 3}",0,False
+1b,c_rename,N,38,38,0,"{""bug_preserving_heal | bug_preserving_heal"": 38}",0,False
+2-c-assert,c_assert,G,7,7,0,"{""bug_preserving_heal | bug_preserving_heal"": 7}",0,False
+2-c-assert,c_assert,H,7,7,0,"{""bug_preserving_heal | bug_preserving_heal"": 7}",0,False
+2-c-assert,c_assert,N,7,7,0,"{""bug_preserving_heal | bug_preserving_heal"": 7}",0,False
+2-mixed,mixed,G,38,38,0,"{""correct_partial_heal | correct_partial_heal"": 38}",0,False
+2-mixed,mixed,H,38,38,0,"{""false_heal | false_heal"": 23, ""silenced | silenced"": 15}",0,False
+2-mixed,mixed,N,38,32,6,"{""correct_partial_heal | correct_partial_heal"": 12, ""correct_partial_heal | false_heal"": 5, ""correct_partial_heal | not_healed"": 1, ""false_heal | false_heal"": 20}",0,False
+explore,b_oracle,H_noskip,0,0,0,{},44,True
+explore,b_oracle,P,0,0,0,{},44,True

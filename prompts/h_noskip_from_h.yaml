@@ -1,0 +1,16 @@
+# Arm H_noskip (exploratory): arm H without the instruction to skip the test.
+#
+# This edit is applied to arm H's text, that is, to the upstream body after
+# h_adaptation.yaml. `old` must occur in that text exactly once.
+
+- old: |
+    - If the error persists and you have high level of confidence that the test is correct, mark this test with @pytest.mark.skip(reason=...)
+      so that it is skipped during the execution. Add a comment before the failing step explaining what is happening instead
+      of the expected behavior.
+  new: ""
+  why: >-
+    Removes the whole key-principle bullet point that tells the agent to mark
+    the test as skipped, with its continuation lines about adding a comment and
+    the line break that ends it, so no empty line is left behind. Nothing else
+    changes. The arm is exploratory: it shows what arm H does when this one
+    bullet point is absent.

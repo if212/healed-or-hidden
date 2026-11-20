@@ -1,0 +1,70 @@
+# Find/replace rules for the benchmark's browser start-up script (runtime/init.py).
+#
+# hoh.envs.transform_init applies them after the injector's names have been renamed
+# (hoh.neutralize.neutralize_identifiers), so each `find` is written against that text:
+# the session flag reads '__ui_ready' here.
+#
+# Format: the file name -> a list of {find, replace, count, why}, the same as the
+# bug-script rules in scenarios/neutralize/. `find` must occur exactly `count` times
+# (default 1), or assembly stops: a rule that quietly stopped matching would leave the
+# page script unregistered or the ready key unset. hoh.envs then checks the result on its
+# syntax tree, and refuses it if any login function changed. No rule touches them.
+#
+# Multi-line values are written with `|2-`: their text starts two columns to the right of
+# `find:` and `replace:`, so every Python line keeps its indentation as written.
+
+init.py:
+  - find: 'script = prepare_bug_script(BUG_JS.read_text(), BUG_INJECTOR.read_text(), "bug")'
+    replace: 'script = BUG_JS.read_text(encoding="utf-8")'
+    why: >-
+      bug.js arrives as the whole page script, merged and neutralized when the environment
+      is assembled (hoh.pagescripts.merge_bug, with the kind "st"); that merged text is what
+      the tests check and what must run. The start-up script's own merge would look for the
+      marker blocks, which are gone, and fail before login; it would also file the trigger
+      state under the kind "bug" and fill the placeholder under its old name only.
+
+  - find: |2-
+                  print(f"[init] No bug injection (INJECT_BUG={os.environ.get('INJECT_BUG', 'false')})")
+
+              page = context.pages[0] if context.pages else context.new_page()
+    replace: |2-
+                  print(f"[init] No bug injection (INJECT_BUG={os.environ.get('INJECT_BUG', 'false')})")
+
+              # Second page script (rename or remove one control). Registered after the
+              # first, so that it runs after it in every new document. Empty file: off.
+              page_script = Path("/page_script.js")
+              page_script_on = page_script.is_file() and page_script.stat().st_size > 0
+              if page_script_on:
+                  context.add_init_script(page_script.read_text(encoding="utf-8"))
+                  print("[init] Page script registered")
+
+              page = context.pages[0] if context.pages else context.new_page()
+    why: >-
+      The rename and removal variants need their page script installed before the first
+      navigation, like the change script, and after it, so that it runs second in every
+      document. An empty page_script.js registers nothing.
+
+  - find: |2-
+              # Activate the bug script after setup and reload the current page.
+              if INJECT_BUG and BUG_JS.exists():
+                  page.evaluate("sessionStorage.setItem('__ui_ready', 'true')")
+                  try:
+                      page.reload(wait_until="domcontentloaded", timeout=30_000)
+                  except Exception as e:
+                      print(f"[init] Reload warning: {e}")
+    replace: |2-
+              # Set the ready key after setup and reload once, whatever is registered. The
+              # page scripts stay inert until the key is set, so neither can disturb the
+              # login; the reload makes them live from document start. Every tab is handed
+              # over after the same steps.
+              page.evaluate("sessionStorage.setItem('__ui_ready', 'true')")
+              try:
+                  page.reload(wait_until="domcontentloaded", timeout=30_000)
+              except Exception as e:
+                  print(f"[init] Reload warning: {e}")
+    why: >-
+      One start-up sequence for every variant (design doc section 14.3): the clean one too
+      sets the key and reloads, so the variants differ only in the contents of bug.js and
+      page_script.js and in INJECT_BUG. The runner's preflight can then require the key
+      everywhere, with settings that are the same in every variant. The benchmark set the
+      key and reloaded only when injecting.

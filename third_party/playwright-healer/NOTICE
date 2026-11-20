@@ -1,0 +1,29 @@
+Playwright
+Copyright (c) Microsoft Corporation
+
+The file playwright-test-healer.agent.md in this directory is an unmodified
+copy of packages/playwright/src/agents/playwright-test-healer.agent.md from
+https://github.com/microsoft/playwright at tag v1.65.1 (commit
+bbd948344ea9a60bf1e6f125c02ca99b2b51593b). See SOURCE.md.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Modifications
+
+This repository does not change the copy in this directory. It modifies the
+text through the edit files under prompts/ (h_adaptation.yaml, g_from_h.yaml
+and h_noskip_from_h.yaml). Each edit file lists every change made to the
+original text and the reason for it. src/hoh/prompts.py applies those edits
+and writes the modified texts to build/prompts/. Copies of them are in
+prompts/final/: H.system.md, G.system.md and H_noskip.system.md are modified
+versions of the file in this directory.

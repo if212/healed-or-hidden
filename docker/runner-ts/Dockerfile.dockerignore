@@ -1,0 +1,11 @@
+# The build context is src/. Only what docker/runner-ts/Dockerfile copies goes in: the fixture
+# package without its local node_modules and its unit tests, the TypeScript entry, and the
+# Python runner's page script. hoh.fidelity.stack.source_digest leaves out the same files.
+*
+!pwfix
+!pwrun
+!hoh_runner/quiet.js
+pwfix/node_modules
+pwfix/test
+**/__pycache__
+**/.*
