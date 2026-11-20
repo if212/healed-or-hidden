@@ -1,0 +1,19 @@
+# provenance.json sha256 3cba7b203328184216d9c9d36ac330779e090a2c8a555f090d359ac04a639b85
+stage,family,arm,jobs,observations,capped,run_test_limit,refused_sessions,refused_calls,free_first_call,non_observations,needs_review,audit_leaks,confirmed_leaks,retries,judging_retries,fallback,exploratory
+1a,b_oracle,N,88,88,{},3,0,0,20,{},0,6,0,{},0,0,False
+1a,b_oracle,H,88,88,{},4,0,0,23,{},0,0,0,{},0,0,False
+1a,b_oracle,G,88,88,{},0,0,0,10,{},0,0,0,{},0,0,False
+1b,b_remove,N,76,76,{},9,0,0,13,{},0,1,0,{},0,0,False
+1b,b_remove,H,76,76,{},10,0,0,10,{},0,1,0,{},0,0,False
+1b,b_remove,G,76,76,{},0,0,0,7,{},0,0,0,{},0,0,False
+1b,c_rename,N,76,76,{},0,0,0,0,{},0,0,0,{},0,0,False
+1b,c_rename,H,76,76,{},0,0,0,0,{},0,0,0,{},0,0,False
+1b,c_rename,G,76,76,{},0,0,0,0,{},0,0,0,{},0,0,False
+2-mixed,mixed,N,76,76,{},6,0,0,0,{},0,2,0,{},0,0,False
+2-mixed,mixed,H,76,76,{},5,0,0,0,{},0,1,0,{},0,0,False
+2-mixed,mixed,G,76,76,{},0,0,0,0,{},0,0,0,{},0,0,False
+2-c-assert,c_assert,N,14,14,{},0,0,0,0,{},0,0,0,{},0,0,False
+2-c-assert,c_assert,H,14,14,{},0,0,0,0,{},0,0,0,{},0,0,False
+2-c-assert,c_assert,G,14,14,{},0,0,0,0,{},0,0,0,{},0,0,False
+explore,b_oracle,P,44,44,{},0,0,0,24,{},0,1,0,{},0,0,True
+explore,b_oracle,H_noskip,44,44,{},1,0,0,14,{},0,1,0,{},0,0,True

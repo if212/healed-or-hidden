@@ -1,0 +1,30 @@
+# Build outputs. Generated tests and rewritten bug scripts are derived from the
+# benchmark and must never be committed.
+build/
+
+# Run outputs. Summaries are committed on purpose; raw results are not.
+results/**
+!results/README.md
+
+# Secrets
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+
+# Agent tooling scratch
+.superpowers/
+
+# OS
+.DS_Store
+
+# Stage configurations with machine-specific paths (written by the runbooks).
+stages/local/

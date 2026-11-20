@@ -1,0 +1,524 @@
+app,task,step,field,yaml_line,role_or_method,label,exact,form,used_as,call,absent_check,either_or,picked_by_position,scoped,draft_status
+bookstack,comment,1,solution,10,role=link,Page Template,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,comment,2,action_check,15,role=button,Add Comment,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,comment,3,solution,26,role=button,Add Comment,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,comment,3,action_check,23,get_by_label,Comments,no,literal,assertion,to_match_aria_snapshot,no,no,,no,draft: not checked against page snapshots
+bookstack,comment,4,action_check,31,role=button,Save Comment,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,comment,5,solution,44,css:[title=],Rich Text Area,yes,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,comment,5,solution,44,get_by_label,Rich Text Area. Press ALT-0,no,literal,action,fill,no,no,,yes,draft: not checked against page snapshots
+bookstack,comment,5,action_check,40,css:[title=],Rich Text Area,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,comment,5,action_check,40,get_by_text,I like this template,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+bookstack,comment,6,solution,52,role=button,Save Comment,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_books,1,solution,10,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_books,1,solution,10,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,count_recently_created_books,1,action_check,7,role=link,View Profile,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_books,2,solution,18,role=link,View Profile,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_books,2,action_check,15,get_by_text,Created Content,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_chapters,1,solution,10,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_chapters,1,solution,10,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,count_recently_created_chapters,1,action_check,7,role=link,View Profile,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_chapters,2,solution,18,role=link,View Profile,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_chapters,2,action_check,15,get_by_text,Created Content,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,1,solution,10,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,1,solution,10,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,1,action_check,7,role=link,View Profile,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,2,solution,18,role=link,View Profile,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,2,action_check,15,get_by_text,Created Content,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,3,solution,26,role=link,View All,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,count_recently_created_pages,3,action_check,23,role=heading,Search Results,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_shelves,1,solution,10,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_shelves,1,solution,10,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,count_recently_created_shelves,1,action_check,7,role=link,View Profile,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_shelves,2,solution,18,role=link,View Profile,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,count_recently_created_shelves,2,action_check,15,get_by_text,Created Content,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,1,solution,10,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,1,action_check,7,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,2,solution,18,role=link,Create New Book,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,2,action_check,15,role=heading,Create New Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,3,solution,26,role=textbox,Name,no,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,3,action_check,23,role=textbox,Name,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,4,solution,34,css:[title=],Rich Text Area,yes,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,4,solution,34,get_by_label,Rich Text Area. Press ALT-0,no,literal,action,fill,no,no,,yes,draft: not checked against page snapshots
+bookstack,create_book,4,action_check,31,css:[title=],Rich Text Area,yes,literal,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,5,action_check,39,role=button,Save Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,6,solution,50,role=button,Save Book,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,6,action_check,47,role=heading,New Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_book,7,solution,58,role=link,Books,yes,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,create_book,7,action_check,55,role=link,New Book,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+bookstack,create_book,final,assertion_check,63,role=heading,New Book,yes,literal,assertion,(inside a helper or a variable),no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,1,solution,10,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,1,action_check,7,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,2,solution,18,role=link,Book Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,2,action_check,15,role=heading,Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,3,solution,26,role=link,New Page,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,3,action_check,23,role=textbox,Page Title,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,4,solution,34,css:[title=],Rich Text Area,yes,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,4,solution,34,get_by_label,Rich Text Area. Press ALT-0,no,literal,action,fill,no,no,,yes,draft: not checked against page snapshots
+bookstack,create_page,4,action_check,31,css:[title=],Rich Text Area,yes,literal,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+bookstack,create_page,5,solution,42,role=button,Save Page,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,1,solution,10,role=link,Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,1,action_check,7,role=heading,Features & Security,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,2,solution,18,role=link,Sorting,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,2,action_check,15,role=heading,Sorting,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,3,solution,26,role=link,Create Sort Rule,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,3,action_check,23,role=heading,Create Sort Rule,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,4,solution,34,role=textbox,Name,no,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,4,action_check,31,role=textbox,Name,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,5,action_check,39,role=button,Save,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,6,solution,50,filter(has_text),Name - Alphabetical (Asc),no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,create_sort_rule,6,action_check,47,get_by_label,Configured Operations,no,literal,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,7,solution,58,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,7,action_check,55,role=link,New Sort Rule,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,create_sort_rule,final,assertion_check,63,filter(has_text),New Sort Rule,no,literal,assertion,to_contain_text,no,no,,yes,draft: not checked against page snapshots
+bookstack,delete_book,1,solution,10,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,delete_book,1,action_check,7,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,delete_book,2,solution,18,role=link,Book2 Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,delete_book,2,action_check,15,role=heading,Book2,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,delete_book,3,solution,26,role=link,Delete,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,delete_book,3,action_check,23,role=heading,Delete Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,delete_book,4,solution,34,role=button,Confirm,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,1,solution,10,role=link,Shelves,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,1,action_check,7,role=heading,Shelves,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,2,solution,18,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,2,solution,18,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,favourite_book,2,action_check,15,role=link,My Favourites,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,3,solution,26,role=link,My Favourites,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,3,action_check,23,role=heading,My Favourites,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,4,solution,34,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,4,action_check,31,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,5,solution,42,role=link,Book2 Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,5,action_check,39,role=heading,Book2,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,6,solution,50,role=button,Favourite,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,6,action_check,47,role=button,Unfavourite,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,7,solution,58,role=link,Shelves,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,7,action_check,55,role=heading,Shelves,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,8,solution,66,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,8,solution,66,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,favourite_book,8,action_check,63,role=link,My Favourites,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,favourite_book,9,solution,74,role=link,My Favourites,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recent_activity_all,1,solution,10,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recent_activity_all,1,solution,10,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,recent_activity_all,1,action_check,7,role=link,View Profile,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,recent_activity_all,2,solution,18,role=link,View Profile,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recent_activity_all,2,action_check,15,role=heading,Recent Activity,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,recent_activity_chapter,1,solution,10,role=link,Chapter,no,literal,action,click,no,no,first,no,draft: not checked against page snapshots
+bookstack,recent_activity_chapter,1,action_check,7,role=heading,Details,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+bookstack,recent_activity_chapter,1,action_check,7,role=heading,Info,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+bookstack,recent_activity_chapter,final,assertion_check,14,filter(has_text),ago,n/a,regex,assertion,(inside a helper or a variable),no,no,,yes,draft: not checked against page snapshots
+bookstack,recent_activity_page,1,solution,10,role=link,Page 1,no,literal,action,click,no,no,first,yes,draft: not checked against page snapshots
+bookstack,recent_activity_page,1,action_check,7,role=heading,Details,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+bookstack,recent_activity_page,1,action_check,7,role=heading,Info,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+bookstack,recent_activity_page,final,assertion_check,14,filter(has_text),ago,n/a,regex,assertion,(inside a helper or a variable),no,no,,yes,draft: not checked against page snapshots
+bookstack,recent_activity_shelf,1,solution,10,role=link,Shelf,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,recent_activity_shelf,1,action_check,7,role=heading,Details,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+bookstack,recent_activity_shelf,1,action_check,7,role=heading,Info,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+bookstack,recent_activity_shelf,final,assertion_check,14,filter(has_text),ago,n/a,regex,assertion,(inside a helper or a variable),no,no,,yes,draft: not checked against page snapshots
+bookstack,recently_viewed_book,1,solution,10,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_book,1,action_check,7,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_book,2,solution,18,role=link,Book2 Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_book,2,action_check,15,role=heading,Book2,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_book,3,solution,26,role=link,Logo BookStack,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_chapter,1,solution,10,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_chapter,1,action_check,7,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_chapter,2,solution,18,role=link,Book2 Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_chapter,2,action_check,15,role=heading,Book2,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_chapter,3,solution,26,role=link,Chapter 1 Description,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,recently_viewed_chapter,4,solution,34,role=link,Logo BookStack,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,search,1,solution,10,role=button,Search,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,search,1,action_check,7,role=heading,Search Results,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,search,2,solution,18,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,search,2,action_check,15,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,search,3,solution,26,role=link,Book2 Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,search,3,action_check,23,role=heading,Book2,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,1,solution,10,role=link,Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,1,action_check,7,role=heading,Features & Security,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,2,solution,18,role=link,Customization,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,2,action_check,15,role=heading,Customization,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,3,solution,26,role=link,Registration,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,3,action_check,23,role=heading,Registration,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,4,solution,34,role=link,Sorting,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,4,action_check,31,role=heading,Sorting,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,final,assertion_check,37,role=heading,Sorting,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,settings,final,assertion_check,38,role=link,Create Sort Rule,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,1,solution,10,role=link,Shelves,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,1,action_check,7,role=heading,Shelves,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,2,solution,18,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,2,solution,18,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,2,action_check,15,role=link,My Favourites,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,3,solution,26,role=link,My Favourites,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,3,action_check,23,role=heading,My Favourites,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,4,solution,34,role=link,Shelves,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,4,action_check,31,role=heading,Shelves,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,5,solution,42,role=link,Shelf Shelf Description,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,5,action_check,39,role=heading,Shelf,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,6,solution,50,role=button,Unfavourite,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,6,action_check,47,role=button,Favourite,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,7,solution,58,role=link,Shelves,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,7,action_check,55,role=heading,Shelves,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,8,solution,66,get_by_label,Profile Menu,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,8,solution,66,role=img,Admin,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,8,action_check,63,role=link,My Favourites,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,unfavourite_shelf,9,solution,74,role=link,My Favourites,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,1,solution,10,role=link,Books,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,1,action_check,7,role=heading,Books,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,2,solution,18,role=link,Book Description Created,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,2,action_check,15,role=heading,Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,3,solution,26,role=link,Edit,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,3,action_check,23,role=textbox,Name,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,4,solution,34,role=textbox,Name,no,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,4,action_check,31,role=textbox,Name,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,5,solution,42,css:[title=],Rich Text Area,yes,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,5,solution,42,get_by_label,Rich Text Area. Press ALT-0,no,literal,action,fill,no,no,,yes,draft: not checked against page snapshots
+bookstack,update_book,5,action_check,39,css:[title=],Rich Text Area,yes,literal,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,6,action_check,47,role=button,Save Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,7,solution,58,role=button,Save Book,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,7,action_check,55,role=heading,Updated Book,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+bookstack,update_book,8,solution,66,role=link,Books,yes,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+bookstack,update_book,final,assertion_check,71,role=heading,Updated Book,yes,literal,assertion,(inside a helper or a variable),no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,1,solution,10,role=link,Quotes,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,1,action_check,7,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,2,solution,18,role=button,Actions,no,literal,action,click,no,no,nth(2),no,draft: not checked against page snapshots
+invoiceninja,approve_quote,2,action_check,15,role=button,Approve,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,3,solution,26,role=button,Approve,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,3,action_check,23,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,4,solution,34,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,4,action_check,31,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,approve_quote,final,assertion_check,39,locator(has_text),Upcoming Quotes,no,variable,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,2,solution,18,role=link,Quotes,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,2,action_check,15,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,3,solution,26,filter(has_text),Status,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,3,action_check,23,role=option,Sent,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,4,solution,34,role=option,Sent,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,4,action_check,31,role=option,Sent,no,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,5,solution,42,role=button,Actions,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,5,action_check,39,role=button,Convert to Invoice,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,6,solution,50,role=button,Convert to Invoice,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,6,action_check,47,get_by_text,Converted,no,literal,assertion,to_be_visible,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,7,solution,58,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,convert_quote_to_invoice,7,action_check,55,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,2,solution,18,role=link,New Invoice,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,2,action_check,15,role=heading,New Invoice,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,3,solution,26,role=option,company_name,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,3,action_check,23,get_by_text,Contacts,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,4,solution,34,role=button,Add Item,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,5,action_check,39,css:[value=],200,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,6,solution,50,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,6,action_check,47,get_by_text,Draft,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_invoice,final,assertion_check,54,filter(has_text),Subtotal,no,literal,assertion,(inside a helper or a variable),no,no,first,yes,draft: not checked against page snapshots
+invoiceninja,create_invoice,final,assertion_check,55,locator(has_text),Subtotal,no,literal,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,create_product,1,solution,10,role=link,Products,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,1,action_check,7,role=heading,Products,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,2,solution,18,role=link,New Product,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,2,action_check,15,role=link,New Product,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,6,solution,50,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,6,action_check,47,get_by_text,Active,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,final,assertion_check,54,get_by_text,Active,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,create_product,final,assertion_check,55,css:text-is,Tax Category,yes,literal,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,1,solution,10,role=link,Quotes,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,1,action_check,7,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,2,solution,18,filter(has_text),Status,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,2,action_check,15,role=option,Expired,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,3,solution,26,role=option,Expired,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,3,action_check,23,role=option,Expired,no,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,4,solution,34,filter(has_text),123456_expired,no,literal,action,check,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,4,action_check,31,role=button,Actions,no,literal,assertion,to_be_enabled,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,5,solution,42,role=button,Actions,no,literal,action,click,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,5,action_check,39,role=button,Delete,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,6,solution,50,role=button,Delete,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,6,action_check,47,role=link,123456_expired,no,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,7,solution,58,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,7,action_check,55,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_expired_quote,final,assertion_check,63,locator(has_text),Expired Quotes,no,variable,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,1,solution,10,role=link,Payments,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,1,action_check,7,role=heading,Payments,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,2,solution,18,get_by_label,,yes,empty,action,check,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,2,action_check,15,role=button,Actions,no,literal,assertion,to_be_enabled,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,3,solution,26,role=button,Actions,no,literal,action,click,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,3,action_check,23,role=button,Delete,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,4,solution,34,role=button,Delete,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,4,action_check,31,role=cell,0001,no,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,5,solution,42,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,5,action_check,39,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,delete_payment,final,assertion_check,47,locator(has_text),Recent Payments,no,variable,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,1,solution,10,role=button,Company logo Untitled Company,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,1,action_check,7,get_by_text,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,2,solution,18,get_by_text,Account Management,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,2,action_check,15,role=heading,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,3,solution,26,role=link,Enabled Modules,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,3,action_check,23,role=heading,Enabled Modules,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,4,solution,40,css:text-is,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,4,solution,41,css:text-is,Recurring Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,4,action_check,36,css:text-is,Invoices,yes,variable,assertion,(inside a helper or a variable),no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,4,action_check,37,css:text-is,Recurring Invoices,yes,variable,assertion,(inside a helper or a variable),no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,5,solution,52,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,5,action_check,47,role=link,Invoices,yes,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,5,action_check,48,role=link,Recurring Invoices,no,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,6,solution,60,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,6,action_check,57,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,final,assertion_check,64,locator(has_text),Upcoming Invoices,no,variable,assertion,to_have_count(0),yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,final,assertion_check,64,locator(has_text),Past Due Invoices,no,variable,assertion,to_have_count(0),yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,final,assertion_check,64,locator(has_text),Upcoming Recurring Invoices,no,variable,assertion,to_have_count(0),yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_invoices_module,final,assertion_check,66,locator(has_text),Upcoming Quotes,no,literal,assertion,to_have_count(1),no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,1,solution,10,role=button,Company logo Untitled Company,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,1,action_check,7,get_by_text,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,2,solution,18,get_by_text,Account Management,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,2,action_check,15,role=heading,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,3,solution,26,role=link,Enabled Modules,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,3,action_check,23,role=heading,Enabled Modules,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,4,solution,34,css:text-is,Quotes,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,5,solution,42,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,5,action_check,39,role=link,Quotes,yes,literal,assertion,not_to_be_visible,yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,6,solution,50,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,6,action_check,47,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,final,assertion_check,54,locator(has_text),Upcoming Quotes,no,variable,assertion,to_have_count(0),yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,final,assertion_check,54,locator(has_text),Expired Quotes,no,variable,assertion,to_have_count(0),yes,no,,no,draft: not checked against page snapshots
+invoiceninja,disable_quotes_module,final,assertion_check,56,locator(has_text),Upcoming Invoices,no,literal,assertion,to_have_count(1),no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,1,solution,10,role=link,Payments,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,1,action_check,7,role=heading,Payments,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,2,solution,18,role=link,Enter Payment,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,2,action_check,15,role=heading,Create Payment,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,3,solution,26,role=option,company_name,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,4,solution,34,css:text-is,Amount received,yes,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,5,action_check,39,get_by_text,Payment Type,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,6,solution,50,css:text-is,Payment Type,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,6,action_check,47,role=option,American Express,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,7,solution,58,role=option,American Express,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,8,solution,66,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,8,action_check,63,role=heading,Edit Payment,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,enter_payment,final,assertion_check,70,css:text-is,Payment Type,yes,literal,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,expired_quotes,1,solution,10,role=link,Quotes,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,expired_quotes,1,action_check,7,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,expired_quotes,final,assertion_check,16,filter(has_text),123456_expired,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,expired_quotes,final,assertion_check,16,filter(has_text),123456,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,expired_quotes,final,assertion_check,16,filter(has_text),0001,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,localization,1,solution,10,role=button,Company logo Untitled Company,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,localization,1,action_check,7,get_by_text,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,localization,2,solution,18,get_by_text,Account Management,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,localization,2,action_check,15,role=heading,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,localization,3,solution,26,role=link,Localization,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,localization,3,action_check,23,role=heading,Localization,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,localization,final,assertion_check,31,filter(has_text),Dollar,no,literal,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,localization,final,assertion_check,32,filter(has_text),\d{4},n/a,regex,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,2,solution,18,role=link,123456_sent,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,3,action_check,23,role=button,Mark Paid,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,4,solution,34,role=button,Mark Paid,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,4,action_check,31,get_by_text,Paid,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,5,solution,42,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,5,action_check,39,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_invoice_as_paid,final,assertion_check,47,locator(has_text),Upcoming Invoices,no,variable,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,2,solution,18,role=link,123456_past_due,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,3,action_check,23,role=button,Mark Paid,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,4,solution,34,role=button,Mark Paid,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,4,action_check,31,get_by_text,Paid,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,5,solution,42,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,5,action_check,39,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,mark_past_due_invoice_as_paid,final,assertion_check,47,locator(has_text),Past Due Invoices,no,variable,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,past_due_invoices,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,past_due_invoices,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,past_due_invoices,final,assertion_check,16,filter(has_text),123456,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,past_due_invoices,final,assertion_check,16,filter(has_text),123456_sent,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,past_due_invoices,final,assertion_check,16,filter(has_text),123456_draft,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,past_due_invoices,final,assertion_check,16,filter(has_text),123456_past_due,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,recent_payments,1,solution,10,role=link,Payments,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_payments,1,action_check,7,role=heading,Payments,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_payments,final,assertion_check,16,filter(has_text),0001,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,1,solution,10,role=link,Expenses,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,1,action_check,7,role=heading,Expenses,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,2,solution,18,role=link,Enter Expense,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,2,action_check,15,role=heading,Enter Expense,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,4,solution,34,role=button,Save,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,4,action_check,31,get_by_text,Expense Total,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,5,solution,42,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,5,action_check,39,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,final,assertion_check,47,locator(has_text),Expenses,n/a,regex-variable,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,final,assertion_check,48,locator(has_text),Invoices,n/a,regex-variable,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,final,assertion_check,49,locator(has_text),Payments,n/a,regex-variable,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,final,assertion_check,50,locator(has_text),Outstanding,n/a,regex-variable,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,recent_transactions_expenses,final,assertion_check,51,locator(has_text),Total Invoices Outstanding,n/a,regex-variable,assertion,to_contain_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,1,solution,10,role=button,Company logo Untitled Company,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,1,action_check,7,get_by_text,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,2,solution,18,get_by_text,Account Management,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,2,action_check,15,role=heading,Account Management,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,3,solution,26,role=link,Company Details,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,3,action_check,23,role=heading,Company Details,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,4,solution,34,role=link,User Details,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,4,action_check,31,role=heading,User Details,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,5,solution,42,role=link,Localization,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,5,action_check,39,role=heading,Localization,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,6,solution,50,role=link,Payment Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,6,action_check,47,role=heading,Online Payments,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,7,solution,58,role=link,Product Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,7,action_check,55,role=heading,Product Settings,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,8,solution,66,role=link,Expense Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,8,action_check,63,role=heading,Expense Settings,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,9,solution,74,role=link,Workflow Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,9,action_check,71,role=heading,Workflow Settings,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,10,solution,82,role=link,Import | Export,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,10,action_check,79,role=heading,Import | Export,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,11,solution,90,role=link,Backup | Restore,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,11,action_check,87,role=heading,Backup | Restore,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,settings,final,assertion_check,93,role=button,Export,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,1,solution,10,role=link,Recurring Invoices,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,1,action_check,7,role=heading,Recurring Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,2,solution,18,get_by_label,,yes,empty,action,check,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,2,action_check,15,role=button,Actions,no,literal,assertion,to_be_enabled,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,3,solution,26,role=button,Actions,no,literal,action,click,no,no,first,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,3,action_check,23,role=button,Stop,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,4,solution,34,role=button,Stop,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,4,action_check,31,get_by_text,Paused,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,5,solution,42,role=link,Dashboard,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,5,action_check,39,role=heading,Dashboard,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,stop_recurring_invoice,final,assertion_check,47,locator(has_text),Upcoming Recurring Invoices,no,variable,assertion,to_have_text,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_invoices,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_invoices,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_invoices,final,assertion_check,16,filter(has_text),123456,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_invoices,final,assertion_check,16,filter(has_text),123456_sent,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_invoices,final,assertion_check,16,filter(has_text),123456_draft,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_invoices,final,assertion_check,16,filter(has_text),123456_past_due,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_quotes,1,solution,10,role=link,Quotes,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_quotes,1,action_check,7,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_quotes,final,assertion_check,16,filter(has_text),123456_expired,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_quotes,final,assertion_check,16,filter(has_text),123456,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_quotes,final,assertion_check,16,filter(has_text),0001,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,upcoming_recurring_invoices,1,solution,10,role=link,Recurring Invoices,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_recurring_invoices,1,action_check,7,role=heading,Recurring Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,upcoming_recurring_invoices,final,assertion_check,16,filter(has_text),123456,n/a,regex-variable,assertion,to_have_count(1),no,no,,yes,draft: not checked against page snapshots
+invoiceninja,view_invoice_details,1,solution,10,role=link,Invoices,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_invoice_details,1,action_check,7,role=heading,Invoices,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_invoice_details,2,solution,18,role=link,123456,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_invoice_details,2,action_check,15,role=heading,Edit Invoice,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_invoice_details,final,assertion_check,22,filter(has_text),Subtotal,no,literal,assertion,(inside a helper or a variable),no,no,first,yes,draft: not checked against page snapshots
+invoiceninja,view_invoice_details,final,assertion_check,23,locator(has_text),Subtotal,no,literal,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+invoiceninja,view_products,1,solution,10,role=link,Products,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_products,1,action_check,7,role=heading,Products,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_products,final,assertion_check,15,get_by_text,Page 1 of 2,n/a,regex,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_quote_details,1,solution,10,role=link,Quotes,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_quote_details,1,action_check,7,role=heading,Quotes,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_quote_details,2,solution,18,role=link,123456,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_quote_details,2,action_check,15,role=heading,Edit Quote,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+invoiceninja,view_quote_details,final,assertion_check,22,filter(has_text),Subtotal,no,literal,assertion,(inside a helper or a variable),no,no,first,yes,draft: not checked against page snapshots
+invoiceninja,view_quote_details,final,assertion_check,23,locator(has_text),Subtotal,no,literal,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+indico,administration,1,solution,10,role=link,Administration,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,administration,1,action_check,7,role=heading,General Settings,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,2,solution,18,filter(has_text),User Management,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+indico,administration,2,action_check,15,role=link,Users,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,3,solution,26,role=link,Users,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,administration,3,action_check,23,get_by_text,Manage users,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,4,solution,34,filter(has_text),Customisation,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+indico,administration,4,action_check,31,role=link,Document Templates,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,5,solution,42,role=link,Document Templates,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,administration,5,action_check,39,role=heading,Document Templates,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,6,solution,50,role=link,Payment,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,administration,6,action_check,47,role=heading,Payment,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,7,solution,58,role=link,Unlisted events,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,administration,7,action_check,55,role=heading,Unlisted events,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,final,assertion_check,61,role=heading,Unlisted events,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,administration,final,assertion_check,63,get_by_text,Enabled,yes,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,administration,final,assertion_check,64,role=button,Save,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,1,solution,10,role=link,"Admin User, ""Lecture 1""",no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,1,action_check,7,role=heading,Lecture 1,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,3,solution,26,role=button,Clone,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,3,action_check,23,get_by_label,Clone Event,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,3,action_check,23,get_by_text,Clone Event,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,4,solution,34,role=radio,Clone Once,no,literal,action,check,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,4,action_check,31,get_by_label,Clone Event,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,4,action_check,31,get_by_text,Clone Event,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,5,solution,42,role=button,Next,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,5,action_check,39,get_by_text,What should be cloned?,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,6,solution,50,role=button,Next,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,6,action_check,47,get_by_text,Where should the events be,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,7,solution,58,role=button,Next,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,7,action_check,55,get_by_text,Clone Once,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,8,solution,66,role=button,Clone,no,literal,action,click,no,no,nth(1),no,draft: not checked against page snapshots
+indico,clone_event,8,action_check,63,filter(has_text),Welcome to your cloned event!,no,literal,assertion,to_be_visible,no,no,nth(5),yes,draft: not checked against page snapshots
+indico,clone_event,9,solution,74,role=link,Home,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,9,action_check,71,role=heading,All events,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,clone_event,final,assertion_check,79,filter(has_text),January 2025,no,variable,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,final,assertion_check,80,filter(has_text),February 2025,no,variable,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,final,assertion_check,81,filter(has_text),March 2025,no,variable,assertion,to_have_text,no,no,,yes,draft: not checked against page snapshots
+indico,clone_event,final,assertion_check,82,filter(has_text),"Admin User, ""Lecture 1""",n/a,regex-variable,assertion,to_have_count(2),no,no,,yes,draft: not checked against page snapshots
+indico,delete_conference,1,solution,10,role=link,Conference 1,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,1,action_check,7,get_by_text,Registration,yes,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,delete_conference,3,action_check,23,role=button,Delete,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,4,solution,34,role=button,Delete,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,4,action_check,31,get_by_text,I understand what this means,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,5,solution,42,role=checkbox,I understand what this means,no,literal,action,check,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,5,action_check,39,role=checkbox,I understand what this means,no,literal,assertion,to_be_checked,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,6,solution,50,role=button,Delete event,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,delete_conference,6,action_check,47,role=heading,Events,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,favourite_lecture,1,solution,10,role=link,"Admin User, ""Lecture 1""",no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,favourite_lecture,1,action_check,7,role=heading,Lecture 1,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,favourite_lecture,3,action_check,23,role=heading,All events,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,1,solution,10,role=link,"First Last, ""Lecture 2 w/",no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,1,action_check,7,role=heading,Lecture 2 w/ Survey,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,2,solution,18,role=link,Fill out,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,2,action_check,15,role=link,Lecture 2 w/ Survey,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,3,solution,26,role=spinbutton,Number Question,no,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,3,action_check,23,role=spinbutton,Number Question,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,4,solution,34,role=checkbox,Option 1,no,literal,action,check,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,4,solution,35,role=checkbox,Option 2,no,literal,action,check,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,4,solution,36,role=checkbox,Option 3,no,literal,action,check,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,4,action_check,31,role=checkbox,Option 1,no,variable,assertion,to_be_checked,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,4,action_check,31,role=checkbox,Option 2,no,variable,assertion,to_be_checked,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,4,action_check,31,role=checkbox,Option 3,no,variable,assertion,to_be_checked,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,5,action_check,41,role=button,Submit,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,6,solution,52,get_by_text,Yes,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,6,solution,53,get_by_text,Yes,yes,literal,action,check,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,7,solution,61,role=textbox,Multiline Text Question,no,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,7,action_check,58,role=textbox,Multiline Text Question,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,8,solution,69,role=button,Submit,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,fill_out_survey,8,action_check,66,role=link,Back to the event,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,1,solution,10,role=link,My profile,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,1,action_check,7,role=heading,Admin User,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,2,solution,18,role=link,Settings,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,2,action_check,15,role=textbox,First name *,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,3,solution,26,role=link,Preferences,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,4,solution,34,role=link,Data export,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,5,solution,42,role=link,Favourites,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,profile_settings,final,assertion_check,45,role=button,Add Indico user,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,1,solution,10,role=link,Conference 1,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,1,action_check,7,get_by_text,Registration,yes,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,register_conference,2,solution,18,role=link,Participant List,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,2,action_check,15,role=heading,Participant List,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,3,solution,26,role=link,Registration,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,3,action_check,23,role=heading,Registration,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,4,action_check,31,get_by_text,Participant list,yes,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,5,solution,42,get_by_text,Select a choice,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,5,action_check,39,role=option,Display my participation to,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,6,solution,50,role=option,Display my participation to everyone who can see this event,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,7,solution,58,role=button,Register,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,8,solution,66,role=link,Participant List,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,register_conference,8,action_check,63,role=heading,Participant List,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,room_booking,1,solution,10,role=link,Room booking,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,room_booking,1,action_check,7,get_by_text,Start your booking...,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,room_booking,2,action_check,15,get_by_text,Start your booking...,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,room_booking,final,assertion_check,21,role=heading,Room Booking,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,search_events,1,solution,10,role=textbox,Search Indico,no,literal,action,fill,no,no,,no,draft: not checked against page snapshots
+indico,search_events,1,action_check,7,role=textbox,Search Indico ADMIN Skip,no,literal,assertion,to_have_value,no,no,,no,draft: not checked against page snapshots
+indico,search_events,2,solution,18,role=textbox,Search Indico ADMIN Skip,no,literal,action,press,no,no,,no,draft: not checked against page snapshots
+indico,search_events,2,action_check,15,role=heading,Search,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+indico,search_events,2,action_check,15,role=heading,Find Events,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+indico,search_events,3,action_check,23,role=heading,Search,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+indico,search_events,3,action_check,23,role=heading,Find Events,no,literal,assertion,to_be_visible,no,yes,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,1,solution,10,role=link,Conference 1,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,1,action_check,7,get_by_text,Registration,yes,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,view_conference_timetable,2,solution,18,role=link,Timetable,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,2,action_check,15,role=heading,Timetable,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,3,solution,26,role=link,Sun 02/03,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,4,solution,34,get_by_text,Filter,yes,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,4,action_check,31,role=cell,Filter options,no,literal,assertion,to_be_visible,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,5,solution,42,get_by_text,Sessions,no,literal,action,click,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,5,action_check,39,filter(has_text),Session 1,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,view_conference_timetable,6,solution,50,filter(has_text),Session 2,no,literal,action,click,no,no,,yes,draft: not checked against page snapshots
+indico,view_conference_timetable,6,action_check,47,filter(has_text),Session 1,no,literal,assertion,to_be_visible,no,no,,yes,draft: not checked against page snapshots
+indico,view_conference_timetable,7,action_check,55,css:text,Session 2,no,literal,assertion,not_to_be_checked,no,no,,no,draft: not checked against page snapshots
+indico,view_conference_timetable,final,assertion_check,62,filter(has_text),Session 2,no,literal,assertion,to_have_count(0),yes,no,,yes,draft: not checked against page snapshots
+indico,view_conference_timetable,final,assertion_check,63,filter(has_text),Session 1,no,literal,assertion,not_to_have_count(0),no,no,,yes,draft: not checked against page snapshots

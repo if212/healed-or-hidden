@@ -1,0 +1,3 @@
+This test is failing. Fix it.
+
+The failing run's output, a snapshot of the page at the point of failure, and a screenshot are in the test-results/ directory. You can re-run the test with the run_test tool. Each call runs the test against a fresh copy of the application and refreshes test-results/. You can call run_test at most 4 times. If your first call comes before you have changed anything in tests/, it does not count toward this limit.

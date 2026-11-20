@@ -1,0 +1,14 @@
+{
+  "name": "pwfix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The fixture of the fidelity check's ported tests: the prepared tab, with the wait for a quiet page.",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}

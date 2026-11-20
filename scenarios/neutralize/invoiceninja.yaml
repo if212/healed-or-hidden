@@ -1,0 +1,129 @@
+# Literal rewrite rules for Invoice Ninja bug scripts (design doc section 5.3).
+#
+# Format: task -> list of {find, replace, count, why}. `find` must occur exactly `count`
+# times (default 1) in the script once its comments and console calls are gone;
+# otherwise the build stops. `why` is for the reader and for the report.
+#
+# A rule changes how a value looks, never what the bug does. Replacements copy the seed:
+#   client              company_name (row 1)
+#   invoices            123456 (1), 123456_sent (2), 123456_draft (3), 123456_past_due (4)
+#   quotes              123456_expired (1), 123456 (2), 0001 (3)
+#   payment             0001 (row 1), applied to invoice 123456
+#   recurring invoice   123456 (row 1)
+#
+# Links in Invoice Ninja carry a 10-character code for the row id, not the number or the
+# name shown: /invoices/<code>/edit, /clients/<code>. Rows 1, 2 and 4 of any table are
+# VolejRejNm, Wpmbk5ezJn and wMvbmOeYAl. All three appear in page markup captured in the
+# benchmark (disable_invoices_module, disable_quotes_module, stop_recurring_invoice) and
+# in test-case URLs. Row 5 is 4openRe7Az under the same encoding (Hashids, empty salt,
+# minimum length 10), which reproduces the three known codes.
+#
+# The app writes amounts as "$ 120,000.00", with a space after the sign.
+
+approve_quote:
+  - find: "/quotes/${number}/edit"
+    replace: "/quotes/Wpmbk5ezJn/edit"
+    why: The row is the seeded quote 123456 (row 2). Its real link carries the id code, not the quote number.
+  - find: "/clients/${client}"
+    replace: "/clients/VolejRejNm"
+    why: The client company_name is row 1. Its real link carries the id code, not the name.
+
+delete_expired_quote:
+  - find: "/quotes/${number}/edit"
+    replace: "/quotes/VolejRejNm/edit"
+    why: The row is the seeded quote 123456_expired (row 1). Its real link carries the id code, not the quote number.
+  - find: "/clients/${client}"
+    replace: "/clients/VolejRejNm"
+    why: The client company_name is row 1. Its real link carries the id code, not the name.
+
+delete_payment:
+  - find: "/payments/NewInvoice/edit"
+    replace: "/payments/VolejRejNm/edit"
+    why: Placeholder id. The row is the seeded payment 0001 (row 1).
+  - find: "/clients/NewCompany"
+    replace: "/clients/VolejRejNm"
+    why: Placeholder id. The client company_name is row 1.
+  - find: "/invoices/NewInvoice/edit"
+    replace: "/invoices/VolejRejNm/edit"
+    why: Placeholder id. The payment was applied to the seeded invoice 123456 (row 1).
+
+expired_quotes:
+  - find: "NewQuote001"
+    replace: "wMvbmOeYAl"
+    why: Placeholder id. The seed has three quotes, so an extra quote is row 4.
+  - find: "/clients/${quoteId}"
+    replace: "/clients/Wpmbk5ezJn"
+    why: The client link reused the quote's id. A second client, company_name_2, is row 2.
+  - find: '" $25,000.00"'
+    replace: '"$ 25,000.00"'
+    why: The app writes amounts with a space after the sign, like every other row of the table.
+
+mark_invoice_as_paid:
+  - find: "/invoices/FakeInvoice/edit"
+    replace: "/invoices/Wpmbk5ezJn/edit"
+    why: The id said "Fake". The row is the seeded invoice 123456_sent (row 2).
+  - find: "/clients/FakeClient"
+    replace: "/clients/VolejRejNm"
+    why: The id said "Fake". The client company_name is row 1.
+
+mark_past_due_invoice_as_paid:
+  - find: "/invoices/FakeInvoice/edit"
+    replace: "/invoices/wMvbmOeYAl/edit"
+    why: The id said "Fake". The row is the seeded invoice 123456_past_due (row 4).
+  - find: "/clients/FakeClient"
+    replace: "/clients/VolejRejNm"
+    why: The id said "Fake". The client company_name is row 1.
+
+past_due_invoices:
+  - find: "FakeInvoice123"
+    replace: "4openRe7Az"
+    why: The id said "Fake". The seed has four invoices, so an extra invoice is row 5.
+  - find: "/clients/FakeClient"
+    replace: "/clients/Wpmbk5ezJn"
+    why: The id said "Fake". A second client, company_name_2, is row 2.
+
+recent_payments:
+  - find: "FakeInvoice123"
+    replace: "Wpmbk5ezJn"
+    why: The id said "Fake". The seed has one payment, so an extra payment is row 2.
+  - find: "/clients/FakeClient"
+    replace: "/clients/Wpmbk5ezJn"
+    why: The id said "Fake". A second client, company_name_2, is row 2.
+  - find: "/invoices/${invoiceId}/edit"
+    replace: "/payments/${invoiceId}/edit"
+    why: In the payments table the number links to the payment, not to an invoice.
+
+upcoming_invoices:
+  - find: "FakeInvoice123"
+    replace: "4openRe7Az"
+    why: The id said "Fake". The seed has four invoices, so an extra invoice is row 5.
+  - find: "/clients/FakeClient"
+    replace: "/clients/Wpmbk5ezJn"
+    why: The id said "Fake". A second client, company_name_2, is row 2.
+
+upcoming_quotes:
+  - find: "NewQuote001"
+    replace: "wMvbmOeYAl"
+    why: Placeholder id. The seed has three quotes, so an extra quote is row 4.
+  - find: "/clients/${quoteId}"
+    replace: "/clients/Wpmbk5ezJn"
+    why: The client link reused the quote's id. A second client, company_name_2, is row 2.
+
+upcoming_recurring_invoices:
+  - find: "NewInvoiceId"
+    replace: "Wpmbk5ezJn"
+    count: 2
+    why: Placeholder id, used for the checkbox and for the link. The seed has one recurring invoice, so an extra one is row 2.
+  - find: "/clients/NewCompany"
+    replace: "/clients/Wpmbk5ezJn"
+    why: Placeholder id. A second client, company_name_2, is row 2.
+
+view_invoice_details:
+  - find: "'$180,000.00'"
+    replace: "'$ 180,000.00'"
+    why: The app writes amounts with a space after the sign. Only the amount should be wrong, not its format.
+
+view_quote_details:
+  - find: "'$730,000.00'"
+    replace: "'$ 730,000.00'"
+    why: The app writes amounts with a space after the sign. Only the amount should be wrong, not its format.

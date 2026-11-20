@@ -1,0 +1,48 @@
+{
+  "key": "~/hoh-coding/defects-2-mixed/key/key.json",
+  "names": {
+    "a": "GPT-6 Astra",
+    "b": "Claude Fable 5.2"
+  },
+  "codes_a": "~/hoh-coding/defects-2-mixed/coder-a/codes.csv",
+  "codes_b": "~/hoh-coding/defects-2-mixed/coder-b/codes.csv",
+  "adjudicated": "~/hoh-coding/defects-2-mixed/agreement/adjudicated.csv",
+  "sha256": {
+    "codes_a": "3b028614b4cf8ef48faaedc20b02372ce6976d2f3882fe51ab82748ed8b1025a",
+    "codes_b": "7d84c7418c5db18327344c714c39e22d2ec78384853bb76629b643b0c9ef710b",
+    "adjudicated": "f45a6710aa0180d6ce9be5c28dc25c925f536fed8842eed378d47aa2bf19d4f5"
+  },
+  "sessions": 228,
+  "columns": {
+    "final": {
+      "decided": 51,
+      "changed_a": 34,
+      "changed_b": 18,
+      "neither": 1
+    },
+    "comments": {
+      "decided": 2,
+      "changed_a": 0,
+      "changed_b": 2,
+      "neither": 0
+    },
+    "skip_reasons": {
+      "decided": 5,
+      "changed_a": 0,
+      "changed_b": 5,
+      "neither": 0
+    },
+    "fallback": {
+      "decided": 13,
+      "changed_a": 0,
+      "changed_b": 13,
+      "neither": 0
+    }
+  },
+  "total": {
+    "decided": 71,
+    "changed_a": 34,
+    "changed_b": 38,
+    "neither": 1
+  }
+}

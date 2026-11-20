@@ -1,0 +1,30 @@
+# Rules file (hoh.rules) for C-assert: interface text that an assertion's expected value checks
+# (design doc 5.3 and 5.7). scenarios/assert/notes.md says how the targets were chosen, which
+# candidates were left out and why, and the dev-split rule for the comparisons.
+#
+# Per test: the element the rule renames on the page (A+C) and removes (A+R, for the judge's
+# bypass run). `assertion: true` makes the reference fix change the expected value of the
+# assertions that hold the old text (a string, or a string in a list, of `to_have_text` or
+# `to_contain_text`), and the shadow oracle the same, instead of a locator. `exact` is left at
+# its default (true: the whole name, case-sensitive). No test acts through these elements, so a
+# rule changes every element with the role and exactly this name, wherever it is. The comment
+# above each target is its risk note.
+
+schema: 1
+apps:
+  bookstack:
+    # medium, looks like data: BookStack writes "1 Comment" and ":count Comments" itself, never "0 Comments"; the bug replaces the section and its h5 says "1 Comment", which the rule leaves alone
+    create_page: {role: heading, name: "No Comments", new_name: "0 Comments", assertion: true}
+  invoiceninja:
+    # low: the empty table of the "Upcoming Quotes" panel; every empty dashboard panel says the new text
+    approve_quote: {role: cell, name: "No records found", new_name: "Nothing to show yet", assertion: true}
+    # low: the empty table of the "Expired Quotes" panel
+    delete_expired_quote: {role: cell, name: "No records found", new_name: "Nothing to show yet", assertion: true}
+    # low: the empty table of the "Recent Payments" panel
+    delete_payment: {role: cell, name: "No records found", new_name: "Nothing to show yet", assertion: true}
+    # low: the empty table of the "Upcoming Invoices" panel (dev split)
+    mark_invoice_as_paid: {role: cell, name: "No records found", new_name: "Nothing to show yet", assertion: true}
+    # low: the empty table of the "Past Due Invoices" panel
+    mark_past_due_invoice_as_paid: {role: cell, name: "No records found", new_name: "Nothing to show yet", assertion: true}
+    # low: the empty table of the "Upcoming Recurring Invoices" panel
+    stop_recurring_invoice: {role: cell, name: "No records found", new_name: "Nothing to show yet", assertion: true}

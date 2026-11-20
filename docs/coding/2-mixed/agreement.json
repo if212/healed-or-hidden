@@ -1,0 +1,37 @@
+{
+  "key": "~/hoh-coding/defects-2-mixed/key/key.json",
+  "codes_a": "~/hoh-coding/defects-2-mixed/coder-a/codes.csv",
+  "codes_b": "~/hoh-coding/defects-2-mixed/coder-b/codes.csv",
+  "names": {
+    "a": "GPT-6 Astra",
+    "b": "Claude Fable 5.2"
+  },
+  "sessions": 228,
+  "columns": {
+    "final": {
+      "n": 228,
+      "agreed": 177,
+      "raw_agreement": 0.7763157894736842,
+      "kappa": 0.605563093622795
+    },
+    "comments": {
+      "n": 41,
+      "agreed": 39,
+      "raw_agreement": 0.9512195121951219,
+      "kappa": 0.8825214899713466
+    },
+    "skip_reasons": {
+      "n": 30,
+      "agreed": 25,
+      "raw_agreement": 0.8333333333333334,
+      "kappa": 0.0
+    },
+    "fallback": {
+      "n": 228,
+      "agreed": 215,
+      "raw_agreement": 0.9429824561403509,
+      "kappa": 0.7412709497206706
+    }
+  },
+  "disagreements": 71
+}

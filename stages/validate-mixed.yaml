@@ -1,0 +1,55 @@
+# The validation run of the Mixed family (stage 2): the C-rename targets of the rules file,
+# handed to the agent with the control renamed and the benchmark's change active (A+C+M; design
+# doc 5.3 and 5.7). The rules file is the 1b one, unchanged.
+#
+#   just fixes                                           # the reference fixes, from the rules
+#   uv run python -m hoh.validate --config stages/validate-mixed.yaml --only bookstack/comment
+#   uv run python -m hoh.validate --config stages/validate-mixed.yaml
+#
+# Per test and run, the checks of C-rename: the reference fix on A+C and on A+C+M (the shadow
+# oracle after the A+C+M run) and the generated test on A+C and on A+C+M (the oracle again, its
+# result classified against the fix's). The one difference: a Mixed session is handed A+C+M, so
+# its starting test-results come from the first run of the generated test on A+C+M
+# (initial/mixed/<app>/<task>/). With 38 tests and 3 runs that is 456 runs, 6 at once.
+#
+# The output directory is new: a validation rewrites baseline.json in its output directory, and
+# the 1b baseline's SHA-256 is in docs/runs/validation-1b.md. A Mixed stage takes `baseline:
+# results/validation-mixed/baseline.json`, `initial_results: results/validation-mixed/initial`
+# and the same `rules`.
+#
+# Every key is listed; unknown keys are refused. Relative paths are relative to the repository
+# root. Build the images and run `just neutralize` first (stages/validate.yaml says how): A+C+M
+# carries the benchmark's change.
+
+families:                  # family -> app -> [task, ...]: every test with a target
+  mixed:
+    bookstack: [comment, count_recently_created_books, count_recently_created_pages,
+                create_book, create_page, create_sort_rule, delete_book, favourite_book,
+                recent_activity_all, recently_viewed_book, recently_viewed_chapter, search,
+                settings, unfavourite_shelf, update_book]
+    invoiceninja: [approve_quote, convert_quote_to_invoice, create_invoice, create_product,
+                   delete_expired_quote, delete_payment, disable_invoices_module, enter_payment,
+                   expired_quotes, localization, mark_invoice_as_paid,
+                   mark_past_due_invoice_as_paid, past_due_invoices, recent_payments,
+                   recent_transactions_expenses, settings, stop_recurring_invoice,
+                   upcoming_invoices, upcoming_quotes, upcoming_recurring_invoices,
+                   view_invoice_details, view_products, view_quote_details]
+
+# Per test, the control Mixed renames (hoh.rules). The backend of each run is given this file;
+# do not repeat it under backend.options.
+rules: scenarios/rename/rules.yaml
+reference_fixes_root: build/reference_fixes   # <root>/<app>/test_<task>.py, never committed
+
+repeats: 3                 # runs per check (--repeats overrides)
+slots: 6                   # runs at once, one stack each (--slots overrides)
+
+backend:                   # as in stages/validate.yaml
+  factory: hoh.docker_backend:DockerBackend
+  options:
+    stacks_root: /Users/Shared/hoh-val         # never the sessions' stacks root
+    slot: "{slot}"
+    project_prefix: hohv
+
+output_dir: results/validation-mixed   # ignored by git; not the 1a or 1b directory
+tests_root: build/tests
+selection: scenarios/selection.json

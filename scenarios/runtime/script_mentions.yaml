@@ -1,0 +1,16 @@
+# Texts that a task's change script names on purpose, each checked by hand (hoh.envs reads this
+# file). The assembly refuses a rename whose old text the change script holds: the rename is on
+# the page first, so a change that finds its target by that text would not find it. A mention
+# declared here is accepted when it is not such a lookup: every mention of `name` in the change
+# script sits inside the text `within`, and `within` occurs exactly `count` times. Whitespace is
+# collapsed in both before they are compared.
+schema: 1
+mentions:
+  # BookStack's plural string for the comment count, the value of the attribute
+  # option:page-comments:count-text of the comments section the change writes; never text on
+  # the page (scenarios/assert/notes.md section 4).
+  - app: bookstack
+    task: create_page
+    name: No Comments
+    within: "{0} No Comments|{1} 1 Comment|[2,*] :count Comments"
+    count: 1

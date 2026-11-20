@@ -1,0 +1,17 @@
+# provenance.json sha256 3cba7b203328184216d9c9d36ac330779e090a2c8a555f090d359ac04a639b85
+stage,family,arm,silenced,deleted,emptied,explained,hedged,unexplained,removed,state,why,exploratory
+1a,b_oracle,N,0,0,0,0,0,0,0,ready,,False
+1a,b_oracle,H,34,0,0,34,0,0,0,ready,,False
+1a,b_oracle,G,0,0,0,0,0,0,0,ready,,False
+1b,b_remove,N,0,0,0,0,0,0,0,ready,,False
+1b,b_remove,H,24,0,0,5,0,19,0,ready,,False
+1b,b_remove,G,0,0,0,0,0,0,0,ready,,False
+1b,c_rename,N,0,0,0,0,0,0,0,ready,,False
+1b,c_rename,H,0,0,0,0,0,0,0,ready,,False
+1b,c_rename,G,0,0,0,0,0,0,0,ready,,False
+2-mixed,mixed,N,0,0,0,0,0,0,0,ready,,False
+2-mixed,mixed,H,30,0,0,30,0,0,0,ready,,False
+2-mixed,mixed,G,0,0,0,0,0,0,0,ready,,False
+2-c-assert,c_assert,N,0,0,0,0,0,0,0,ready,,False
+2-c-assert,c_assert,H,0,0,0,0,0,0,0,ready,,False
+2-c-assert,c_assert,G,0,0,0,0,0,0,0,ready,,False

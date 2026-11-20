@@ -1,0 +1,73 @@
+# An example stage configuration, and the input of the dry run:
+#
+#   uv run python -m hoh.run_stage --stage dry --config stages/dry-run.yaml --dry-run
+#
+# --dry-run replaces the agent CLI with the stand-in (tests/support/fake_claude.py), the backend
+# with hoh.fake_backend.FakeBackend playing scripted results, the credential with a made-up one
+# and the slot root with a temporary directory, and writes under <output_root>/dry-run/. It runs
+# here without Docker or a credential. Run it again and the finished jobs are skipped.
+#
+# Every key is listed; unknown keys are refused. Relative paths are relative to the repository
+# root. The inputs below are toy fixtures (tests/data/worker/); a real stage points tests_root at
+# build/tests (`just gen`) and baseline and initial_results at the validation run's output.
+
+stage: dry
+
+# family -> app -> tasks. A list of tasks, `selection` for every chosen task of that app in
+# scenarios/selection.json, or `baseline` for every scenario of it the validation admitted;
+# `<family>: selection` (or `baseline`) takes every app.
+families:
+  b_oracle:
+    toyapp: [create_book]
+  c_rename:
+    toyapp: [create_book]
+
+arms: [N, H, G]            # H_intent is refused until its commented test exists
+repetitions: 1
+max_runs: 4                # run_test calls an agent may make (the first, before any edit, is free)
+
+launch:                    # hoh.session.LaunchConfig; python defaults to the interpreter running this
+  claude_bin: /usr/local/bin/claude
+  cli_version: 2.1.325
+  model: claude-sonnet-5-5
+  effort: medium
+  cache_ttl: 1h
+  max_turns: 80
+  max_budget_usd: 1.5
+  wall_clock_s: 1200
+  hard_wall_clock_s: 3600
+  server_env:
+    PATH: /opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+credential:                # the value is read from env_file at start; it is never written anywhere
+  kind: subscription       # subscription | api_key
+  env_file: .env
+
+slots:                     # <root>/1 .. <root>/<count>, outside every repository
+  root: /Users/Shared/w
+  count: 2
+
+output_root: results/dry   # the queue's directory; job records live under <stage>/<family>/...
+
+backend:                   # {factory, options} as hoh.fake_backend.load_backend reads it; in the
+  factory: hoh.docker_backend:DockerBackend    # options "{slot}" is the slot number (an integer
+  options:                                     # when it is the whole value) and "{family}" the
+    stacks_root: /Users/Shared/hoh-stacks      # job's family
+    project_prefix: hoh
+    slot: "{slot}"
+
+# The validation baseline: {"schema": 1, "scenarios": {"<family>/<app>/<task>": {"oracle": {...},
+# "cells": {...}}}}, the judge's baseline per scenario.
+baseline: tests/data/worker/baseline.json
+# <initial_results>/<family>/<app>/<task>/: the test-results/ of the validation red run on the
+# variant the family hands out (B-oracle A+M, B-remove A+R, C-rename and C-assert A+C, Mixed
+# A+C+M). Every arm and repetition of a scenario starts from these files.
+initial_results: tests/data/worker/initial
+tests_root: tests/data/worker/tests      # <tests_root>/<app>/test_<task>.py, the test handed out
+selection: scenarios/selection.json      # read only when a family says `selection`
+reference_fixes: {}                      # C-assert only: {app: {task: path of the reference fix}}
+reference_init: null                     # optional: a JSON file with the calibration init event
+recorded: false                          # true for the study's data: then reference_init is required
+# The rules file (hoh.rules): per test, the control the rename families rename and B-remove
+# removes. Required with any of b_remove, c_rename, c_assert or mixed.
+rules: tests/data/worker/rules.yaml

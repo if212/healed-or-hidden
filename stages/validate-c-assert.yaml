@@ -1,0 +1,57 @@
+# The validation run of the C-assert family (stage 2): interface text that a test's final
+# assertion checks, reworded on the page (design doc 5.3 and 5.7). The rules file is
+# scenarios/assert/rules.yaml, whose targets say `assertion: true`; scenarios/assert/notes.md
+# says how they were chosen. docs/runbooks/validation.md section 7 gives the order:
+#
+#   just gen && just neutralize
+#   uv run python -m hoh.rules fixes --rules scenarios/assert/rules.yaml --tests-root build/tests \
+#     --out build/reference_fixes_assert
+#   uv run python -m hoh.validate --config stages/validate-c-assert.yaml \
+#     --only bookstack/create_page invoiceninja/approve_quote
+#   uv run python -m hoh.validate --config stages/validate-c-assert.yaml
+#
+# C-assert runs the checks of C-rename: the reference fix (its expected text changed) on A+C
+# and on A+C+M (the shadow oracle after the A+C+M run), and the generated test on A+C and on
+# A+C+M. B-remove is the removal twin: the generated test on A and on A+R, with the same
+# elements removed, where the judge runs a returned test that changed the flow (design doc
+# 5.7). No B-remove stage runs on these targets. 7 tests and 3 runs: 84 + 42 = 126 runs, 6 at
+# once.
+#
+# The fixes have their own root: the C-rename fixes of the same tests are in
+# build/reference_fixes, and the baseline holds each fix's SHA-256. The output directory is new,
+# as for every validation. A C-assert stage takes `baseline:
+# results/validation-c-assert/baseline.json`, `initial_results:
+# results/validation-c-assert/initial`, the same `rules`, and `reference_fixes` paths into
+# build/reference_fixes_assert (docs/runbooks/stage-2-c-assert.md).
+#
+# Every key is listed; unknown keys are refused. Relative paths are relative to the repository
+# root.
+
+families:                  # family -> app -> [task, ...]: every test with a target
+  c_assert:
+    bookstack: [create_page]
+    invoiceninja: [approve_quote, delete_expired_quote, delete_payment, mark_invoice_as_paid,
+                   mark_past_due_invoice_as_paid, stop_recurring_invoice]
+  b_remove:
+    bookstack: [create_page]
+    invoiceninja: [approve_quote, delete_expired_quote, delete_payment, mark_invoice_as_paid,
+                   mark_past_due_invoice_as_paid, stop_recurring_invoice]
+
+# Per test, the text C-assert rewords and the twin removes (hoh.rules). The backend of each run
+# is given this file; do not repeat it under backend.options.
+rules: scenarios/assert/rules.yaml
+reference_fixes_root: build/reference_fixes_assert   # <root>/<app>/test_<task>.py, never committed
+
+repeats: 3                 # runs per check (--repeats overrides)
+slots: 6                   # runs at once, one stack each (--slots overrides)
+
+backend:                   # as in stages/validate.yaml
+  factory: hoh.docker_backend:DockerBackend
+  options:
+    stacks_root: /Users/Shared/hoh-val         # never the sessions' stacks root
+    slot: "{slot}"
+    project_prefix: hohv
+
+output_dir: results/validation-c-assert   # ignored by git; no other validation's directory
+tests_root: build/tests
+selection: scenarios/selection.json
