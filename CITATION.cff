@@ -16,6 +16,8 @@ repository-code: "https://github.com/if212/healed-or-hidden"
 license: MIT
 keywords:
   - coding agents
+  - agentic software engineering
+  - agent reliability
+  - self-healing tests
   - end-to-end testing
-  - test repair
-  - Playwright
+  - test oracles
