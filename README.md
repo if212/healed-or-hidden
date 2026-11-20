@@ -1,5 +1,7 @@
 # Healed or Hidden?
 
+[![DOI](https://zenodo.org/badge/1465156449.svg)](https://doi.org/10.5281/zenodo.24391761)
+
 Data and code for the paper *Healed or Hidden? Coding Agents Mask Bugs When Told to
 Fix Failing End-to-End Tests*.
 
