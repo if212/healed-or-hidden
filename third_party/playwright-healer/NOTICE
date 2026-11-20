@@ -22,6 +22,8 @@ Modifications
 
 This repository does not change the copy in this directory. It modifies the
 text through the edit files under prompts/ (h_adaptation.yaml, g_from_h.yaml
-and h_noskip_from_h.yaml). src/hoh/prompts.py applies those edits and writes
-the modified texts to build/prompts/. Each edit file lists every change made
-to the original text and the reason for it.
+and h_noskip_from_h.yaml). Each edit file lists every change made to the
+original text and the reason for it. src/hoh/prompts.py applies those edits
+and writes the modified texts to build/prompts/. Copies of them are in
+prompts/final/: H.system.md, G.system.md and H_noskip.system.md are modified
+versions of the file in this directory.
