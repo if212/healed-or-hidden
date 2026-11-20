@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it as below."
+title: "Healed or Hidden? Coding Agents Mask Bugs When Told to Fix Failing End-to-End Tests"
+type: software
+authors:
+  - family-names: Zeng
+    given-names: Jie
+    affiliation: Carnegie Mellon University
+repository-code: "https://github.com/if212/healed-or-hidden"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - coding agents
+  - end-to-end testing
+  - test repair
+  - Playwright
